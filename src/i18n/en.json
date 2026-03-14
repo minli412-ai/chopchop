@@ -1,0 +1,13 @@
+{
+  "app": { "title": "Chopchop", "subtitle": "Chinese Home Cooking" },
+  "nav": { "home": "Home", "favorites": "Favorites" },
+  "home": { "title": "Our Recipes", "subtitle": "Authentic Chinese home cooking, made simple" },
+  "search": { "placeholder": "Search recipes, ingredients...", "noResults": "No recipes found matching your search.", "clearSearch": "Clear search" },
+  "fridge": { "title": "What's in my fridge?", "subtitle": "Select ingredients you have and find matching recipes", "matchLabel": "match", "missingLabel": "Missing:", "clearAll": "Clear all" },
+  "recipe": { "backToHome": "Back to Home", "prep": "Prep", "cook": "Cook", "serves": "Serves", "level": "Level", "method": "Method", "ingredients": "Ingredients", "steps": "Steps", "tip": "Tip", "asianGrocery": "Asian grocery", "substitution": "Substitution", "spicy": "Spicy" },
+  "favorites": { "title": "My Favorites", "emptyTitle": "No favorites yet", "emptyText": "Tap the star on any recipe to save it!", "browse": "Browse Recipes", "addFavorite": "Add to favorites", "removeFavorite": "Remove from favorites" },
+  "difficulty": { "easy": "easy", "medium": "medium", "hard": "hard" },
+  "cookingMethod": { "stir-fry": "Stir-fry", "deep-fry": "Deep-fry", "steam": "Steam", "braise": "Braise", "boil": "Boil", "roast": "Roast", "cold-mix": "Cold mix", "simmer": "Simmer", "pan-fry": "Pan-fry", "smoke": "Smoke" },
+  "tabs": { "menu": "Menu", "fridge": "What's in my fridge?" },
+  "language": { "en": "English", "fr": "Fran\u00e7ais", "pt": "Portugu\u00eas", "zh-CN": "\u7b80\u4f53\u4e2d\u6587", "zh-TW": "\u7e41\u9ad4\u4e2d\u6587" }
+}

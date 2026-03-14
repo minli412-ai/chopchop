@@ -1,0 +1,13 @@
+{
+  "app": { "title": "\u5207\u5207", "subtitle": "\u4e2d\u5f0f\u5bb6\u5e38\u83dc" },
+  "nav": { "home": "\u9996\u9875", "favorites": "\u6536\u85cf" },
+  "home": { "title": "\u83dc\u8c31\u5927\u5168", "subtitle": "\u6b63\u5b97\u4e2d\u5f0f\u5bb6\u5e38\u83dc\uff0c\u7b80\u5355\u6613\u5b66" },
+  "search": { "placeholder": "\u641c\u7d22\u83dc\u8c31\u3001\u98df\u6750...", "noResults": "\u6ca1\u6709\u627e\u5230\u76f8\u5173\u83dc\u8c31\u3002", "clearSearch": "\u6e05\u9664" },
+  "fridge": { "title": "\u51b0\u7bb1\u91cc\u6709\u4ec0\u4e48\uff1f", "subtitle": "\u9009\u62e9\u4f60\u6709\u7684\u98df\u6750\uff0c\u627e\u5230\u5408\u9002\u7684\u83dc\u8c31", "matchLabel": "\u5339\u914d", "missingLabel": "\u7f3a\u5c11\uff1a", "clearAll": "\u6e05\u9664\u5168\u90e8" },
+  "recipe": { "backToHome": "\u8fd4\u56de\u9996\u9875", "prep": "\u51c6\u5907", "cook": "\u70f9\u996a", "serves": "\u4efd\u91cf", "level": "\u96be\u5ea6", "method": "\u505a\u6cd5", "ingredients": "\u98df\u6750", "steps": "\u6b65\u9aa4", "tip": "\u5c0f\u8d34\u58eb", "asianGrocery": "\u4e9a\u6d32\u8d85\u5e02", "substitution": "\u66ff\u4ee3\u54c1", "spicy": "\u8fa3" },
+  "favorites": { "title": "\u6211\u7684\u6536\u85cf", "emptyTitle": "\u8fd8\u6ca1\u6709\u6536\u85cf", "emptyText": "\u70b9\u51fb\u661f\u6807\u6536\u85cf\u4f60\u559c\u6b22\u7684\u83dc\u8c31\uff01", "browse": "\u6d4f\u89c8\u83dc\u8c31", "addFavorite": "\u6536\u85cf", "removeFavorite": "\u53d6\u6d88\u6536\u85cf" },
+  "difficulty": { "easy": "\u7b80\u5355", "medium": "\u4e2d\u7b49", "hard": "\u56f0\u96be" },
+  "cookingMethod": { "stir-fry": "\u7092", "deep-fry": "\u70b8", "steam": "\u84b8", "braise": "\u70e7", "boil": "\u716e", "roast": "\u70e4", "cold-mix": "\u51c9\u62cc", "simmer": "\u7096", "pan-fry": "\u714e", "smoke": "\u718f" },
+  "tabs": { "menu": "\u83dc\u5355", "fridge": "\u51b0\u7bb1\u91cc\u6709\u4ec0\u4e48\uff1f" },
+  "language": { "en": "English", "fr": "Fran\u00e7ais", "pt": "Portugu\u00eas", "zh-CN": "\u7b80\u4f53\u4e2d\u6587", "zh-TW": "\u7e41\u9ad4\u4e2d\u6587" }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#C41E3A"/>
+  <circle cx="16" cy="16" r="13.5" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.5"/>
+  <!-- Crossed chopsticks -->
+  <line x1="9" y1="6" x2="20" y2="26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="23" y1="6" x2="12" y2="26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Small rice grain shapes at top of chopsticks for detail -->
+  <ellipse cx="8.5" cy="5.5" rx="1.2" ry="0.6" fill="#FFFFFF" transform="rotate(-25 8.5 5.5)" opacity="0.7"/>
+  <ellipse cx="23.5" cy="5.5" rx="1.2" ry="0.6" fill="#FFFFFF" transform="rotate(25 23.5 5.5)" opacity="0.7"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "app": { "title": "Chopchop", "subtitle": "Cozinha Chinesa Caseira" },
+  "nav": { "home": "In\u00edcio", "favorites": "Favoritos" },
+  "home": { "title": "As Nossas Receitas", "subtitle": "Cozinha chinesa aut\u00eantica, simples de fazer" },
+  "search": { "placeholder": "Pesquisar receitas, ingredientes...", "noResults": "Nenhuma receita encontrada.", "clearSearch": "Limpar" },
+  "fridge": { "title": "O que tenho no frigor\u00edfico?", "subtitle": "Selecione os ingredientes que tem e encontre receitas", "matchLabel": "coincid.", "missingLabel": "Em falta:", "clearAll": "Limpar tudo" },
+  "recipe": { "backToHome": "Voltar ao in\u00edcio", "prep": "Prep", "cook": "Cozedura", "serves": "Por\u00e7\u00f5es", "level": "N\u00edvel", "method": "M\u00e9todo", "ingredients": "Ingredientes", "steps": "Passos", "tip": "Dica", "asianGrocery": "Mercearia asi\u00e1tica", "substitution": "Substitui\u00e7\u00e3o", "spicy": "Picante" },
+  "favorites": { "title": "Os Meus Favoritos", "emptyTitle": "Ainda sem favoritos", "emptyText": "Toque na estrela para guardar!", "browse": "Ver Receitas", "addFavorite": "Adicionar aos favoritos", "removeFavorite": "Remover dos favoritos" },
+  "difficulty": { "easy": "f\u00e1cil", "medium": "m\u00e9dio", "hard": "dif\u00edcil" },
+  "cookingMethod": { "stir-fry": "Saltear", "deep-fry": "Fritar", "steam": "Vapor", "braise": "Estufar", "boil": "Cozer", "roast": "Assar", "cold-mix": "Salada", "simmer": "Guisar", "pan-fry": "Frigir", "smoke": "Fumar" },
+  "tabs": { "menu": "Menu", "fridge": "O que tenho no frigor\u00edfico?" },
+  "language": { "en": "English", "fr": "Fran\u00e7ais", "pt": "Portugu\u00eas", "zh-CN": "\u7b80\u4f53\u4e2d\u6587", "zh-TW": "\u7e41\u9ad4\u4e2d\u6587" }
+}

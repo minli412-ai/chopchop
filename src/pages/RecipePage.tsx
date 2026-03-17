@@ -28,7 +28,7 @@ function RecipePage() {
     <div className="recipe-page">
       <Link to="/" className="recipe-back-link">{t('recipe.backToHome')}</Link>
 
-      <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} />
+      <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} imageConfig={recipe.imageConfig} />
 
       <div className="recipe-header">
         <h1 className="chinese-name">{recipe.chineseName}</h1>

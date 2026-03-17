@@ -26,7 +26,7 @@ function FavoritesPage() {
         <div className="recipe-list">
           {favoriteRecipes.map((recipe) => (
             <Link to={`/recipe/${recipe.id}`} key={recipe.id} className="recipe-card" data-category={recipe.category}>
-              <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} />
+              <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} imageConfig={recipe.imageConfig} />
               <div className="recipe-card-content">
                 <div className="recipe-card-text">
                   <span className="chinese-name">{recipe.chineseName}</span>

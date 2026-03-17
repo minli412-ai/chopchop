@@ -102,7 +102,7 @@ function IngredientPicker() {
           <div className="recipe-list">
             {matchedRecipes.map(({ recipe, matchPercentage, missing }) => (
               <Link to={`/recipe/${recipe.id}`} key={recipe.id} className="recipe-card fridge-recipe-card" data-category={recipe.category}>
-                <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} />
+                <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} imageConfig={recipe.imageConfig} />
                 <div className="recipe-card-content">
                   <div className="recipe-card-text">
                     <span className="chinese-name">{recipe.chineseName}</span>

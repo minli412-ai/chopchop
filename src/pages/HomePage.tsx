@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { recipes } from '../data/recipes';
 import { categories } from '../data/categories';
@@ -19,12 +19,18 @@ function HomePage() {
   const { t } = useTranslation();
   const { language } = useLanguage();
   const { toggle, isFavorite } = useFavorites();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const regionFilter = searchParams.get('region');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTab, setActiveTab] = useState<'menu' | 'fridge'>('menu');
 
   const filteredRecipes = useMemo(() => {
-    return searchRecipes(recipes, searchQuery, language);
-  }, [searchQuery, language]);
+    let results = searchRecipes(recipes, searchQuery, language);
+    if (regionFilter) {
+      results = results.filter((r) => r.region === regionFilter);
+    }
+    return results;
+  }, [searchQuery, language, regionFilter]);
 
   const recipesByCategory = filteredRecipes.reduce<Record<string, Recipe[]>>((acc, recipe) => {
     if (!acc[recipe.category]) {
@@ -71,6 +77,15 @@ function HomePage() {
             </div>
           )}
 
+          {regionFilter && (
+            <div className="region-filter-bar">
+              <span>📍 {t('region.filterByRegion', { region: t(`region.${regionFilter}`) })}</span>
+              <button className="clear-filter-btn" onClick={() => setSearchParams({})}>
+                ✕ {t('region.clearFilter')}
+              </button>
+            </div>
+          )}
+
           {categoriesWithRecipes.map((category) => (
             <section key={category.id} className="category-section">
               <h3 className="category-heading" data-category={category.id}>
@@ -98,6 +113,11 @@ function HomePage() {
                         </span>
                         {(recipe.tags.en.includes('spicy') || recipe.imageConfig.pattern === 'spicy') && (
                           <span className="spicy-badge" title={t('recipe.spicy')}>🌶️</span>
+                        )}
+                        {recipe.region && !regionFilter && (
+                          <span className="region-badge" title={t(`region.${recipe.region}`)}>
+                            {t(`region.${recipe.region}`)}
+                          </span>
                         )}
                       </div>
                     </div>

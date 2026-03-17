@@ -6,6 +6,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'tomato-egg-stir-fry',
+    region: 'home-style',
     category: 'vegetables',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -217,6 +218,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'mapo-tofu',
+    region: 'sichuan',
     category: 'vegetables',
     cookingMethod: 'braise',
     prepTime: 10,
@@ -494,6 +496,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'egg-fried-rice',
+    region: 'home-style',
     category: 'rice-noodles',
     cookingMethod: 'stir-fry',
     prepTime: 5,
@@ -712,6 +715,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'kung-pao-chicken',
+    region: 'sichuan',
     category: 'chicken',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -1021,6 +1025,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'sweet-and-sour-pork',
+    region: 'cantonese',
     category: 'pork',
     cookingMethod: 'deep-fry',
     prepTime: 20,
@@ -1297,6 +1302,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'hot-and-sour-soup',
+    region: 'sichuan',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 15,
@@ -1580,6 +1586,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'smashed-cucumber-salad',
+    region: 'sichuan',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 10,
@@ -1797,6 +1804,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'red-braised-pork-belly',
+    region: 'home-style',
     category: 'pork',
     cookingMethod: 'braise',
     prepTime: 10,
@@ -2081,6 +2089,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'steamed-fish-ginger',
+    region: 'cantonese',
     category: 'fish-seafood',
     cookingMethod: 'steam',
     prepTime: 10,
@@ -2292,6 +2301,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'dan-dan-noodles',
+    region: 'sichuan',
     category: 'rice-noodles',
     cookingMethod: 'boil',
     prepTime: 10,
@@ -2582,6 +2592,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'beef-with-broccoli',
+    region: 'cantonese',
     category: 'beef',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -2832,6 +2843,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'lamb-with-cumin',
+    region: 'northwestern',
     category: 'lamb',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -3088,6 +3100,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'mango-pudding',
+    region: 'cantonese',
     category: 'desserts',
     cookingMethod: 'cold-mix',
     prepTime: 15,
@@ -3286,6 +3299,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'stir-fried-green-beans',
+    region: 'sichuan',
     category: 'vegetables',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -3522,6 +3536,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-wood-ear-salad',
+    region: 'northern',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 20,
@@ -3574,6 +3589,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-shredded-chicken',
+    region: 'sichuan',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 10,
@@ -3626,6 +3642,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'egg-drop-soup',
+    region: 'home-style',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 5,
@@ -3676,6 +3693,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'tomato-egg-soup',
+    region: 'home-style',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 5,
@@ -3728,6 +3746,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'twice-cooked-pork',
+    region: 'sichuan',
     category: 'pork',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -3782,6 +3801,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'shredded-pork-green-pepper',
+    region: 'hunan',
     category: 'pork',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -3835,6 +3855,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'white-cut-chicken',
+    region: 'cantonese',
     category: 'chicken',
     cookingMethod: 'boil',
     prepTime: 5,
@@ -3886,6 +3907,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'spicy-chicken-dried-chilies',
+    region: 'sichuan',
     category: 'chicken',
     cookingMethod: 'deep-fry',
     prepTime: 15,
@@ -3940,6 +3962,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'beef-tomato-stir-fry',
+    region: 'home-style',
     category: 'beef',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -3993,6 +4016,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'lamb-scallions-beijing',
+    region: 'northern',
     category: 'lamb',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4046,6 +4070,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'garlic-shrimp',
+    region: 'cantonese',
     category: 'fish-seafood',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4099,6 +4124,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'beijing-fried-sauce-noodles',
+    region: 'northern',
     category: 'rice-noodles',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4153,6 +4179,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-sesame-noodles',
+    region: 'sichuan',
     category: 'rice-noodles',
     cookingMethod: 'cold-mix',
     prepTime: 10,
@@ -4206,6 +4233,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'stir-fried-eggplant-garlic',
+    region: 'home-style',
     category: 'vegetables',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4258,6 +4286,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'simple-stir-fried-greens',
+    region: 'cantonese',
     category: 'vegetables',
     cookingMethod: 'stir-fry',
     prepTime: 5,
@@ -4307,6 +4336,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'double-skin-milk-pudding',
+    region: 'cantonese',
     category: 'desserts',
     cookingMethod: 'steam',
     prepTime: 10,
@@ -4356,6 +4386,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-kelp-salad',
+    region: 'home-style',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 10,
@@ -4412,6 +4443,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-tofu-skin-salad',
+    region: 'home-style',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 10,
@@ -4468,6 +4500,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'cold-bean-sprout-salad',
+    region: 'home-style',
     category: 'cold-dishes',
     cookingMethod: 'cold-mix',
     prepTime: 5,
@@ -4524,6 +4557,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'winter-melon-rib-soup',
+    region: 'cantonese',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 15,
@@ -4579,6 +4613,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'tofu-greens-soup',
+    region: 'home-style',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 10,
@@ -4634,6 +4669,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'chicken-mushroom-soup',
+    region: 'cantonese',
     category: 'soups',
     cookingMethod: 'boil',
     prepTime: 10,
@@ -4690,6 +4726,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'ground-pork-eggplant',
+    region: 'home-style',
     category: 'pork',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4748,6 +4785,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'hunan-spicy-pork',
+    region: 'hunan',
     category: 'pork',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4805,6 +4843,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'pork-bean-sprouts',
+    region: 'home-style',
     category: 'pork',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -4862,6 +4901,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'chicken-garlic-paste',
+    region: 'sichuan',
     category: 'chicken',
     cookingMethod: 'boil',
     prepTime: 10,
@@ -4919,6 +4959,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'chicken-black-beans',
+    region: 'cantonese',
     category: 'chicken',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -4977,6 +5018,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'hunan-spicy-beef',
+    region: 'hunan',
     category: 'beef',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -5035,6 +5077,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'beef-onion-stir-fry',
+    region: 'cantonese',
     category: 'beef',
     cookingMethod: 'stir-fry',
     prepTime: 15,
@@ -5091,6 +5134,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'fish-tomato-sauce',
+    region: 'home-style',
     category: 'fish-seafood',
     cookingMethod: 'braise',
     prepTime: 10,
@@ -5149,6 +5193,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'shrimp-mixed-vegetables',
+    region: 'cantonese',
     category: 'fish-seafood',
     cookingMethod: 'stir-fry',
     prepTime: 10,
@@ -5206,6 +5251,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'stir-fried-clams',
+    region: 'fujian',
     category: 'fish-seafood',
     cookingMethod: 'stir-fry',
     prepTime: 30,
@@ -5262,6 +5308,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'tomato-egg-fried-rice',
+    region: 'home-style',
     category: 'rice-noodles',
     cookingMethod: 'stir-fry',
     prepTime: 5,
@@ -5318,6 +5365,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'soy-sauce-fried-noodles',
+    region: 'cantonese',
     category: 'rice-noodles',
     cookingMethod: 'stir-fry',
     prepTime: 5,
@@ -5374,6 +5422,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'bok-choy-garlic',
+    region: 'cantonese',
     category: 'vegetables',
     cookingMethod: 'stir-fry',
     prepTime: 5,
@@ -5428,6 +5477,7 @@ export const recipes: Recipe[] = [
   // ──────────────────────────────────────────────
   {
     id: 'mango-pomelo-sago',
+    region: 'cantonese',
     category: 'desserts',
     cookingMethod: 'boil',
     prepTime: 10,
@@ -5478,5 +5528,2466 @@ export const recipes: Recipe[] = [
       'zh-CN': ['港式', '甜品', '芒果', '椰奶', '冰凉'],
       'zh-TW': ['港式', '甜品', '芒果', '椰奶', '冰涼'],
     },
+  },
+// ──────────────────────────────────────────────
+  // 51. Century Egg Tofu (皮蛋豆腐)
+  // ──────────────────────────────────────────────
+  {
+    id: 'century-egg-tofu',
+    region: 'sichuan',
+    category: 'cold-dishes',
+    cookingMethod: 'cold-mix',
+    prepTime: 10,
+    cookTime: 0,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '皮蛋豆腐',
+    pinyin: 'pídàn dòufu',
+    imageConfig: {
+      primaryColor: '#4A5568',
+      secondaryColor: '#F7FAFC',
+      icon: 'tofu',
+      pattern: 'dots',
+    },
+    name: {
+      en: 'Century Egg Tofu',
+      fr: 'Tofu aux œufs de cent ans',
+      pt: 'Tofu com Ovo Centenário',
+      'zh-CN': '皮蛋豆腐',
+      'zh-TW': '皮蛋豆腐',
+    },
+    description: {
+      en: 'Silky cold tofu topped with chopped century eggs and a savory soy dressing.',
+      fr: 'Tofu soyeux froid garni d\'œufs de cent ans hachés et vinaigrette au soja.',
+      pt: 'Tofu frio sedoso coberto com ovos centenários picados e molho de soja.',
+      'zh-CN': '嫩滑凉拌豆腐配皮蛋，浇上酱油调味汁。',
+      'zh-TW': '嫩滑涼拌豆腐配皮蛋，淋上醬油調味汁。',
+    },
+    ingredients: [
+      { id: 'silken-tofu', quantity: { value: 1, unit: 'block' }, name: { en: 'Silken tofu', fr: 'Tofu soyeux', pt: 'Tofu sedoso', 'zh-CN': '嫩豆腐', 'zh-TW': '嫩豆腐' }, category: 'protein', commonInEurope: true },
+      { id: 'century-egg', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Century eggs', fr: 'Œufs de cent ans', pt: 'Ovos centenários', 'zh-CN': '皮蛋', 'zh-TW': '皮蛋' }, category: 'protein', commonInEurope: false },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'chili-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Chili oil', fr: 'Huile de piment', pt: 'Óleo de pimenta', 'zh-CN': '辣椒油', 'zh-TW': '辣椒油' }, category: 'sauce', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Gently remove silken tofu from package and place on a plate. Chill in refrigerator for 15 min.', fr: 'Sortez le tofu soyeux de l\'emballage et placez-le sur une assiette. Réfrigérez 15 min.', pt: 'Retire delicadamente o tofu da embalagem e coloque num prato. Refrigere 15 min.', 'zh-CN': '嫩豆腐小心取出放盘中，冷藏15分钟。', 'zh-TW': '嫩豆腐小心取出放盤中，冷藏15分鐘。' }, tip: { en: 'Use the freshest silken tofu you can find for the smoothest texture.', fr: 'Utilisez le tofu soyeux le plus frais possible pour une texture lisse.', pt: 'Use o tofu mais fresco possível para textura mais suave.', 'zh-CN': '选最新鲜的嫩豆腐，口感最滑。', 'zh-TW': '選最新鮮的嫩豆腐，口感最滑。' } },
+      { order: 2, text: { en: 'Peel and chop century eggs into small pieces.', fr: 'Pelez et hachez les œufs de cent ans en petits morceaux.', pt: 'Descasque e pique os ovos centenários em pedaços pequenos.', 'zh-CN': '皮蛋剥壳切小块。', 'zh-TW': '皮蛋剝殼切小塊。' } },
+      { order: 3, text: { en: 'Mix soy sauce, sesame oil, and chili oil to make dressing.', fr: 'Mélangez sauce soja, huile de sésame et huile de piment pour la vinaigrette.', pt: 'Misture molho de soja, óleo de gergelim e óleo de pimenta para o molho.', 'zh-CN': '生抽、香油、辣椒油调成酱汁。', 'zh-TW': '生抽、香油、辣椒油調成醬汁。' } },
+      { order: 4, text: { en: 'Top tofu with century egg pieces, pour dressing over, and garnish with sliced scallions.', fr: 'Disposez les œufs sur le tofu, versez la vinaigrette et garnissez de ciboule émincée.', pt: 'Coloque os ovos sobre o tofu, regue com o molho e decore com cebolinha.', 'zh-CN': '皮蛋放在豆腐上，浇上酱汁，撒葱花。', 'zh-TW': '皮蛋放在豆腐上，澆上醬汁，撒蔥花。' } },
+    ],
+    tags: {
+      en: ['cold', 'tofu', 'century egg', 'Sichuan', 'appetizer'],
+      fr: ['froid', 'tofu', 'œuf centenaire', 'Sichuan', 'entrée'],
+      pt: ['frio', 'tofu', 'ovo centenário', 'Sichuan', 'entrada'],
+      'zh-CN': ['凉菜', '豆腐', '皮蛋', '川菜', '开胃'],
+      'zh-TW': ['涼菜', '豆腐', '皮蛋', '川菜', '開胃'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 52. Cold Lettuce Stem Salad (凉拌莴笋)
+  // ──────────────────────────────────────────────
+  {
+    id: 'cold-lettuce-stem-salad',
+    region: 'home-style',
+    category: 'cold-dishes',
+    cookingMethod: 'cold-mix',
+    prepTime: 15,
+    cookTime: 2,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '凉拌莴笋',
+    pinyin: 'liángbàn wōsǔn',
+    imageConfig: {
+      primaryColor: '#68D391',
+      secondaryColor: '#F0FFF4',
+      icon: 'leaf',
+      pattern: 'stripes',
+    },
+    name: {
+      en: 'Cold Lettuce Stem Salad',
+      fr: 'Salade froide de tige de laitue',
+      pt: 'Salada Fria de Caule de Alface',
+      'zh-CN': '凉拌莴笋',
+      'zh-TW': '涼拌萵筍',
+    },
+    description: {
+      en: 'Crisp lettuce stems tossed in a tangy sesame dressing, a refreshing summer side dish.',
+      fr: 'Tiges de laitue croquantes en vinaigrette au sésame, accompagnement rafraîchissant d\'été.',
+      pt: 'Caules de alface crocantes com molho de gergelim, acompanhamento refrescante de verão.',
+      'zh-CN': '清脆爽口的莴笋丝拌芝麻酱，夏日开胃小菜。',
+      'zh-TW': '清脆爽口的萵筍絲拌芝麻醬，夏日開胃小菜。',
+    },
+    ingredients: [
+      { id: 'lettuce-stem', quantity: { value: 400, unit: 'g' }, name: { en: 'Lettuce stem (celtuce)', fr: 'Tige de laitue (celtuce)', pt: 'Caule de alface (celtuce)', 'zh-CN': '莴笋', 'zh-TW': '萵筍' }, category: 'vegetable', commonInEurope: false },
+      { id: 'sesame-paste', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Sesame paste (tahini)', fr: 'Pâte de sésame (tahini)', pt: 'Pasta de gergelim (tahini)', 'zh-CN': '芝麻酱', 'zh-TW': '芝麻醬' }, category: 'sauce', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 2, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Peel lettuce stem and cut into thin matchstick strips. Soak in ice water 10 min for extra crunch.', fr: 'Pelez la tige de laitue et coupez en fines allumettes. Trempez dans l\'eau glacée 10 min.', pt: 'Descasque o caule e corte em palitos finos. Mergulhe em água gelada 10 min.', 'zh-CN': '莴笋去皮切细丝，冰水浸泡10分钟更脆。', 'zh-TW': '萵筍去皮切細絲，冰水浸泡10分鐘更脆。' }, tip: { en: 'Peel deeply — the outer layer is fibrous and bitter.', fr: 'Pelez profondément — la couche externe est fibreuse et amère.', pt: 'Descasque bem fundo — a camada externa é fibrosa e amarga.', 'zh-CN': '削皮要深，外层纤维多且苦。', 'zh-TW': '削皮要深，外層纖維多且苦。' } },
+      { order: 2, text: { en: 'Mix sesame paste with soy sauce, vinegar, sugar, and minced garlic until smooth.', fr: 'Mélangez la pâte de sésame avec sauce soja, vinaigre, sucre et ail haché jusqu\'à obtenir une sauce lisse.', pt: 'Misture a pasta de gergelim com molho de soja, vinagre, açúcar e alho picado até ficar homogêneo.', 'zh-CN': '芝麻酱加生抽、醋、糖、蒜末拌匀。', 'zh-TW': '芝麻醬加生抽、醋、糖、蒜末拌勻。' } },
+      { order: 3, text: { en: 'Drain lettuce stems well and toss with dressing. Serve chilled.', fr: 'Égouttez bien les tiges et mélangez avec la sauce. Servez frais.', pt: 'Escorra bem os caules e misture com o molho. Sirva gelado.', 'zh-CN': '莴笋沥干水，拌入酱汁，冷藏后食用。', 'zh-TW': '萵筍瀝乾水，拌入醬汁，冷藏後食用。' } },
+    ],
+    tags: {
+      en: ['cold', 'vegetable', 'sesame', 'summer', 'appetizer'],
+      fr: ['froid', 'légume', 'sésame', 'été', 'entrée'],
+      pt: ['frio', 'vegetal', 'gergelim', 'verão', 'entrada'],
+      'zh-CN': ['凉菜', '蔬菜', '芝麻', '夏天', '开胃'],
+      'zh-TW': ['涼菜', '蔬菜', '芝麻', '夏天', '開胃'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 53. Sichuan Mouth-watering Chicken (口水鸡)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sichuan-mouth-watering-chicken',
+    region: 'sichuan',
+    category: 'cold-dishes',
+    cookingMethod: 'cold-mix',
+    prepTime: 15,
+    cookTime: 20,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '口水鸡',
+    pinyin: 'kǒushuǐ jī',
+    imageConfig: {
+      primaryColor: '#E53E3E',
+      secondaryColor: '#FED7D7',
+      icon: 'chicken',
+      pattern: 'spicy',
+    },
+    name: {
+      en: 'Sichuan Mouth-watering Chicken',
+      fr: 'Poulet "eau à la bouche" du Sichuan',
+      pt: 'Frango Sichuan "Água na Boca"',
+      'zh-CN': '口水鸡',
+      'zh-TW': '口水雞',
+    },
+    description: {
+      en: 'Poached chicken in a spicy, numbing chili-oil sauce — a Sichuan classic cold dish.',
+      fr: 'Poulet poché en sauce pimentée et engourdissante — un classique froid du Sichuan.',
+      pt: 'Frango escalfado em molho picante e entorpecente de pimenta — um clássico frio de Sichuan.',
+      'zh-CN': '白煮鸡淋上麻辣红油酱汁，四川经典凉菜。',
+      'zh-TW': '白煮雞淋上麻辣紅油醬汁，四川經典涼菜。',
+    },
+    ingredients: [
+      { id: 'chicken-leg', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Chicken leg quarters', fr: 'Cuisses de poulet entières', pt: 'Coxas de frango inteiras', 'zh-CN': '鸡腿', 'zh-TW': '雞腿' }, category: 'protein', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'chili-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Chili oil', fr: 'Huile de piment', pt: 'Óleo de pimenta', 'zh-CN': '辣椒油', 'zh-TW': '辣椒油' }, category: 'sauce', commonInEurope: false },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'chinese-black-vinegar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Chinese black vinegar', fr: 'Vinaigre noir chinois', pt: 'Vinagre preto chinês', 'zh-CN': '陈醋', 'zh-TW': '陳醋' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'sichuan-peppercorn', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Ground Sichuan peppercorn', fr: 'Poivre du Sichuan moulu', pt: 'Pimenta de Sichuan moída', 'zh-CN': '花椒粉', 'zh-TW': '花椒粉' }, category: 'spice', commonInEurope: false },
+      { id: 'roasted-peanuts', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Roasted peanuts, crushed', fr: 'Cacahuètes grillées, écrasées', pt: 'Amendoins torrados, triturados', 'zh-CN': '炒花生碎', 'zh-TW': '炒花生碎' }, category: 'other', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Bring a pot of water to boil with ginger and scallion. Add chicken legs and simmer gently for 20 min until cooked through.', fr: 'Portez une casserole d\'eau à ébullition avec gingembre et ciboule. Ajoutez les cuisses et laissez mijoter 20 min.', pt: 'Ferva uma panela de água com gengibre e cebolinha. Adicione as coxas e cozinhe 20 min.', 'zh-CN': '锅中水烧开放姜葱，鸡腿下锅小火煮20分钟至熟。', 'zh-TW': '鍋中水燒開放薑蔥，雞腿下鍋小火煮20分鐘至熟。' }, tip: { en: 'Use gentle heat — vigorous boiling makes chicken tough.', fr: 'Cuisez à feu doux — l\'ébullition forte rend le poulet dur.', pt: 'Use fogo baixo — fervura forte deixa o frango duro.', 'zh-CN': '小火慢煮，大火会让鸡肉变柴。', 'zh-TW': '小火慢煮，大火會讓雞肉變柴。' } },
+      { order: 2, text: { en: 'Transfer chicken to ice water bath to stop cooking and firm up the skin. Let cool completely.', fr: 'Plongez le poulet dans un bain d\'eau glacée. Laissez refroidir complètement.', pt: 'Transfira o frango para banho de gelo. Deixe esfriar completamente.', 'zh-CN': '鸡腿捞出放入冰水中冷却，皮更紧实。', 'zh-TW': '雞腿撈出放入冰水中冷卻，皮更緊實。' } },
+      { order: 3, text: { en: 'Mix chili oil, soy sauce, vinegar, sugar, sesame oil, and Sichuan peppercorn powder into a sauce.', fr: 'Mélangez huile de piment, sauce soja, vinaigre, sucre, huile de sésame et poivre du Sichuan.', pt: 'Misture óleo de pimenta, molho de soja, vinagre, açúcar, óleo de gergelim e pimenta de Sichuan.', 'zh-CN': '辣椒油、生抽、醋、糖、香油、花椒粉调成酱汁。', 'zh-TW': '辣椒油、生抽、醋、糖、香油、花椒粉調成醬汁。' } },
+      { order: 4, text: { en: 'Chop chicken into bite-size pieces, arrange on plate, pour sauce over, and top with crushed peanuts and sliced scallion.', fr: 'Coupez le poulet en morceaux, disposez sur l\'assiette, versez la sauce et garnissez de cacahuètes et ciboule.', pt: 'Corte o frango em pedaços, arrume no prato, regue com o molho e cubra com amendoins e cebolinha.', 'zh-CN': '鸡肉斩块摆盘，浇上酱汁，撒花生碎和葱花。', 'zh-TW': '雞肉斬塊擺盤，澆上醬汁，撒花生碎和蔥花。' } },
+    ],
+    tags: {
+      en: ['cold', 'chicken', 'spicy', 'Sichuan', 'numbing'],
+      fr: ['froid', 'poulet', 'pimenté', 'Sichuan', 'engourdissant'],
+      pt: ['frio', 'frango', 'picante', 'Sichuan', 'entorpecente'],
+      'zh-CN': ['凉菜', '鸡肉', '麻辣', '川菜', '红油'],
+      'zh-TW': ['涼菜', '雞肉', '麻辣', '川菜', '紅油'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 54. Sweet & Sour Radish Pickles (糖醋萝卜)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sweet-sour-radish-pickles',
+    region: 'northern',
+    category: 'cold-dishes',
+    cookingMethod: 'cold-mix',
+    prepTime: 15,
+    cookTime: 0,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '糖醋萝卜',
+    pinyin: 'tángcù luóbo',
+    imageConfig: {
+      primaryColor: '#FC8181',
+      secondaryColor: '#FFFFFF',
+      icon: 'radish',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Sweet & Sour Radish Pickles',
+      fr: 'Pickles de radis aigres-doux',
+      pt: 'Conserva Agridoce de Rabanete',
+      'zh-CN': '糖醋萝卜',
+      'zh-TW': '糖醋蘿蔔',
+    },
+    description: {
+      en: 'Crunchy radish slices pickled in a sweet-sour dressing — a quick refreshing side.',
+      fr: 'Tranches de radis croquantes marinées aigres-douces — un accompagnement rapide et rafraîchissant.',
+      pt: 'Fatias crocantes de rabanete em conserva agridoce — um acompanhamento rápido e refrescante.',
+      'zh-CN': '脆爽萝卜片用糖醋汁腌制，开胃爽口小菜。',
+      'zh-TW': '脆爽蘿蔔片用糖醋汁醃製，開胃爽口小菜。',
+    },
+    ingredients: [
+      { id: 'white-radish', quantity: { value: 400, unit: 'g' }, name: { en: 'White radish (daikon)', fr: 'Radis blanc (daikon)', pt: 'Rabanete branco (daikon)', 'zh-CN': '白萝卜', 'zh-TW': '白蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'dried-chili', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干红辣椒', 'zh-TW': '乾紅辣椒' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Peel and thinly slice daikon into rounds or half-moons. Sprinkle with salt and let sit 10 min, then squeeze out water.', fr: 'Pelez et tranchez finement le daikon. Salez et laissez dégorger 10 min, puis essorez.', pt: 'Descasque e fatie o daikon finamente. Salgue e deixe 10 min, depois esprema a água.', 'zh-CN': '萝卜去皮切薄片，撒盐腌10分钟，挤去水分。', 'zh-TW': '蘿蔔去皮切薄片，撒鹽醃10分鐘，擠去水分。' }, tip: { en: 'Salting removes excess water so the pickles stay crunchy.', fr: 'Le sel enlève l\'excès d\'eau pour garder le croquant.', pt: 'O sal remove o excesso de água para manter a crocância.', 'zh-CN': '腌出水分后口感更脆。', 'zh-TW': '醃出水分後口感更脆。' } },
+      { order: 2, text: { en: 'Mix vinegar, sugar, and snipped dried chilies. Stir until sugar dissolves.', fr: 'Mélangez vinaigre, sucre et piments coupés. Remuez jusqu\'à dissolution du sucre.', pt: 'Misture vinagre, açúcar e pimentas cortadas. Mexa até o açúcar dissolver.', 'zh-CN': '醋、糖、剪碎的干辣椒拌匀，搅至糖溶化。', 'zh-TW': '醋、糖、剪碎的乾辣椒拌勻，攪至糖溶化。' } },
+      { order: 3, text: { en: 'Toss radish slices in the dressing. Marinate for at least 30 min (best overnight in the fridge).', fr: 'Mélangez le radis avec la marinade. Laissez mariner au moins 30 min (idéalement une nuit au frigo).', pt: 'Misture o rabanete com o molho. Marine por pelo menos 30 min (melhor de um dia para o outro na geladeira).', 'zh-CN': '萝卜片拌入糖醋汁，腌至少30分钟（冷藏过夜更好）。', 'zh-TW': '蘿蔔片拌入糖醋汁，醃至少30分鐘（冷藏過夜更好）。' } },
+    ],
+    tags: {
+      en: ['cold', 'radish', 'sweet-sour', 'pickle', 'northern'],
+      fr: ['froid', 'radis', 'aigre-doux', 'pickle', 'nord'],
+      pt: ['frio', 'rabanete', 'agridoce', 'conserva', 'norte'],
+      'zh-CN': ['凉菜', '萝卜', '糖醋', '腌制', '北方'],
+      'zh-TW': ['涼菜', '蘿蔔', '糖醋', '醃製', '北方'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 55. Sour Cabbage Fish Soup (酸菜鱼汤)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sour-cabbage-fish-soup',
+    region: 'sichuan',
+    category: 'soups',
+    cookingMethod: 'boil',
+    prepTime: 20,
+    cookTime: 15,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '酸菜鱼汤',
+    pinyin: 'suāncài yú tāng',
+    imageConfig: {
+      primaryColor: '#F6E05E',
+      secondaryColor: '#FFFFF0',
+      icon: 'fish',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Sour Cabbage Fish Soup',
+      fr: 'Soupe de poisson au chou fermenté',
+      pt: 'Sopa de Peixe com Repolho Fermentado',
+      'zh-CN': '酸菜鱼汤',
+      'zh-TW': '酸菜魚湯',
+    },
+    description: {
+      en: 'Silky fish fillets in a tangy broth with pickled mustard greens — comforting and aromatic.',
+      fr: 'Filets de poisson dans un bouillon acidulé aux légumes marinés — réconfortant et aromatique.',
+      pt: 'Filés de peixe em caldo ácido com mostarda em conserva — reconfortante e aromático.',
+      'zh-CN': '滑嫩鱼片配酸菜汤底，酸香开胃。',
+      'zh-TW': '滑嫩魚片配酸菜湯底，酸香開胃。',
+    },
+    ingredients: [
+      { id: 'white-fish-fillet', quantity: { value: 400, unit: 'g' }, name: { en: 'White fish fillet (tilapia or bass)', fr: 'Filet de poisson blanc (tilapia ou bar)', pt: 'Filé de peixe branco (tilápia ou robalo)', 'zh-CN': '白鱼片（罗非鱼或鲈鱼）', 'zh-TW': '白魚片（羅非魚或鱸魚）' }, category: 'protein', commonInEurope: true },
+      { id: 'pickled-mustard-greens', quantity: { value: 200, unit: 'g' }, name: { en: 'Pickled mustard greens (suan cai)', fr: 'Chou moutarde mariné (suan cai)', pt: 'Mostarda em conserva (suan cai)', 'zh-CN': '酸菜', 'zh-TW': '酸菜' }, category: 'vegetable', commonInEurope: false },
+      { id: 'ginger', quantity: { value: 4, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'dried-chili', quantity: { value: 4, unit: 'pcs' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干红辣椒', 'zh-TW': '乾紅辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'sichuan-peppercorn', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sichuan peppercorns', fr: 'Poivre du Sichuan', pt: 'Pimenta de Sichuan', 'zh-CN': '花椒', 'zh-TW': '花椒' }, category: 'spice', commonInEurope: false },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Slice fish into thin pieces. Marinate with wine, cornstarch, pinch of salt for 10 min.', fr: 'Tranchez le poisson finement. Marinez avec le vin, la fécule et une pincée de sel 10 min.', pt: 'Fatie o peixe finamente. Marine com vinho, amido e uma pitada de sal por 10 min.', 'zh-CN': '鱼切薄片，料酒、淀粉、少许盐腌10分钟。', 'zh-TW': '魚切薄片，料酒、澱粉、少許鹽醃10分鐘。' }, tip: { en: 'Cornstarch coating keeps the fish silky in the hot broth.', fr: 'La fécule garde le poisson soyeux dans le bouillon chaud.', pt: 'O amido mantém o peixe sedoso no caldo quente.', 'zh-CN': '裹淀粉让鱼片在汤里更嫩滑。', 'zh-TW': '裹澱粉讓魚片在湯裡更嫩滑。' } },
+      { order: 2, text: { en: 'Heat oil, fry ginger, garlic, dried chilies, and peppercorns until fragrant. Add sliced pickled greens and stir-fry 2 min.', fr: 'Chauffez l\'huile, faites revenir gingembre, ail, piments et poivre du Sichuan. Ajoutez les légumes marinés, sautez 2 min.', pt: 'Aqueça o óleo, frite gengibre, alho, pimentas e pimenta de Sichuan. Adicione a conserva e refogue 2 min.', 'zh-CN': '热油炒香姜蒜、干辣椒、花椒，加酸菜翻炒2分钟。', 'zh-TW': '熱油炒香薑蒜、乾辣椒、花椒，加酸菜翻炒2分鐘。' } },
+      { order: 3, text: { en: 'Add 800 ml water and bring to a boil. Simmer 10 min to let the pickled greens release flavor.', fr: 'Ajoutez 800 ml d\'eau et portez à ébullition. Laissez mijoter 10 min.', pt: 'Adicione 800 ml de água e ferva. Cozinhe 10 min para liberar o sabor.', 'zh-CN': '加800毫升水烧开，小火煮10分钟让酸菜出味。', 'zh-TW': '加800毫升水燒開，小火煮10分鐘讓酸菜出味。' } },
+      { order: 4, text: { en: 'Gently slide fish slices into the simmering broth one by one. Cook 2-3 min until fish turns white. Season with salt and serve.', fr: 'Glissez les tranches de poisson une par une dans le bouillon. Cuisez 2-3 min. Salez et servez.', pt: 'Coloque as fatias de peixe no caldo uma a uma. Cozinhe 2-3 min. Tempere com sal e sirva.', 'zh-CN': '鱼片一片片轻放入汤中，煮2-3分钟至变白，调盐即可。', 'zh-TW': '魚片一片片輕放入湯中，煮2-3分鐘至變白，調鹽即可。' } },
+    ],
+    tags: {
+      en: ['soup', 'fish', 'sour', 'Sichuan', 'pickle'],
+      fr: ['soupe', 'poisson', 'acide', 'Sichuan', 'mariné'],
+      pt: ['sopa', 'peixe', 'azedo', 'Sichuan', 'conserva'],
+      'zh-CN': ['汤', '鱼', '酸菜', '川菜', '鲜美'],
+      'zh-TW': ['湯', '魚', '酸菜', '川菜', '鮮美'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 56. Seaweed Egg Drop Soup (紫菜蛋花汤)
+  // ──────────────────────────────────────────────
+  {
+    id: 'seaweed-egg-drop-soup',
+    region: 'fujian',
+    category: 'soups',
+    cookingMethod: 'boil',
+    prepTime: 5,
+    cookTime: 10,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '紫菜蛋花汤',
+    pinyin: 'zǐcài dànhuā tāng',
+    imageConfig: {
+      primaryColor: '#2D3748',
+      secondaryColor: '#E2E8F0',
+      icon: 'seaweed',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Seaweed Egg Drop Soup',
+      fr: 'Soupe aux algues et œuf',
+      pt: 'Sopa de Alga com Ovo',
+      'zh-CN': '紫菜蛋花汤',
+      'zh-TW': '紫菜蛋花湯',
+    },
+    description: {
+      en: 'A light, quick soup with wisps of egg and dried seaweed — ready in minutes.',
+      fr: 'Une soupe légère et rapide avec des filaments d\'œuf et des algues séchées.',
+      pt: 'Uma sopa leve e rápida com fios de ovo e alga seca — pronta em minutos.',
+      'zh-CN': '轻盈快手汤，蛋花飘香紫菜鲜美。',
+      'zh-TW': '輕盈快手湯，蛋花飄香紫菜鮮美。',
+    },
+    ingredients: [
+      { id: 'dried-seaweed', quantity: { value: 10, unit: 'g' }, name: { en: 'Dried seaweed (nori/laver)', fr: 'Algue séchée (nori)', pt: 'Alga seca (nori)', 'zh-CN': '紫菜', 'zh-TW': '紫菜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'egg', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Eggs', fr: 'Œufs', pt: 'Ovos', 'zh-CN': '鸡蛋', 'zh-TW': '雞蛋' }, category: 'protein', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'white-pepper', quantity: { value: 0.25, unit: 'tsp' }, name: { en: 'White pepper', fr: 'Poivre blanc', pt: 'Pimenta branca', 'zh-CN': '白胡椒', 'zh-TW': '白胡椒' }, category: 'spice', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 1, unit: 'stalk' }, name: { en: 'Scallion', fr: 'Ciboule', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Bring 600 ml water to a boil. Tear dried seaweed into small pieces and add to pot.', fr: 'Portez 600 ml d\'eau à ébullition. Déchirez les algues en petits morceaux et ajoutez.', pt: 'Ferva 600 ml de água. Rasgue a alga em pedaços pequenos e adicione.', 'zh-CN': '600毫升水烧开，紫菜撕碎放入锅中。', 'zh-TW': '600毫升水燒開，紫菜撕碎放入鍋中。' } },
+      { order: 2, text: { en: 'Beat eggs. Once soup is boiling again, slowly pour egg in a thin stream while stirring gently.', fr: 'Battez les œufs. Quand la soupe bout à nouveau, versez l\'œuf en filet fin en remuant.', pt: 'Bata os ovos. Quando a sopa ferver novamente, despeje o ovo em fio fino mexendo gentilmente.', 'zh-CN': '鸡蛋打散，汤再次沸腾时，边搅拌边淋入蛋液。', 'zh-TW': '雞蛋打散，湯再次沸騰時，邊攪拌邊淋入蛋液。' }, tip: { en: 'Pouring in a thin stream makes beautiful egg flower ribbons.', fr: 'Verser en filet fin crée de belles fleurs d\'œuf.', pt: 'Despejar em fio fino cria lindas fitas de ovo.', 'zh-CN': '细细淋入蛋液，蛋花更漂亮。', 'zh-TW': '細細淋入蛋液，蛋花更漂亮。' } },
+      { order: 3, text: { en: 'Season with soy sauce, salt, white pepper, and a drizzle of sesame oil. Garnish with chopped scallion.', fr: 'Assaisonnez de sauce soja, sel, poivre blanc et un filet d\'huile de sésame. Garnissez de ciboule.', pt: 'Tempere com molho de soja, sal, pimenta branca e um fio de óleo de gergelim. Decore com cebolinha.', 'zh-CN': '加生抽、盐、白胡椒调味，淋香油，撒葱花。', 'zh-TW': '加生抽、鹽、白胡椒調味，淋香油，撒蔥花。' } },
+    ],
+    tags: {
+      en: ['soup', 'egg', 'seaweed', 'quick', 'light'],
+      fr: ['soupe', 'œuf', 'algue', 'rapide', 'léger'],
+      pt: ['sopa', 'ovo', 'alga', 'rápido', 'leve'],
+      'zh-CN': ['汤', '蛋花', '紫菜', '快手', '清淡'],
+      'zh-TW': ['湯', '蛋花', '紫菜', '快手', '清淡'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 57. Corn and Pork Rib Soup (玉米排骨汤)
+  // ──────────────────────────────────────────────
+  {
+    id: 'corn-pork-rib-soup',
+    region: 'cantonese',
+    category: 'soups',
+    cookingMethod: 'simmer',
+    prepTime: 10,
+    cookTime: 60,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '玉米排骨汤',
+    pinyin: 'yùmǐ páigǔ tāng',
+    imageConfig: {
+      primaryColor: '#ECC94B',
+      secondaryColor: '#FFFFF0',
+      icon: 'corn',
+      pattern: 'dots',
+    },
+    name: {
+      en: 'Corn and Pork Rib Soup',
+      fr: 'Soupe de maïs et travers de porc',
+      pt: 'Sopa de Milho com Costela de Porco',
+      'zh-CN': '玉米排骨汤',
+      'zh-TW': '玉米排骨湯',
+    },
+    description: {
+      en: 'Sweet corn and tender pork ribs in a clear, nourishing broth — a Cantonese family favorite.',
+      fr: 'Maïs doux et travers de porc tendres dans un bouillon clair et nourrissant.',
+      pt: 'Milho doce e costelas de porco tenras em caldo claro e nutritivo — favorito das famílias cantonesas.',
+      'zh-CN': '甜玉米和排骨慢炖的清汤，广东家常靓汤。',
+      'zh-TW': '甜玉米和排骨慢燉的清湯，廣東家常靚湯。',
+    },
+    ingredients: [
+      { id: 'pork-ribs', quantity: { value: 500, unit: 'g' }, name: { en: 'Pork ribs', fr: 'Travers de porc', pt: 'Costelas de porco', 'zh-CN': '排骨', 'zh-TW': '排骨' }, category: 'protein', commonInEurope: true },
+      { id: 'corn', quantity: { value: 2, unit: 'ears' }, name: { en: 'Corn on the cob', fr: 'Épis de maïs', pt: 'Espigas de milho', 'zh-CN': '玉米', 'zh-TW': '玉米' }, category: 'vegetable', commonInEurope: true },
+      { id: 'carrot', quantity: { value: 1, unit: 'pc' }, name: { en: 'Carrot', fr: 'Carotte', pt: 'Cenoura', 'zh-CN': '胡萝卜', 'zh-TW': '胡蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 4, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut ribs into pieces. Blanch in boiling water 3 min, drain and rinse off scum.', fr: 'Coupez les travers. Blanchissez 3 min dans l\'eau bouillante, égouttez et rincez.', pt: 'Corte as costelas. Blanqueie 3 min em água fervente, escorra e lave.', 'zh-CN': '排骨切块，沸水焯3分钟，捞出冲洗浮沫。', 'zh-TW': '排骨切塊，沸水汆3分鐘，撈出沖洗浮沫。' }, tip: { en: 'Blanching removes impurities for a clear soup.', fr: 'Le blanchiment élimine les impuretés pour un bouillon clair.', pt: 'Branquear remove impurezas para um caldo claro.', 'zh-CN': '焯水去血沫，汤才清澈。', 'zh-TW': '汆水去血沫，湯才清澈。' } },
+      { order: 2, text: { en: 'Cut corn into chunks. Slice carrot into thick rounds.', fr: 'Coupez le maïs en tronçons. Tranchez la carotte en rondelles épaisses.', pt: 'Corte o milho em pedaços. Fatie a cenoura em rodelas grossas.', 'zh-CN': '玉米切段，胡萝卜切厚片。', 'zh-TW': '玉米切段，胡蘿蔔切厚片。' } },
+      { order: 3, text: { en: 'Put ribs, corn, carrot, and ginger in a pot with 1.5L water. Bring to boil, then reduce to low heat and simmer 1 hour.', fr: 'Mettez travers, maïs, carotte et gingembre dans une casserole avec 1,5 L d\'eau. Portez à ébullition puis laissez mijoter 1 heure à feu doux.', pt: 'Coloque costelas, milho, cenoura e gengibre numa panela com 1,5L de água. Ferva, reduza o fogo e cozinhe 1 hora.', 'zh-CN': '排骨、玉米、胡萝卜、姜片放入锅，加1.5升水，大火烧开后转小火煲1小时。', 'zh-TW': '排骨、玉米、胡蘿蔔、薑片放入鍋，加1.5升水，大火燒開後轉小火煲1小時。' } },
+      { order: 4, text: { en: 'Season with salt before serving.', fr: 'Salez avant de servir.', pt: 'Tempere com sal antes de servir.', 'zh-CN': '出锅前加盐调味。', 'zh-TW': '出鍋前加鹽調味。' } },
+    ],
+    tags: {
+      en: ['soup', 'pork', 'corn', 'Cantonese', 'nourishing'],
+      fr: ['soupe', 'porc', 'maïs', 'cantonais', 'nourrissant'],
+      pt: ['sopa', 'porco', 'milho', 'cantonês', 'nutritivo'],
+      'zh-CN': ['汤', '排骨', '玉米', '粤菜', '滋补'],
+      'zh-TW': ['湯', '排骨', '玉米', '粵菜', '滋補'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 58. Daikon Beef Brisket Soup (萝卜牛腩汤)
+  // ──────────────────────────────────────────────
+  {
+    id: 'daikon-beef-brisket-soup',
+    region: 'cantonese',
+    category: 'soups',
+    cookingMethod: 'simmer',
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '萝卜牛腩汤',
+    pinyin: 'luóbo niúnǎn tāng',
+    imageConfig: {
+      primaryColor: '#C05621',
+      secondaryColor: '#FFF5F5',
+      icon: 'beef',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Daikon Beef Brisket Soup',
+      fr: 'Soupe de bœuf au radis blanc',
+      pt: 'Sopa de Peito Bovino com Daikon',
+      'zh-CN': '萝卜牛腩汤',
+      'zh-TW': '蘿蔔牛腩湯',
+    },
+    description: {
+      en: 'Meltingly tender beef brisket simmered with daikon in a rich, clear broth.',
+      fr: 'Poitrine de bœuf fondante mijotée avec du radis blanc dans un bouillon riche et clair.',
+      pt: 'Peito bovino derretendo de macio cozido com daikon em caldo rico e claro.',
+      'zh-CN': '牛腩炖至软烂，配白萝卜，汤浓味鲜。',
+      'zh-TW': '牛腩燉至軟爛，配白蘿蔔，湯濃味鮮。',
+    },
+    ingredients: [
+      { id: 'beef-brisket', quantity: { value: 500, unit: 'g' }, name: { en: 'Beef brisket', fr: 'Poitrine de bœuf', pt: 'Peito bovino', 'zh-CN': '牛腩', 'zh-TW': '牛腩' }, category: 'protein', commonInEurope: true },
+      { id: 'white-radish', quantity: { value: 400, unit: 'g' }, name: { en: 'Daikon radish', fr: 'Radis blanc (daikon)', pt: 'Rabanete daikon', 'zh-CN': '白萝卜', 'zh-TW': '白蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 5, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'white-pepper', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'White pepper', fr: 'Poivre blanc', pt: 'Pimenta branca', 'zh-CN': '白胡椒', 'zh-TW': '白胡椒' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut brisket into chunks. Blanch in boiling water with wine for 3 min, drain and rinse.', fr: 'Coupez la poitrine en morceaux. Blanchissez 3 min avec le vin, égouttez et rincez.', pt: 'Corte o peito em pedaços. Blanqueie 3 min com o vinho, escorra e lave.', 'zh-CN': '牛腩切块，加料酒沸水焯3分钟，捞出冲洗。', 'zh-TW': '牛腩切塊，加料酒沸水汆3分鐘，撈出沖洗。' } },
+      { order: 2, text: { en: 'Put brisket, ginger, star anise, and scallions in pot with 2L water. Bring to boil, then simmer on low heat for 1 hour.', fr: 'Mettez la poitrine, le gingembre, l\'anis et les ciboules dans 2 L d\'eau. Portez à ébullition puis mijotez 1 heure.', pt: 'Coloque o peito, gengibre, anis e cebolinha em 2L de água. Ferva, depois cozinhe em fogo baixo 1 hora.', 'zh-CN': '牛腩、姜片、八角、葱段放入锅，加2升水，大火烧开转小火炖1小时。', 'zh-TW': '牛腩、薑片、八角、蔥段放入鍋，加2升水，大火燒開轉小火燉1小時。' }, tip: { en: 'Low and slow is key — the brisket needs time to become tender.', fr: 'Cuisson lente à feu doux — la poitrine a besoin de temps pour devenir tendre.', pt: 'Fogo baixo e devagar é a chave — o peito precisa de tempo para amaciar.', 'zh-CN': '小火慢炖是关键，牛腩才能软烂。', 'zh-TW': '小火慢燉是關鍵，牛腩才能軟爛。' } },
+      { order: 3, text: { en: 'Peel and cut daikon into large chunks. Add to pot and simmer another 30 min until daikon is translucent.', fr: 'Pelez et coupez le radis en gros morceaux. Ajoutez et laissez mijoter 30 min.', pt: 'Descasque e corte o daikon em pedaços grandes. Adicione e cozinhe mais 30 min até ficar translúcido.', 'zh-CN': '白萝卜去皮切大块，加入锅中再炖30分钟至萝卜透明。', 'zh-TW': '白蘿蔔去皮切大塊，加入鍋中再燉30分鐘至蘿蔔透明。' } },
+      { order: 4, text: { en: 'Season with salt and white pepper. Discard star anise and scallions before serving.', fr: 'Assaisonnez de sel et poivre blanc. Retirez l\'anis et les ciboules avant de servir.', pt: 'Tempere com sal e pimenta branca. Retire o anis e a cebolinha antes de servir.', 'zh-CN': '加盐和白胡椒调味，捞出八角和葱段即可。', 'zh-TW': '加鹽和白胡椒調味，撈出八角和蔥段即可。' } },
+    ],
+    tags: {
+      en: ['soup', 'beef', 'daikon', 'Cantonese', 'slow-cooked'],
+      fr: ['soupe', 'bœuf', 'daikon', 'cantonais', 'mijoté'],
+      pt: ['sopa', 'carne', 'daikon', 'cantonês', 'cozido lento'],
+      'zh-CN': ['汤', '牛腩', '萝卜', '粤菜', '慢炖'],
+      'zh-TW': ['湯', '牛腩', '蘿蔔', '粵菜', '慢燉'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 59. Sweet and Sour Pork Loin (糖醋里脊)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sweet-sour-pork-loin',
+    region: 'shandong',
+    category: 'pork',
+    cookingMethod: 'deep-fry',
+    prepTime: 20,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '糖醋里脊',
+    pinyin: 'tángcù lǐjǐ',
+    imageConfig: {
+      primaryColor: '#ED8936',
+      secondaryColor: '#FFFAF0',
+      icon: 'pork',
+      pattern: 'circles',
+    },
+    name: {
+      en: 'Sweet and Sour Pork Loin',
+      fr: 'Filet de porc aigre-doux',
+      pt: 'Lombo de Porco Agridoce',
+      'zh-CN': '糖醋里脊',
+      'zh-TW': '糖醋里脊',
+    },
+    description: {
+      en: 'Crispy battered pork strips coated in a glossy sweet and sour sauce — a Shandong classic.',
+      fr: 'Lamelles de porc croustillantes enrobées d\'une sauce aigre-douce brillante — un classique du Shandong.',
+      pt: 'Tiras de porco crocantes cobertas com molho agridoce brilhante — um clássico de Shandong.',
+      'zh-CN': '外酥里嫩的炸猪里脊裹上亮亮的糖醋酱汁，山东名菜。',
+      'zh-TW': '外酥裡嫩的炸豬里脊裹上亮亮的糖醋醬汁，山東名菜。',
+    },
+    ingredients: [
+      { id: 'pork-tenderloin', quantity: { value: 300, unit: 'g' }, name: { en: 'Pork tenderloin', fr: 'Filet mignon de porc', pt: 'Lombo de porco', 'zh-CN': '猪里脊', 'zh-TW': '豬里脊' }, category: 'protein', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'egg', quantity: { value: 1, unit: 'pc' }, name: { en: 'Egg', fr: 'Œuf', pt: 'Ovo', 'zh-CN': '鸡蛋', 'zh-TW': '雞蛋' }, category: 'protein', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ketchup', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Ketchup', fr: 'Ketchup', pt: 'Ketchup', 'zh-CN': '番茄酱', 'zh-TW': '番茄醬' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 400, unit: 'ml' }, name: { en: 'Vegetable oil (for frying)', fr: 'Huile végétale (pour friture)', pt: 'Óleo vegetal (para fritar)', 'zh-CN': '植物油（炸用）', 'zh-TW': '植物油（炸用）' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut pork loin into finger-sized strips. Season with salt. Mix with egg and cornstarch to make a thick batter.', fr: 'Coupez le filet en bâtonnets. Salez. Mélangez avec l\'œuf et la fécule pour une pâte épaisse.', pt: 'Corte o lombo em tiras. Tempere com sal. Misture com ovo e amido para uma massa espessa.', 'zh-CN': '里脊切条，加盐，裹蛋液和淀粉调成浓稠糊。', 'zh-TW': '里脊切條，加鹽，裹蛋液和澱粉調成濃稠糊。' } },
+      { order: 2, text: { en: 'Heat oil to 170°C. Fry pork strips in batches until golden, about 3 min. Remove and drain. Raise oil to 190°C and fry again 1 min for extra crunch.', fr: 'Chauffez l\'huile à 170°C. Faites frire les bâtonnets par lots 3 min. Égouttez. Montez à 190°C et refaites frire 1 min.', pt: 'Aqueça o óleo a 170°C. Frite as tiras em lotes 3 min. Escorra. Aumente para 190°C e frite novamente 1 min.', 'zh-CN': '油温170°C，分批炸至金黄约3分钟，捞出。油温升至190°C复炸1分钟更酥脆。', 'zh-TW': '油溫170°C，分批炸至金黃約3分鐘，撈出。油溫升至190°C複炸1分鐘更酥脆。' }, tip: { en: 'Double-frying is the secret to crispy pork that stays crunchy in the sauce.', fr: 'La double friture est le secret d\'un porc croustillant qui reste croquant dans la sauce.', pt: 'Fritar duas vezes é o segredo para porco crocante que fica crocante no molho.', 'zh-CN': '复炸是保持酥脆的秘诀。', 'zh-TW': '複炸是保持酥脆的秘訣。' } },
+      { order: 3, text: { en: 'In a clean wok, combine vinegar, sugar, ketchup, soy sauce, and 2 tbsp water. Cook until it thickens into a glossy sauce.', fr: 'Dans un wok propre, mélangez vinaigre, sucre, ketchup, sauce soja et 2 c.s. d\'eau. Cuisez jusqu\'à obtenir une sauce brillante.', pt: 'Numa wok limpa, combine vinagre, açúcar, ketchup, molho de soja e 2 cs de água. Cozinhe até engrossar.', 'zh-CN': '干净锅中放醋、糖、番茄酱、生抽和2勺水，煮至浓稠发亮。', 'zh-TW': '乾淨鍋中放醋、糖、番茄醬、生抽和2勺水，煮至濃稠發亮。' } },
+      { order: 4, text: { en: 'Toss fried pork into the sauce quickly, coat evenly, and serve immediately.', fr: 'Ajoutez le porc frit dans la sauce, enrobez uniformément et servez immédiatement.', pt: 'Coloque o porco frito no molho rapidamente, cubra uniformemente e sirva imediatamente.', 'zh-CN': '炸好的里脊快速倒入酱汁中翻匀，立即装盘。', 'zh-TW': '炸好的里脊快速倒入醬汁中翻勻，立即裝盤。' } },
+    ],
+    tags: {
+      en: ['pork', 'sweet-sour', 'deep-fried', 'Shandong', 'crispy'],
+      fr: ['porc', 'aigre-doux', 'frit', 'Shandong', 'croustillant'],
+      pt: ['porco', 'agridoce', 'frito', 'Shandong', 'crocante'],
+      'zh-CN': ['猪肉', '糖醋', '炸', '鲁菜', '酥脆'],
+      'zh-TW': ['豬肉', '糖醋', '炸', '魯菜', '酥脆'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 60. Braised Pork with Preserved Mustard Greens (梅菜扣肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'braised-pork-preserved-greens',
+    region: 'hakka',
+    category: 'pork',
+    cookingMethod: 'braise',
+    prepTime: 30,
+    cookTime: 90,
+    servings: 6,
+    difficulty: 'hard',
+    chineseName: '梅菜扣肉',
+    pinyin: 'méicài kòuròu',
+    imageConfig: {
+      primaryColor: '#744210',
+      secondaryColor: '#FFFAF0',
+      icon: 'pork',
+      pattern: 'stripes',
+    },
+    name: {
+      en: 'Braised Pork with Preserved Mustard Greens',
+      fr: 'Porc braisé aux légumes confits',
+      pt: 'Porco Braseado com Mostarda em Conserva',
+      'zh-CN': '梅菜扣肉',
+      'zh-TW': '梅菜扣肉',
+    },
+    description: {
+      en: 'Layers of melt-in-the-mouth pork belly steamed with umami-rich preserved mustard greens — a Hakka celebration dish.',
+      fr: 'Couches de poitrine de porc fondante à la vapeur avec des légumes confits — un plat de fête Hakka.',
+      pt: 'Camadas de barriga de porco derretendo na boca, cozida a vapor com mostarda em conserva — um prato festivo Hakka.',
+      'zh-CN': '入口即化的五花肉配梅菜蒸至软烂，客家经典大菜。',
+      'zh-TW': '入口即化的五花肉配梅菜蒸至軟爛，客家經典大菜。',
+    },
+    ingredients: [
+      { id: 'pork-belly', quantity: { value: 600, unit: 'g' }, name: { en: 'Pork belly (skin-on)', fr: 'Poitrine de porc (avec la peau)', pt: 'Barriga de porco (com pele)', 'zh-CN': '五花肉（带皮）', 'zh-TW': '五花肉（帶皮）' }, category: 'protein', commonInEurope: true },
+      { id: 'preserved-mustard-greens', quantity: { value: 200, unit: 'g' }, name: { en: 'Preserved mustard greens (mei cai)', fr: 'Légumes moutarde confits (mei cai)', pt: 'Mostarda em conserva (mei cai)', 'zh-CN': '梅菜', 'zh-TW': '梅菜' }, category: 'vegetable', commonInEurope: false },
+      { id: 'dark-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 1, unit: 'pc' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Boil whole pork belly 20 min until just cooked. Poke skin with a fork, then rub dark soy sauce over the skin while still hot.', fr: 'Faites bouillir la poitrine entière 20 min. Piquez la peau à la fourchette et frottez de sauce soja foncée.', pt: 'Ferva a barriga inteira 20 min. Fure a pele com garfo e esfregue molho de soja escuro ainda quente.', 'zh-CN': '整块五花肉煮20分钟至刚熟，用叉子扎皮，趁热抹上老抽。', 'zh-TW': '整塊五花肉煮20分鐘至剛熟，用叉子扎皮，趁熱抹上老抽。' }, tip: { en: 'Poking the skin helps it absorb the soy sauce and crisp up when fried.', fr: 'Piquer la peau aide à absorber la sauce soja et à devenir croustillante.', pt: 'Furar a pele ajuda a absorver o molho de soja e ficar crocante.', 'zh-CN': '扎孔有助于上色和入味。', 'zh-TW': '扎孔有助於上色和入味。' } },
+      { order: 2, text: { en: 'Soak preserved mustard greens 30 min, rinse and chop. Stir-fry with ginger, sugar, soy sauce and star anise for 5 min. Set aside.', fr: 'Faites tremper les légumes confits 30 min, rincez et hachez. Sautez avec gingembre, sucre, sauce soja et anis 5 min.', pt: 'Deixe a mostarda de molho 30 min, lave e pique. Refogue com gengibre, açúcar, molho de soja e anis 5 min.', 'zh-CN': '梅菜泡30分钟，洗净切碎，加姜、糖、酱油、八角炒5分钟备用。', 'zh-TW': '梅菜泡30分鐘，洗淨切碎，加薑、糖、醬油、八角炒5分鐘備用。' } },
+      { order: 3, text: { en: 'Pan-fry the pork belly skin-side down until the skin is deep brown and crispy, about 5 min.', fr: 'Poêlez la poitrine côté peau jusqu\'à coloration brune, environ 5 min.', pt: 'Frite a barriga com a pele para baixo até dourar bem, cerca de 5 min.', 'zh-CN': '五花肉皮面朝下煎至深褐色酥脆，约5分钟。', 'zh-TW': '五花肉皮面朝下煎至深褐色酥脆，約5分鐘。' } },
+      { order: 4, text: { en: 'Slice pork into 1cm thick slices. Arrange skin-side down in a deep bowl, pack preserved greens on top. Steam 1.5 hours.', fr: 'Tranchez le porc en tranches de 1 cm. Disposez peau en bas dans un bol profond, garnissez de légumes confits. Cuisez à la vapeur 1,5 h.', pt: 'Fatie o porco em fatias de 1cm. Arrume com a pele para baixo num bowl fundo, coloque a mostarda por cima. Cozinhe a vapor 1,5 h.', 'zh-CN': '五花肉切1厘米厚片，皮朝下码入碗中，铺上梅菜，蒸1.5小时。', 'zh-TW': '五花肉切1公分厚片，皮朝下碼入碗中，鋪上梅菜，蒸1.5小時。' } },
+      { order: 5, text: { en: 'Flip the bowl onto a plate to unmold. The glossy pork skin should be on top. Pour any remaining juices over.', fr: 'Retournez le bol sur une assiette. La peau brillante doit être sur le dessus. Versez le jus restant.', pt: 'Vire a tigela sobre um prato. A pele brilhante deve ficar por cima. Despeje o suco restante.', 'zh-CN': '倒扣在盘中，亮亮的肉皮朝上，浇上余汁。', 'zh-TW': '倒扣在盤中，亮亮的肉皮朝上，澆上餘汁。' } },
+    ],
+    tags: {
+      en: ['pork', 'braised', 'Hakka', 'preserved greens', 'celebration'],
+      fr: ['porc', 'braisé', 'Hakka', 'légumes confits', 'fête'],
+      pt: ['porco', 'braseado', 'Hakka', 'conserva', 'celebração'],
+      'zh-CN': ['猪肉', '蒸', '客家', '梅菜', '宴客'],
+      'zh-TW': ['豬肉', '蒸', '客家', '梅菜', '宴客'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 61. Garlic Sprout Twice-cooked Pork (蒜苗回锅肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'garlic-sprout-twice-cooked-pork',
+    region: 'sichuan',
+    category: 'pork',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '蒜苗回锅肉',
+    pinyin: 'suànmiáo huíguōròu',
+    imageConfig: {
+      primaryColor: '#C53030',
+      secondaryColor: '#FFF5F5',
+      icon: 'pork',
+      pattern: 'spicy',
+    },
+    name: {
+      en: 'Garlic Sprout Twice-cooked Pork',
+      fr: 'Porc deux fois cuit aux pousses d\'ail',
+      pt: 'Porco Duas Vezes Cozido com Broto de Alho',
+      'zh-CN': '蒜苗回锅肉',
+      'zh-TW': '蒜苗回鍋肉',
+    },
+    description: {
+      en: 'Sliced pork belly re-fried with garlic sprouts and doubanjiang — the definitive Sichuan home-cooked dish.',
+      fr: 'Poitrine de porc tranchée sautée avec pousses d\'ail et doubanjiang — le plat familial sichuanais par excellence.',
+      pt: 'Barriga de porco fatiada refogada com brotos de alho e doubanjiang — o prato caseiro definitivo de Sichuan.',
+      'zh-CN': '五花肉片配蒜苗和豆瓣酱回锅，四川最经典的家常菜。',
+      'zh-TW': '五花肉片配蒜苗和豆瓣醬回鍋，四川最經典的家常菜。',
+    },
+    ingredients: [
+      { id: 'pork-belly', quantity: { value: 300, unit: 'g' }, name: { en: 'Pork belly', fr: 'Poitrine de porc', pt: 'Barriga de porco', 'zh-CN': '五花肉', 'zh-TW': '五花肉' }, category: 'protein', commonInEurope: true },
+      { id: 'garlic-sprouts', quantity: { value: 200, unit: 'g' }, name: { en: 'Garlic sprouts (green garlic)', fr: 'Pousses d\'ail (ail vert)', pt: 'Brotos de alho (alho verde)', 'zh-CN': '蒜苗', 'zh-TW': '蒜苗' }, category: 'vegetable', commonInEurope: true },
+      { id: 'doubanjiang', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Doubanjiang (chili bean paste)', fr: 'Doubanjiang (pâte de piment aux fèves)', pt: 'Doubanjiang (pasta de pimenta com feijão)', 'zh-CN': '豆瓣酱', 'zh-TW': '豆瓣醬' }, category: 'sauce', commonInEurope: false },
+      { id: 'fermented-black-beans', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Fermented black beans (douchi)', fr: 'Haricots noirs fermentés (douchi)', pt: 'Feijão preto fermentado (douchi)', 'zh-CN': '豆豉', 'zh-TW': '豆豉' }, category: 'sauce', commonInEurope: false },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 2, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Boil whole pork belly 15 min until just cooked. Let cool, then slice into thin pieces.', fr: 'Faites bouillir la poitrine entière 15 min. Laissez refroidir et tranchez finement.', pt: 'Ferva a barriga inteira 15 min. Deixe esfriar e fatie finamente.', 'zh-CN': '五花肉整块煮15分钟至刚熟，晾凉后切薄片。', 'zh-TW': '五花肉整塊煮15分鐘至剛熟，晾涼後切薄片。' }, tip: { en: 'Chilling the pork before slicing makes it much easier to cut thin.', fr: 'Refroidir le porc avant de le trancher facilite la coupe fine.', pt: 'Resfriar o porco antes de fatiar facilita cortar fino.', 'zh-CN': '冷却后更容易切薄片。', 'zh-TW': '冷卻後更容易切薄片。' } },
+      { order: 2, text: { en: 'Cut garlic sprouts into 4 cm lengths, separating white and green parts.', fr: 'Coupez les pousses d\'ail en tronçons de 4 cm, séparant le blanc du vert.', pt: 'Corte os brotos de alho em pedaços de 4 cm, separando partes brancas e verdes.', 'zh-CN': '蒜苗切4厘米段，蒜白蒜绿分开。', 'zh-TW': '蒜苗切4公分段，蒜白蒜綠分開。' } },
+      { order: 3, text: { en: 'Heat oil in wok. Add pork slices and fry until edges curl and fat renders out. Push to the side.', fr: 'Chauffez l\'huile dans le wok. Faites frire le porc jusqu\'à ce que les bords se courbent. Poussez sur le côté.', pt: 'Aqueça óleo na wok. Frite o porco até as bordas curvarem e a gordura derreter. Empurre para o lado.', 'zh-CN': '锅中放油，肉片煸炒至边缘卷起出油，推到一边。', 'zh-TW': '鍋中放油，肉片煸炒至邊緣捲起出油，推到一邊。' } },
+      { order: 4, text: { en: 'Add doubanjiang, ginger, and fermented black beans to the oil. Stir-fry until fragrant and the oil turns red.', fr: 'Ajoutez le doubanjiang, le gingembre et les haricots noirs. Sautez jusqu\'à ce que l\'huile rougisse.', pt: 'Adicione doubanjiang, gengibre e feijão preto. Refogue até o óleo ficar vermelho.', 'zh-CN': '加豆瓣酱、姜片、豆豉炒出红油。', 'zh-TW': '加豆瓣醬、薑片、豆豉炒出紅油。' } },
+      { order: 5, text: { en: 'Toss everything together, add garlic whites first, then greens. Add wine and sugar, stir-fry 1 min until garlic sprouts are just wilted.', fr: 'Mélangez le tout, ajoutez d\'abord le blanc d\'ail puis le vert. Ajoutez vin et sucre, sautez 1 min.', pt: 'Misture tudo, adicione primeiro os brancos e depois os verdes. Adicione vinho e açúcar, refogue 1 min.', 'zh-CN': '翻炒均匀，先加蒜白再加蒜绿，加料酒和糖，炒1分钟至蒜苗断生。', 'zh-TW': '翻炒均勻，先加蒜白再加蒜綠，加料酒和糖，炒1分鐘至蒜苗斷生。' } },
+    ],
+    tags: {
+      en: ['pork', 'stir-fry', 'spicy', 'Sichuan', 'garlic'],
+      fr: ['porc', 'sauté', 'pimenté', 'Sichuan', 'ail'],
+      pt: ['porco', 'refogado', 'picante', 'Sichuan', 'alho'],
+      'zh-CN': ['猪肉', '炒', '辣', '川菜', '蒜苗'],
+      'zh-TW': ['豬肉', '炒', '辣', '川菜', '蒜苗'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 62. Steamed Pork with Rice Powder (粉蒸肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'steamed-pork-rice-powder',
+    region: 'hubei',
+    category: 'pork',
+    cookingMethod: 'steam',
+    prepTime: 20,
+    cookTime: 60,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '粉蒸肉',
+    pinyin: 'fěnzhēngròu',
+    imageConfig: {
+      primaryColor: '#D69E2E',
+      secondaryColor: '#FFFFF0',
+      icon: 'pork',
+      pattern: 'dots',
+    },
+    name: {
+      en: 'Steamed Pork with Rice Powder',
+      fr: 'Porc à la vapeur en poudre de riz',
+      pt: 'Porco no Vapor com Farinha de Arroz',
+      'zh-CN': '粉蒸肉',
+      'zh-TW': '粉蒸肉',
+    },
+    description: {
+      en: 'Tender slices of pork belly coated in toasted rice powder and steamed until meltingly soft.',
+      fr: 'Tranches tendres de poitrine de porc enrobées de poudre de riz grillé, cuites à la vapeur.',
+      pt: 'Fatias tenras de barriga de porco cobertas com farinha de arroz torrada e cozidas no vapor.',
+      'zh-CN': '五花肉裹上香香的炒米粉蒸至软烂，湖北经典蒸菜。',
+      'zh-TW': '五花肉裹上香香的炒米粉蒸至軟爛，湖北經典蒸菜。',
+    },
+    ingredients: [
+      { id: 'pork-belly', quantity: { value: 400, unit: 'g' }, name: { en: 'Pork belly', fr: 'Poitrine de porc', pt: 'Barriga de porco', 'zh-CN': '五花肉', 'zh-TW': '五花肉' }, category: 'protein', commonInEurope: true },
+      { id: 'rice-powder', quantity: { value: 100, unit: 'g' }, name: { en: 'Toasted rice powder (five-spice)', fr: 'Poudre de riz grillé (cinq-épices)', pt: 'Farinha de arroz torrada (cinco especiarias)', 'zh-CN': '五香蒸肉米粉', 'zh-TW': '五香蒸肉米粉' }, category: 'grain', commonInEurope: false },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'doubanjiang', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Doubanjiang (chili bean paste)', fr: 'Doubanjiang (pâte de piment)', pt: 'Doubanjiang (pasta de pimenta)', 'zh-CN': '豆瓣酱', 'zh-TW': '豆瓣醬' }, category: 'sauce', commonInEurope: false },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger, minced', fr: 'Gingembre haché', pt: 'Gengibre picado', 'zh-CN': '姜末', 'zh-TW': '薑末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'sweet-potato', quantity: { value: 200, unit: 'g' }, name: { en: 'Sweet potato', fr: 'Patate douce', pt: 'Batata doce', 'zh-CN': '红薯', 'zh-TW': '紅薯' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Slice pork belly into 5mm thick pieces. Marinate with soy sauce, wine, doubanjiang, and ginger for 20 min.', fr: 'Tranchez la poitrine en morceaux de 5 mm. Marinez avec sauce soja, vin, doubanjiang et gingembre 20 min.', pt: 'Fatie a barriga em pedaços de 5mm. Marine com molho de soja, vinho, doubanjiang e gengibre por 20 min.', 'zh-CN': '五花肉切5毫米厚片，加生抽、料酒、豆瓣酱、姜末腌20分钟。', 'zh-TW': '五花肉切5毫米厚片，加生抽、料酒、豆瓣醬、薑末醃20分鐘。' } },
+      { order: 2, text: { en: 'Mix marinated pork with rice powder, coating each piece evenly.', fr: 'Mélangez le porc mariné avec la poudre de riz, en enrobant chaque morceau.', pt: 'Misture o porco marinado com a farinha de arroz, cobrindo cada pedaço uniformemente.', 'zh-CN': '腌好的肉片拌入蒸肉米粉，每片裹匀。', 'zh-TW': '醃好的肉片拌入蒸肉米粉，每片裹勻。' }, tip: { en: 'Add a splash of water so the rice powder sticks better.', fr: 'Ajoutez un peu d\'eau pour que la poudre de riz adhère mieux.', pt: 'Adicione um pouco de água para a farinha de arroz grudar melhor.', 'zh-CN': '加少许水帮助米粉更好地裹在肉上。', 'zh-TW': '加少許水幫助米粉更好地裹在肉上。' } },
+      { order: 3, text: { en: 'Peel and slice sweet potato. Line the bottom of a deep bowl with sweet potato, then arrange pork slices on top.', fr: 'Pelez et tranchez la patate douce. Tapissez le fond d\'un bol avec la patate douce, disposez le porc dessus.', pt: 'Descasque e fatie a batata doce. Forre o fundo de um bowl com batata doce, arrume o porco por cima.', 'zh-CN': '红薯去皮切片垫在碗底，肉片码在上面。', 'zh-TW': '紅薯去皮切片墊在碗底，肉片碼在上面。' } },
+      { order: 4, text: { en: 'Steam over high heat for 60 min until pork is very tender. Garnish with chopped scallions.', fr: 'Cuisez à la vapeur à feu vif 60 min jusqu\'à ce que le porc soit très tendre. Garnissez de ciboule.', pt: 'Cozinhe no vapor em fogo alto por 60 min até o porco ficar muito macio. Decore com cebolinha.', 'zh-CN': '大火蒸60分钟至肉软烂，撒葱花。', 'zh-TW': '大火蒸60分鐘至肉軟爛，撒蔥花。' } },
+    ],
+    tags: {
+      en: ['pork', 'steamed', 'rice powder', 'Hubei', 'comfort food'],
+      fr: ['porc', 'vapeur', 'riz', 'Hubei', 'réconfortant'],
+      pt: ['porco', 'vapor', 'arroz', 'Hubei', 'comfort food'],
+      'zh-CN': ['猪肉', '蒸', '米粉', '湖北', '家常'],
+      'zh-TW': ['豬肉', '蒸', '米粉', '湖北', '家常'],
+    },
+  },
+// ──────────────────────────────────────────────
+  // 63. Soy-braised Pork Bones (酱骨头)
+  // ──────────────────────────────────────────────
+  {
+    id: 'soy-braised-pork-bones',
+    region: 'northern',
+    category: 'pork',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '酱骨头',
+    pinyin: 'jiàng gǔtou',
+    imageConfig: {
+      primaryColor: '#7B341E',
+      secondaryColor: '#FFF5F5',
+      icon: 'bone',
+      pattern: 'stripes',
+    },
+    name: {
+      en: 'Soy-braised Pork Bones',
+      fr: 'Os de porc braisés au soja',
+      pt: 'Ossos de Porco Braseados no Molho de Soja',
+      'zh-CN': '酱骨头',
+      'zh-TW': '醬骨頭',
+    },
+    description: {
+      en: 'Fall-off-the-bone pork spine simmered in a rich soy and spice broth — northern Chinese comfort food.',
+      fr: 'Échine de porc fondante mijotée dans un bouillon de soja épicé — comfort food du nord de la Chine.',
+      pt: 'Espinha de porco que se solta do osso, cozida em caldo rico de soja e especiarias — comfort food do norte da China.',
+      'zh-CN': '酱香浓郁的猪脊骨，炖到脱骨，东北家常硬菜。',
+      'zh-TW': '醬香濃郁的豬脊骨，燉到脫骨，東北家常硬菜。',
+    },
+    ingredients: [
+      { id: 'pork-spine', quantity: { value: 800, unit: 'g' }, name: { en: 'Pork spine/neck bones', fr: 'Os de cou/échine de porc', pt: 'Ossos de pescoço/espinha de porco', 'zh-CN': '猪脊骨', 'zh-TW': '豬脊骨' }, category: 'protein', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'rock-sugar', quantity: { value: 20, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'cinnamon', quantity: { value: 1, unit: 'stick' }, name: { en: 'Cinnamon stick', fr: 'Bâton de cannelle', pt: 'Pau de canela', 'zh-CN': '桂皮', 'zh-TW': '桂皮' }, category: 'spice', commonInEurope: true },
+      { id: 'bay-leaf', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Bay leaves', fr: 'Feuilles de laurier', pt: 'Folhas de louro', 'zh-CN': '香叶', 'zh-TW': '香葉' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 5, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 3, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak bones in cold water 30 min to draw out blood. Blanch in boiling water 5 min, drain and rinse.', fr: 'Faites tremper les os 30 min dans l\'eau froide. Blanchissez 5 min, égouttez et rincez.', pt: 'Deixe os ossos de molho em água fria 30 min. Blanqueie 5 min, escorra e lave.', 'zh-CN': '骨头冷水泡30分钟，沸水焯5分钟，捞出冲洗。', 'zh-TW': '骨頭冷水泡30分鐘，沸水汆5分鐘，撈出沖洗。' } },
+      { order: 2, text: { en: 'Place bones in pot with all spices, ginger, scallions, soy sauces, wine, and sugar. Add water to cover.', fr: 'Mettez les os dans la casserole avec toutes les épices, gingembre, ciboules, sauces soja, vin et sucre. Couvrez d\'eau.', pt: 'Coloque os ossos na panela com todas as especiarias, gengibre, cebolinha, molhos de soja, vinho e açúcar. Cubra com água.', 'zh-CN': '骨头放入锅中，加所有香料、姜葱、酱油、料酒、冰糖，加水没过。', 'zh-TW': '骨頭放入鍋中，加所有香料、薑蔥、醬油、料酒、冰糖，加水沒過。' } },
+      { order: 3, text: { en: 'Bring to boil, then reduce to low heat and simmer 1.5 hours until meat falls off the bone easily.', fr: 'Portez à ébullition, puis réduisez à feu doux et laissez mijoter 1,5 h jusqu\'à ce que la viande se détache.', pt: 'Ferva, depois reduza o fogo e cozinhe 1,5 h até a carne se soltar do osso.', 'zh-CN': '大火烧开，转小火炖1.5小时至肉脱骨。', 'zh-TW': '大火燒開，轉小火燉1.5小時至肉脫骨。' }, tip: { en: 'For richer flavor, let the bones cool in the braising liquid overnight.', fr: 'Pour plus de saveur, laissez refroidir les os dans le jus toute la nuit.', pt: 'Para mais sabor, deixe os ossos esfriarem no líquido durante a noite.', 'zh-CN': '泡在汤汁中过夜更入味。', 'zh-TW': '泡在湯汁中過夜更入味。' } },
+      { order: 4, text: { en: 'Turn up heat at the end to reduce sauce until thick and glossy. Serve hot.', fr: 'Augmentez le feu en fin de cuisson pour réduire la sauce. Servez chaud.', pt: 'Aumente o fogo no final para reduzir o molho até engrossar. Sirva quente.', 'zh-CN': '最后大火收汁至浓稠发亮，趁热上桌。', 'zh-TW': '最後大火收汁至濃稠發亮，趁熱上桌。' } },
+    ],
+    tags: {
+      en: ['pork', 'braised', 'northern', 'bones', 'comfort food'],
+      fr: ['porc', 'braisé', 'nord', 'os', 'réconfortant'],
+      pt: ['porco', 'braseado', 'norte', 'ossos', 'comfort food'],
+      'zh-CN': ['猪肉', '酱', '东北', '骨头', '硬菜'],
+      'zh-TW': ['豬肉', '醬', '東北', '骨頭', '硬菜'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 64. Moo Shu Pork (木须肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'moo-shu-pork',
+    region: 'northern',
+    category: 'pork',
+    cookingMethod: 'stir-fry',
+    prepTime: 20,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '木须肉',
+    pinyin: 'mùxū ròu',
+    imageConfig: {
+      primaryColor: '#D69E2E',
+      secondaryColor: '#FFFFF0',
+      icon: 'egg',
+      pattern: 'stripes',
+    },
+    name: {
+      en: 'Moo Shu Pork',
+      fr: 'Porc Moo Shu',
+      pt: 'Porco Moo Shu',
+      'zh-CN': '木须肉',
+      'zh-TW': '木須肉',
+    },
+    description: {
+      en: 'Shredded pork stir-fried with scrambled egg, wood ear mushrooms, and lily buds — a northern home classic.',
+      fr: 'Porc émincé sauté avec œuf brouillé, champignons noirs et boutons de lis.',
+      pt: 'Porco desfiado refogado com ovo mexido, fungos orelha-de-pau e brotos de lírio.',
+      'zh-CN': '肉丝配鸡蛋、木耳、黄花菜同炒，北方经典家常菜。',
+      'zh-TW': '肉絲配雞蛋、木耳、黃花菜同炒，北方經典家常菜。',
+    },
+    ingredients: [
+      { id: 'pork-loin', quantity: { value: 200, unit: 'g' }, name: { en: 'Pork loin, shredded', fr: 'Longe de porc, émincée', pt: 'Lombo de porco, desfiado', 'zh-CN': '猪里脊丝', 'zh-TW': '豬里脊絲' }, category: 'protein', commonInEurope: true },
+      { id: 'egg', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Eggs', fr: 'Œufs', pt: 'Ovos', 'zh-CN': '鸡蛋', 'zh-TW': '雞蛋' }, category: 'protein', commonInEurope: true },
+      { id: 'dried-wood-ear', quantity: { value: 15, unit: 'g' }, name: { en: 'Dried wood ear mushrooms', fr: 'Champignons noirs séchés', pt: 'Fungos orelha-de-pau secos', 'zh-CN': '干木耳', 'zh-TW': '乾木耳' }, category: 'vegetable', commonInEurope: false },
+      { id: 'dried-lily-buds', quantity: { value: 15, unit: 'g' }, name: { en: 'Dried lily buds (golden needles)', fr: 'Boutons de lis séchés (aiguilles d\'or)', pt: 'Brotos de lírio secos (agulhas douradas)', 'zh-CN': '干黄花菜', 'zh-TW': '乾黃花菜' }, category: 'vegetable', commonInEurope: false },
+      { id: 'cucumber', quantity: { value: 1, unit: 'pc' }, name: { en: 'Cucumber', fr: 'Concombre', pt: 'Pepino', 'zh-CN': '黄瓜', 'zh-TW': '黃瓜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak wood ears and lily buds in warm water 30 min. Drain, remove hard ends from lily buds. Slice cucumber into strips.', fr: 'Faites tremper les champignons noirs et boutons de lis 30 min. Égouttez, coupez les bouts durs. Coupez le concombre en bâtonnets.', pt: 'Deixe os fungos e brotos de molho em água morna 30 min. Escorra, corte as pontas duras. Corte o pepino em tiras.', 'zh-CN': '木耳、黄花菜温水泡30分钟，沥干，去掉黄花菜硬蒂。黄瓜切丝。', 'zh-TW': '木耳、黃花菜溫水泡30分鐘，瀝乾，去掉黃花菜硬蒂。黃瓜切絲。' } },
+      { order: 2, text: { en: 'Marinate pork shreds with wine, soy sauce, and cornstarch for 10 min. Beat eggs with a pinch of salt.', fr: 'Marinez le porc avec vin, sauce soja et fécule 10 min. Battez les œufs avec une pincée de sel.', pt: 'Marine o porco com vinho, molho de soja e amido por 10 min. Bata os ovos com uma pitada de sal.', 'zh-CN': '肉丝加料酒、生抽、淀粉腌10分钟。鸡蛋加少许盐打散。', 'zh-TW': '肉絲加料酒、生抽、澱粉醃10分鐘。雞蛋加少許鹽打散。' } },
+      { order: 3, text: { en: 'Heat oil, scramble eggs until just set, break into large pieces, and remove.', fr: 'Chauffez l\'huile, brouillezles œufs, cassez en gros morceaux et retirez.', pt: 'Aqueça óleo, mexa os ovos até firmar, quebre em pedaços grandes e retire.', 'zh-CN': '热油炒鸡蛋至凝固，拨成大块盛出。', 'zh-TW': '熱油炒雞蛋至凝固，撥成大塊盛出。' } },
+      { order: 4, text: { en: 'Stir-fry pork until it changes color. Add wood ears, lily buds, and cucumber. Stir-fry 2 min.', fr: 'Sautez le porc jusqu\'à coloration. Ajoutez champignons, lis et concombre. Sautez 2 min.', pt: 'Refogue o porco até mudar de cor. Adicione fungos, brotos e pepino. Refogue 2 min.', 'zh-CN': '炒肉丝至变色，加木耳、黄花菜、黄瓜丝翻炒2分钟。', 'zh-TW': '炒肉絲至變色，加木耳、黃花菜、黃瓜絲翻炒2分鐘。' }, tip: { en: 'High heat keeps the vegetables crisp and the pork tender.', fr: 'Le feu vif garde les légumes croquants et le porc tendre.', pt: 'Fogo alto mantém os vegetais crocantes e o porco macio.', 'zh-CN': '大火快炒，蔬菜脆嫩肉不老。', 'zh-TW': '大火快炒，蔬菜脆嫩肉不老。' } },
+      { order: 5, text: { en: 'Return eggs to wok, add remaining soy sauce, toss everything together and serve.', fr: 'Remettez les œufs, ajoutez le reste de sauce soja, mélangez et servez.', pt: 'Devolva os ovos, adicione o restante do molho de soja, misture tudo e sirva.', 'zh-CN': '鸡蛋回锅，加剩余生抽，翻匀出锅。', 'zh-TW': '雞蛋回鍋，加剩餘生抽，翻勻出鍋。' } },
+    ],
+    tags: {
+      en: ['pork', 'egg', 'stir-fry', 'northern', 'mushroom'],
+      fr: ['porc', 'œuf', 'sauté', 'nord', 'champignon'],
+      pt: ['porco', 'ovo', 'refogado', 'norte', 'cogumelo'],
+      'zh-CN': ['猪肉', '鸡蛋', '炒', '北方', '木耳'],
+      'zh-TW': ['豬肉', '雞蛋', '炒', '北方', '木耳'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 65. Three Cup Chicken (三杯鸡)
+  // ──────────────────────────────────────────────
+  {
+    id: 'three-cup-chicken',
+    region: 'fujian',
+    category: 'chicken',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 25,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '三杯鸡',
+    pinyin: 'sānbēi jī',
+    imageConfig: {
+      primaryColor: '#B7791F',
+      secondaryColor: '#FFFFF0',
+      icon: 'chicken',
+      pattern: 'circles',
+    },
+    name: {
+      en: 'Three Cup Chicken',
+      fr: 'Poulet aux trois tasses',
+      pt: 'Frango Três Xícaras',
+      'zh-CN': '三杯鸡',
+      'zh-TW': '三杯雞',
+    },
+    description: {
+      en: 'Fragrant chicken braised with one cup each of soy sauce, sesame oil, and rice wine, finished with Thai basil.',
+      fr: 'Poulet parfumé braisé avec une tasse de sauce soja, d\'huile de sésame et de vin de riz, fini au basilic thaï.',
+      pt: 'Frango aromático braseado com uma xícara de molho de soja, óleo de gergelim e vinho de arroz, finalizado com manjericão tailandês.',
+      'zh-CN': '一杯酱油一杯麻油一杯米酒焖鸡，九层塔收尾，闽菜经典。',
+      'zh-TW': '一杯醬油一杯麻油一杯米酒燜雞，九層塔收尾，閩菜經典。',
+    },
+    ingredients: [
+      { id: 'chicken-drumstick', quantity: { value: 600, unit: 'g' }, name: { en: 'Chicken drumsticks, chopped', fr: 'Pilons de poulet, coupés', pt: 'Coxinhas de frango, cortadas', 'zh-CN': '鸡腿块', 'zh-TW': '雞腿塊' }, category: 'protein', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '麻油', 'zh-TW': '麻油' }, category: 'oil', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Rice wine (or Shaoxing wine)', fr: 'Vin de riz (ou vin de Shaoxing)', pt: 'Vinho de arroz (ou vinho Shaoxing)', 'zh-CN': '米酒（或料酒）', 'zh-TW': '米酒（或料酒）' }, category: 'sauce', commonInEurope: false },
+      { id: 'ginger', quantity: { value: 6, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 8, unit: 'cloves' }, name: { en: 'Garlic cloves', fr: 'Gousses d\'ail', pt: 'Dentes de alho', 'zh-CN': '蒜瓣', 'zh-TW': '蒜瓣' }, category: 'vegetable', commonInEurope: true },
+      { id: 'dried-chili', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干辣椒', 'zh-TW': '乾辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'thai-basil', quantity: { value: 1, unit: 'bunch' }, name: { en: 'Thai basil', fr: 'Basilic thaï', pt: 'Manjericão tailandês', 'zh-CN': '九层塔', 'zh-TW': '九層塔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'rock-sugar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Heat sesame oil in a clay pot or heavy pan. Fry ginger slices and garlic until golden and fragrant.', fr: 'Chauffez l\'huile de sésame dans un pot en terre ou une poêle lourde. Faites dorer le gingembre et l\'ail.', pt: 'Aqueça o óleo de gergelim numa panela de barro ou pesada. Frite gengibre e alho até dourar.', 'zh-CN': '砂锅或厚底锅加麻油，煸姜片和蒜瓣至金黄出香。', 'zh-TW': '砂鍋或厚底鍋加麻油，煸薑片和蒜瓣至金黃出香。' }, tip: { en: 'Use a clay pot if you have one — it keeps the dish warm and adds character.', fr: 'Utilisez un pot en terre si possible — il garde le plat chaud.', pt: 'Use uma panela de barro se tiver — mantém o prato quente.', 'zh-CN': '有砂锅最好，保温效果好。', 'zh-TW': '有砂鍋最好，保溫效果好。' } },
+      { order: 2, text: { en: 'Add chicken pieces and sear on all sides until lightly browned, about 5 min.', fr: 'Ajoutez le poulet et saisissez de tous les côtés 5 min.', pt: 'Adicione o frango e sele todos os lados até dourar levemente, cerca de 5 min.', 'zh-CN': '放入鸡块，煎至各面微黄，约5分钟。', 'zh-TW': '放入雞塊，煎至各面微黃，約5分鐘。' } },
+      { order: 3, text: { en: 'Add soy sauce, wine, sugar, and dried chilies. Cover and braise on low heat for 20 min until the sauce reduces and becomes thick.', fr: 'Ajoutez sauce soja, vin, sucre et piments. Couvrez et braisez 20 min à feu doux.', pt: 'Adicione molho de soja, vinho, açúcar e pimentas. Cubra e braseie em fogo baixo 20 min.', 'zh-CN': '加生抽、米酒、冰糖、干辣椒，盖盖小火焖20分钟至汤汁浓稠。', 'zh-TW': '加生抽、米酒、冰糖、乾辣椒，蓋蓋小火燜20分鐘至湯汁濃稠。' } },
+      { order: 4, text: { en: 'Turn up heat to reduce sauce. Add Thai basil leaves, toss for 30 seconds until wilted. Serve immediately.', fr: 'Augmentez le feu pour réduire la sauce. Ajoutez le basilic thaï, mélangez 30 s. Servez immédiatement.', pt: 'Aumente o fogo para reduzir o molho. Adicione o manjericão, mexa 30 s. Sirva imediatamente.', 'zh-CN': '大火收汁，放九层塔翻炒30秒至软，立即上桌。', 'zh-TW': '大火收汁，放九層塔翻炒30秒至軟，立即上桌。' } },
+    ],
+    tags: {
+      en: ['chicken', 'braised', 'Fujian', 'basil', 'aromatic'],
+      fr: ['poulet', 'braisé', 'Fujian', 'basilic', 'aromatique'],
+      pt: ['frango', 'braseado', 'Fujian', 'manjericão', 'aromático'],
+      'zh-CN': ['鸡肉', '焖', '闽菜', '九层塔', '三杯'],
+      'zh-TW': ['雞肉', '燜', '閩菜', '九層塔', '三杯'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 66. Diced Chicken with Dried Chilies (辣子鸡丁)
+  // ──────────────────────────────────────────────
+  {
+    id: 'diced-chicken-dried-chilies',
+    region: 'sichuan',
+    category: 'chicken',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '辣子鸡丁',
+    pinyin: 'làzǐ jīdīng',
+    imageConfig: {
+      primaryColor: '#C53030',
+      secondaryColor: '#FED7D7',
+      icon: 'chicken',
+      pattern: 'spicy',
+    },
+    name: {
+      en: 'Diced Chicken with Dried Chilies',
+      fr: 'Dés de poulet aux piments séchés',
+      pt: 'Frango em Cubos com Pimentas Secas',
+      'zh-CN': '辣子鸡丁',
+      'zh-TW': '辣子雞丁',
+    },
+    description: {
+      en: 'Crispy bite-size chicken pieces buried under a mountain of fragrant dried chilies — bold Sichuan flavor.',
+      fr: 'Morceaux de poulet croustillants enfouis sous une montagne de piments séchés parfumés.',
+      pt: 'Pedaços crocantes de frango enterrados sob uma montanha de pimentas secas aromáticas.',
+      'zh-CN': '酥脆鸡丁藏在满满的干辣椒中，四川重口味名菜。',
+      'zh-TW': '酥脆雞丁藏在滿滿的乾辣椒中，四川重口味名菜。',
+    },
+    ingredients: [
+      { id: 'chicken-thigh', quantity: { value: 400, unit: 'g' }, name: { en: 'Boneless chicken thighs', fr: 'Hauts de cuisse de poulet désossés', pt: 'Coxas de frango desossadas', 'zh-CN': '去骨鸡腿', 'zh-TW': '去骨雞腿' }, category: 'protein', commonInEurope: true },
+      { id: 'dried-chili', quantity: { value: 30, unit: 'g' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干辣椒', 'zh-TW': '乾辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'sichuan-peppercorn', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sichuan peppercorns', fr: 'Poivre du Sichuan', pt: 'Pimenta de Sichuan', 'zh-CN': '花椒', 'zh-TW': '花椒' }, category: 'spice', commonInEurope: false },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'sesame-seeds', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'White sesame seeds', fr: 'Graines de sésame blanches', pt: 'Sementes de gergelim brancas', 'zh-CN': '白芝麻', 'zh-TW': '白芝麻' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 300, unit: 'ml' }, name: { en: 'Vegetable oil (for frying)', fr: 'Huile végétale (pour friture)', pt: 'Óleo vegetal (para fritar)', 'zh-CN': '植物油（炸用）', 'zh-TW': '植物油（炸用）' }, category: 'oil', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut chicken into 2cm cubes. Marinate with wine, soy sauce, and cornstarch for 15 min.', fr: 'Coupez le poulet en cubes de 2 cm. Marinez avec vin, sauce soja et fécule 15 min.', pt: 'Corte o frango em cubos de 2cm. Marine com vinho, molho de soja e amido por 15 min.', 'zh-CN': '鸡肉切2厘米丁，加料酒、生抽、淀粉腌15分钟。', 'zh-TW': '雞肉切2公分丁，加料酒、生抽、澱粉醃15分鐘。' } },
+      { order: 2, text: { en: 'Heat oil to 170°C and deep-fry chicken in batches until golden and crispy, about 3-4 min. Drain on paper.', fr: 'Chauffez l\'huile à 170°C, faites frire le poulet par lots 3-4 min. Égouttez sur du papier.', pt: 'Aqueça o óleo a 170°C e frite o frango em lotes até dourar, 3-4 min. Escorra em papel.', 'zh-CN': '油温170°C，分批炸鸡丁至金黄酥脆，约3-4分钟。控油。', 'zh-TW': '油溫170°C，分批炸雞丁至金黃酥脆，約3-4分鐘。控油。' } },
+      { order: 3, text: { en: 'Pour off most oil, leaving 2 tbsp. Fry dried chilies, peppercorns, garlic, and scallion whites on medium heat until chilies darken.', fr: 'Gardez 2 c.s. d\'huile. Faites revenir piments, poivre du Sichuan, ail et blanc de ciboule à feu moyen.', pt: 'Deixe 2 cs de óleo. Frite pimentas, pimenta de Sichuan, alho e parte branca da cebolinha em fogo médio.', 'zh-CN': '留2勺油，中火炒干辣椒、花椒、蒜片、葱白至辣椒变深色。', 'zh-TW': '留2勺油，中火炒乾辣椒、花椒、蒜片、蔥白至辣椒變深色。' }, tip: { en: 'Don\'t burn the chilies — they should be fragrant, not black.', fr: 'Ne brûlez pas les piments — ils doivent être parfumés, pas noirs.', pt: 'Não queime as pimentas — devem ficar aromáticas, não pretas.', 'zh-CN': '辣椒不要炒糊，香而不焦。', 'zh-TW': '辣椒不要炒糊，香而不焦。' } },
+      { order: 4, text: { en: 'Return chicken to wok, add sugar, toss quickly over high heat. Sprinkle sesame seeds and serve.', fr: 'Remettez le poulet, ajoutez le sucre, mélangez rapidement à feu vif. Parsemez de sésame.', pt: 'Devolva o frango, adicione açúcar, mexa rapidamente em fogo alto. Polvilhe gergelim e sirva.', 'zh-CN': '鸡丁回锅，加糖，大火快速翻炒，撒白芝麻出锅。', 'zh-TW': '雞丁回鍋，加糖，大火快速翻炒，撒白芝麻出鍋。' } },
+    ],
+    tags: {
+      en: ['chicken', 'spicy', 'Sichuan', 'deep-fried', 'chili'],
+      fr: ['poulet', 'pimenté', 'Sichuan', 'frit', 'piment'],
+      pt: ['frango', 'picante', 'Sichuan', 'frito', 'pimenta'],
+      'zh-CN': ['鸡肉', '辣', '川菜', '炸', '辣椒'],
+      'zh-TW': ['雞肉', '辣', '川菜', '炸', '辣椒'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 67. Yellow-braised Chicken (黄焖鸡)
+  // ──────────────────────────────────────────────
+  {
+    id: 'yellow-braised-chicken',
+    region: 'shandong',
+    category: 'chicken',
+    cookingMethod: 'braise',
+    prepTime: 15,
+    cookTime: 30,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '黄焖鸡',
+    pinyin: 'huángmèn jī',
+    imageConfig: {
+      primaryColor: '#D69E2E',
+      secondaryColor: '#FFFFF0',
+      icon: 'chicken',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Yellow-braised Chicken',
+      fr: 'Poulet braisé doré',
+      pt: 'Frango Braseado Dourado',
+      'zh-CN': '黄焖鸡',
+      'zh-TW': '黃燜雞',
+    },
+    description: {
+      en: 'Chicken pieces braised with mushrooms and peppers in a savory soy-based sauce until tender and golden.',
+      fr: 'Morceaux de poulet braisés avec champignons et poivrons dans une sauce soja savoureuse.',
+      pt: 'Pedaços de frango braseados com cogumelos e pimentões em molho de soja saboroso até ficar macio e dourado.',
+      'zh-CN': '鸡块配香菇和青椒焖至酱香浓郁，山东人气快餐名菜。',
+      'zh-TW': '雞塊配香菇和青椒燜至醬香濃郁，山東人氣快餐名菜。',
+    },
+    ingredients: [
+      { id: 'chicken-thigh', quantity: { value: 500, unit: 'g' }, name: { en: 'Chicken thighs, bone-in', fr: 'Hauts de cuisse de poulet avec os', pt: 'Coxas de frango com osso', 'zh-CN': '鸡腿（带骨）', 'zh-TW': '雞腿（帶骨）' }, category: 'protein', commonInEurope: true },
+      { id: 'shiitake', quantity: { value: 8, unit: 'pcs' }, name: { en: 'Dried shiitake mushrooms', fr: 'Champignons shiitake séchés', pt: 'Cogumelos shiitake secos', 'zh-CN': '干香菇', 'zh-TW': '乾香菇' }, category: 'vegetable', commonInEurope: true },
+      { id: 'green-pepper', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Green peppers', fr: 'Poivrons verts', pt: 'Pimentões verdes', 'zh-CN': '青椒', 'zh-TW': '青椒' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 4, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 4, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak shiitake mushrooms in warm water 20 min. Reserve soaking liquid. Chop chicken into bite-size pieces.', fr: 'Faites tremper les shiitake 20 min. Gardez l\'eau. Coupez le poulet en morceaux.', pt: 'Deixe os shiitake de molho em água morna 20 min. Reserve o líquido. Corte o frango em pedaços.', 'zh-CN': '香菇温水泡20分钟，留泡水。鸡腿斩块。', 'zh-TW': '香菇溫水泡20分鐘，留泡水。雞腿斬塊。' } },
+      { order: 2, text: { en: 'Heat oil, fry ginger and garlic until fragrant. Add chicken pieces and sear until lightly browned.', fr: 'Chauffez l\'huile, faites revenir gingembre et ail. Ajoutez le poulet et saisissez.', pt: 'Aqueça o óleo, frite gengibre e alho. Adicione o frango e sele até dourar.', 'zh-CN': '热油炒姜蒜出香，放鸡块煎至微黄。', 'zh-TW': '熱油炒薑蒜出香，放雞塊煎至微黃。' } },
+      { order: 3, text: { en: 'Add soy sauces, wine, sugar, mushrooms, and enough soaking liquid to half-cover the chicken. Cover and braise 25 min.', fr: 'Ajoutez les sauces soja, vin, sucre, champignons et assez d\'eau de trempage. Couvrez et braisez 25 min.', pt: 'Adicione molhos de soja, vinho, açúcar, cogumelos e líquido suficiente. Cubra e braseie 25 min.', 'zh-CN': '加生抽、老抽、料酒、糖、香菇和泡水（半没过鸡块），盖盖焖25分钟。', 'zh-TW': '加生抽、老抽、料酒、糖、香菇和泡水（半沒過雞塊），蓋蓋燜25分鐘。' }, tip: { en: 'The shiitake soaking water adds incredible umami — don\'t discard it.', fr: 'L\'eau de trempage des shiitake apporte un umami incroyable — ne la jetez pas.', pt: 'A água dos shiitake adiciona umami incrível — não descarte.', 'zh-CN': '泡香菇的水鲜味很浓，不要倒掉。', 'zh-TW': '泡香菇的水鮮味很濃，不要倒掉。' } },
+      { order: 4, text: { en: 'Add green pepper pieces, cook 3 more min. Serve over steamed rice.', fr: 'Ajoutez les poivrons, cuisez 3 min de plus. Servez avec du riz.', pt: 'Adicione os pimentões, cozinhe mais 3 min. Sirva com arroz.', 'zh-CN': '加青椒块再煮3分钟，配米饭。', 'zh-TW': '加青椒塊再煮3分鐘，配米飯。' } },
+    ],
+    tags: {
+      en: ['chicken', 'braised', 'Shandong', 'mushroom', 'savory'],
+      fr: ['poulet', 'braisé', 'Shandong', 'champignon', 'savoureux'],
+      pt: ['frango', 'braseado', 'Shandong', 'cogumelo', 'saboroso'],
+      'zh-CN': ['鸡肉', '焖', '鲁菜', '香菇', '下饭'],
+      'zh-TW': ['雞肉', '燜', '魯菜', '香菇', '下飯'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 68. Chinese Curry Chicken (咖喱鸡)
+  // ──────────────────────────────────────────────
+  {
+    id: 'chinese-curry-chicken',
+    region: 'cantonese',
+    category: 'chicken',
+    cookingMethod: 'braise',
+    prepTime: 15,
+    cookTime: 25,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '咖喱鸡',
+    pinyin: 'gālí jī',
+    imageConfig: {
+      primaryColor: '#D69E2E',
+      secondaryColor: '#FFFFF0',
+      icon: 'curry',
+      pattern: 'dots',
+    },
+    name: {
+      en: 'Chinese Curry Chicken',
+      fr: 'Poulet au curry chinois',
+      pt: 'Frango com Curry Chinês',
+      'zh-CN': '咖喱鸡',
+      'zh-TW': '咖喱雞',
+    },
+    description: {
+      en: 'Tender chicken and potatoes in a mild, golden Chinese-style curry sauce — a Cantonese family favorite.',
+      fr: 'Poulet tendre et pommes de terre dans une sauce curry douce à la chinoise.',
+      pt: 'Frango macio e batatas em molho curry suave estilo chinês — favorito das famílias cantonesas.',
+      'zh-CN': '鸡肉和土豆在金黄咖喱酱中煮至入味，港式家常菜。',
+      'zh-TW': '雞肉和馬鈴薯在金黃咖喱醬中煮至入味，港式家常菜。',
+    },
+    ingredients: [
+      { id: 'chicken-thigh', quantity: { value: 500, unit: 'g' }, name: { en: 'Chicken thighs, chopped', fr: 'Hauts de cuisse de poulet, coupés', pt: 'Coxas de frango, cortadas', 'zh-CN': '鸡腿块', 'zh-TW': '雞腿塊' }, category: 'protein', commonInEurope: true },
+      { id: 'potato', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Potatoes', fr: 'Pommes de terre', pt: 'Batatas', 'zh-CN': '土豆', 'zh-TW': '馬鈴薯' }, category: 'vegetable', commonInEurope: true },
+      { id: 'carrot', quantity: { value: 1, unit: 'pc' }, name: { en: 'Carrot', fr: 'Carotte', pt: 'Cenoura', 'zh-CN': '胡萝卜', 'zh-TW': '胡蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'onion', quantity: { value: 1, unit: 'pc' }, name: { en: 'Onion', fr: 'Oignon', pt: 'Cebola', 'zh-CN': '洋葱', 'zh-TW': '洋蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'curry-powder', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Curry powder', fr: 'Poudre de curry', pt: 'Curry em pó', 'zh-CN': '咖喱粉', 'zh-TW': '咖喱粉' }, category: 'spice', commonInEurope: true },
+      { id: 'coconut-milk', quantity: { value: 200, unit: 'ml' }, name: { en: 'Coconut milk', fr: 'Lait de coco', pt: 'Leite de coco', 'zh-CN': '椰浆', 'zh-TW': '椰漿' }, category: 'other', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut chicken, potatoes, and carrot into bite-size chunks. Dice the onion.', fr: 'Coupez poulet, pommes de terre et carotte en morceaux. Coupez l\'oignon en dés.', pt: 'Corte frango, batatas e cenoura em pedaços. Corte a cebola em cubos.', 'zh-CN': '鸡腿、土豆、胡萝卜切块，洋葱切丁。', 'zh-TW': '雞腿、馬鈴薯、胡蘿蔔切塊，洋蔥切丁。' } },
+      { order: 2, text: { en: 'Heat oil, sauté onion until soft. Add curry powder and stir 1 min until fragrant.', fr: 'Chauffez l\'huile, faites revenir l\'oignon. Ajoutez le curry et remuez 1 min.', pt: 'Aqueça o óleo, refogue a cebola até amolecer. Adicione o curry e mexa 1 min.', 'zh-CN': '热油炒洋葱至软，加咖喱粉炒1分钟出香。', 'zh-TW': '熱油炒洋蔥至軟，加咖喱粉炒1分鐘出香。' }, tip: { en: 'Frying the curry powder in oil blooms the spices for deeper flavor.', fr: 'Faire revenir le curry dans l\'huile libère les arômes des épices.', pt: 'Fritar o curry em óleo libera os aromas das especiarias.', 'zh-CN': '油炒咖喱粉能激发更浓的香气。', 'zh-TW': '油炒咖喱粉能激發更濃的香氣。' } },
+      { order: 3, text: { en: 'Add chicken and sear 3 min. Add potatoes, carrot, coconut milk, soy sauce, and 200ml water. Bring to boil.', fr: 'Ajoutez le poulet, saisissez 3 min. Ajoutez pommes de terre, carotte, lait de coco, sauce soja et 200 ml d\'eau. Portez à ébullition.', pt: 'Adicione o frango e sele 3 min. Adicione batatas, cenoura, leite de coco, molho de soja e 200ml de água. Ferva.', 'zh-CN': '放鸡块煎3分钟，加土豆、胡萝卜、椰浆、生抽和200毫升水烧开。', 'zh-TW': '放雞塊煎3分鐘，加馬鈴薯、胡蘿蔔、椰漿、生抽和200毫升水燒開。' } },
+      { order: 4, text: { en: 'Reduce heat and simmer 20 min until potatoes are tender and sauce thickens. Season with salt.', fr: 'Réduisez le feu et laissez mijoter 20 min. Salez.', pt: 'Reduza o fogo e cozinhe 20 min até batatas macias e molho engrossar. Tempere com sal.', 'zh-CN': '转小火焖20分钟至土豆熟透，酱汁浓稠，加盐调味。', 'zh-TW': '轉小火燜20分鐘至馬鈴薯熟透，醬汁濃稠，加鹽調味。' } },
+    ],
+    tags: {
+      en: ['chicken', 'curry', 'Cantonese', 'potato', 'coconut'],
+      fr: ['poulet', 'curry', 'cantonais', 'pomme de terre', 'coco'],
+      pt: ['frango', 'curry', 'cantonês', 'batata', 'coco'],
+      'zh-CN': ['鸡肉', '咖喱', '港式', '土豆', '椰浆'],
+      'zh-TW': ['雞肉', '咖喱', '港式', '馬鈴薯', '椰漿'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 69. Chicken with Button Mushrooms (口蘑炒鸡片)
+  // ──────────────────────────────────────────────
+  {
+    id: 'chicken-button-mushrooms',
+    region: 'home-style',
+    category: 'chicken',
+    cookingMethod: 'stir-fry',
+    prepTime: 10,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '口蘑炒鸡片',
+    pinyin: 'kǒumó chǎo jīpiàn',
+    imageConfig: {
+      primaryColor: '#A0AEC0',
+      secondaryColor: '#F7FAFC',
+      icon: 'mushroom',
+      pattern: 'dots',
+    },
+    name: {
+      en: 'Chicken with Button Mushrooms',
+      fr: 'Poulet aux champignons de Paris',
+      pt: 'Frango com Cogumelos',
+      'zh-CN': '口蘑炒鸡片',
+      'zh-TW': '口蘑炒雞片',
+    },
+    description: {
+      en: 'Quick stir-fry of sliced chicken breast and button mushrooms in a light savory sauce.',
+      fr: 'Sauté rapide de blanc de poulet émincé et champignons de Paris en sauce légère.',
+      pt: 'Refogado rápido de peito de frango fatiado com cogumelos em molho leve.',
+      'zh-CN': '鸡胸片和口蘑快炒，清淡鲜美的快手菜。',
+      'zh-TW': '雞胸片和口蘑快炒，清淡鮮美的快手菜。',
+    },
+    ingredients: [
+      { id: 'chicken-breast', quantity: { value: 300, unit: 'g' }, name: { en: 'Chicken breast, sliced', fr: 'Blanc de poulet, émincé', pt: 'Peito de frango, fatiado', 'zh-CN': '鸡胸肉片', 'zh-TW': '雞胸肉片' }, category: 'protein', commonInEurope: true },
+      { id: 'button-mushroom', quantity: { value: 250, unit: 'g' }, name: { en: 'Button mushrooms', fr: 'Champignons de Paris', pt: 'Cogumelos', 'zh-CN': '口蘑', 'zh-TW': '口蘑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 2, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'oyster-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Oyster sauce', fr: 'Sauce d\'huître', pt: 'Molho de ostra', 'zh-CN': '蚝油', 'zh-TW': '蠔油' }, category: 'sauce', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Marinate chicken slices with wine, cornstarch, and a pinch of salt for 10 min. Slice mushrooms.', fr: 'Marinez le poulet avec vin, fécule et sel 10 min. Tranchez les champignons.', pt: 'Marine o frango com vinho, amido e sal por 10 min. Fatie os cogumelos.', 'zh-CN': '鸡肉片加料酒、淀粉、少许盐腌10分钟。口蘑切片。', 'zh-TW': '雞肉片加料酒、澱粉、少許鹽醃10分鐘。口蘑切片。' } },
+      { order: 2, text: { en: 'Heat oil, stir-fry chicken until it turns white. Remove and set aside.', fr: 'Chauffez l\'huile, sautez le poulet jusqu\'à ce qu\'il blanchisse. Retirez.', pt: 'Aqueça o óleo, refogue o frango até ficar branco. Retire e reserve.', 'zh-CN': '热油炒鸡片至变白，盛出备用。', 'zh-TW': '熱油炒雞片至變白，盛出備用。' } },
+      { order: 3, text: { en: 'In same wok, sauté garlic, then add mushrooms. Stir-fry until they release water and it evaporates.', fr: 'Dans le même wok, sautez l\'ail puis les champignons. Sautez jusqu\'à évaporation de l\'eau.', pt: 'Na mesma wok, refogue o alho e adicione os cogumelos. Refogue até a água evaporar.', 'zh-CN': '同一锅炒蒜片，加口蘑翻炒至水分蒸发。', 'zh-TW': '同一鍋炒蒜片，加口蘑翻炒至水分蒸發。' }, tip: { en: 'Let the mushroom water evaporate completely for better flavor.', fr: 'Laissez l\'eau des champignons s\'évaporer complètement pour plus de saveur.', pt: 'Deixe a água dos cogumelos evaporar completamente para mais sabor.', 'zh-CN': '口蘑出水后炒干，味道更鲜。', 'zh-TW': '口蘑出水後炒乾，味道更鮮。' } },
+      { order: 4, text: { en: 'Return chicken, add soy sauce and oyster sauce, toss everything together. Serve.', fr: 'Remettez le poulet, ajoutez sauce soja et sauce d\'huître, mélangez. Servez.', pt: 'Devolva o frango, adicione molho de soja e molho de ostra, misture. Sirva.', 'zh-CN': '鸡片回锅，加生抽和蚝油翻匀出锅。', 'zh-TW': '雞片回鍋，加生抽和蠔油翻勻出鍋。' } },
+    ],
+    tags: {
+      en: ['chicken', 'mushroom', 'stir-fry', 'quick', 'light'],
+      fr: ['poulet', 'champignon', 'sauté', 'rapide', 'léger'],
+      pt: ['frango', 'cogumelo', 'refogado', 'rápido', 'leve'],
+      'zh-CN': ['鸡肉', '口蘑', '炒', '快手', '清淡'],
+      'zh-TW': ['雞肉', '口蘑', '炒', '快手', '清淡'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 70. Cola Chicken Wings (可乐鸡翅)
+  // ──────────────────────────────────────────────
+  {
+    id: 'cola-chicken-wings',
+    region: 'home-style',
+    category: 'chicken',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 25,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '可乐鸡翅',
+    pinyin: 'kělè jīchì',
+    imageConfig: {
+      primaryColor: '#744210',
+      secondaryColor: '#FFFFF0',
+      icon: 'chicken',
+      pattern: 'circles',
+    },
+    name: {
+      en: 'Cola Chicken Wings',
+      fr: 'Ailes de poulet au cola',
+      pt: 'Asas de Frango com Cola',
+      'zh-CN': '可乐鸡翅',
+      'zh-TW': '可樂雞翅',
+    },
+    description: {
+      en: 'Chicken wings braised in cola with soy sauce — sticky, sweet, and irresistible. A modern Chinese classic.',
+      fr: 'Ailes de poulet braisées au cola et sauce soja — collantes, sucrées et irrésistibles.',
+      pt: 'Asas de frango braseadas em cola com molho de soja — grudento, doce e irresistível.',
+      'zh-CN': '鸡翅用可乐和酱油焖至浓稠，甜咸粘嫩，新派经典菜。',
+      'zh-TW': '雞翅用可樂和醬油燜至濃稠，甜鹹粘嫩，新派經典菜。',
+    },
+    ingredients: [
+      { id: 'chicken-wings', quantity: { value: 500, unit: 'g' }, name: { en: 'Chicken wings (mid-joint)', fr: 'Ailes de poulet (milieu)', pt: 'Asas de frango (meio)', 'zh-CN': '鸡翅中', 'zh-TW': '雞翅中' }, category: 'protein', commonInEurope: true },
+      { id: 'cola', quantity: { value: 330, unit: 'ml' }, name: { en: 'Cola (regular, not diet)', fr: 'Cola (classique, pas light)', pt: 'Cola (normal, não diet)', 'zh-CN': '可乐（非零度）', 'zh-TW': '可樂（非零度）' }, category: 'other', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Score both sides of each wing with 2 cuts. Blanch in boiling water 2 min, drain.', fr: 'Incisez les deux côtés de chaque aile. Blanchissez 2 min, égouttez.', pt: 'Faça 2 cortes em cada lado das asas. Blanqueie 2 min, escorra.', 'zh-CN': '鸡翅两面各划2刀，沸水焯2分钟，沥干。', 'zh-TW': '雞翅兩面各劃2刀，沸水汆2分鐘，瀝乾。' } },
+      { order: 2, text: { en: 'Heat oil and sear wings until golden on both sides. Add ginger slices.', fr: 'Chauffez l\'huile et saisissez les ailes des deux côtés. Ajoutez le gingembre.', pt: 'Aqueça o óleo e sele as asas dos dois lados. Adicione o gengibre.', 'zh-CN': '热油煎鸡翅至两面金黄，加姜片。', 'zh-TW': '熱油煎雞翅至兩面金黃，加薑片。' } },
+      { order: 3, text: { en: 'Pour in cola, soy sauces. Bring to boil, then reduce heat and simmer 20 min, turning wings occasionally.', fr: 'Versez le cola et les sauces soja. Portez à ébullition, puis laissez mijoter 20 min.', pt: 'Despeje a cola e molhos de soja. Ferva, reduza o fogo e cozinhe 20 min, virando as asas.', 'zh-CN': '倒入可乐和酱油，烧开后转小火焖20分钟，偶尔翻面。', 'zh-TW': '倒入可樂和醬油，燒開後轉小火燜20分鐘，偶爾翻面。' }, tip: { en: 'Use regular cola, not diet — the sugar is needed for the glaze.', fr: 'Utilisez du cola classique — le sucre est nécessaire pour le glaçage.', pt: 'Use cola normal, não diet — o açúcar é necessário para o glaze.', 'zh-CN': '用普通可乐，不要零度，需要糖分来收汁。', 'zh-TW': '用普通可樂，不要零度，需要糖分來收汁。' } },
+      { order: 4, text: { en: 'Turn up heat to reduce sauce until thick and glossy, coating the wings. Garnish with scallions.', fr: 'Augmentez le feu pour réduire la sauce. Garnissez de ciboule.', pt: 'Aumente o fogo para reduzir o molho até engrossar. Decore com cebolinha.', 'zh-CN': '大火收汁至浓稠发亮，裹满鸡翅，撒葱花。', 'zh-TW': '大火收汁至濃稠發亮，裹滿雞翅，撒蔥花。' } },
+    ],
+    tags: {
+      en: ['chicken', 'cola', 'braised', 'sweet', 'family'],
+      fr: ['poulet', 'cola', 'braisé', 'sucré', 'familial'],
+      pt: ['frango', 'cola', 'braseado', 'doce', 'família'],
+      'zh-CN': ['鸡肉', '可乐', '焖', '甜', '家常'],
+      'zh-TW': ['雞肉', '可樂', '燜', '甜', '家常'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 71. Steamed Pork & Mushroom Patty (冬菇蒸肉饼)
+  // ──────────────────────────────────────────────
+  {
+    id: 'steamed-pork-mushroom-patty',
+    region: 'cantonese',
+    category: 'pork',
+    cookingMethod: 'steam',
+    prepTime: 15,
+    cookTime: 20,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '冬菇蒸肉饼',
+    pinyin: 'dōnggū zhēng ròubǐng',
+    imageConfig: {
+      primaryColor: '#805AD5',
+      secondaryColor: '#FAF5FF',
+      icon: 'mushroom',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Steamed Pork & Mushroom Patty',
+      fr: 'Galette de porc et champignons à la vapeur',
+      pt: 'Hambúrguer de Porco e Cogumelo no Vapor',
+      'zh-CN': '冬菇蒸肉饼',
+      'zh-TW': '冬菇蒸肉餅',
+    },
+    description: {
+      en: 'A comforting Cantonese home dish — seasoned ground pork with shiitake mushrooms, steamed until juicy and tender.',
+      fr: 'Un plat réconfortant cantonais — porc haché assaisonné aux champignons shiitake, cuit à la vapeur.',
+      pt: 'Um prato reconfortante cantonês — carne de porco moída temperada com cogumelos shiitake, cozido no vapor até ficar suculento.',
+      'zh-CN': '广东家常蒸菜，肉馅配冬菇蒸至鲜嫩多汁。',
+      'zh-TW': '廣東家常蒸菜，肉餡配冬菇蒸至鮮嫩多汁。',
+    },
+    ingredients: [
+      { id: 'ground-pork', quantity: { value: 400, unit: 'g' }, name: { en: 'Ground pork', fr: 'Porc haché', pt: 'Carne de porco moída', 'zh-CN': '猪肉馅', 'zh-TW': '豬肉餡' }, category: 'protein', commonInEurope: true },
+      { id: 'dried-shiitake', quantity: { value: 6, unit: 'pcs' }, name: { en: 'Dried shiitake mushrooms', fr: 'Champignons shiitake séchés', pt: 'Cogumelos shiitake secos', 'zh-CN': '干冬菇', 'zh-TW': '乾冬菇' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'oyster-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Oyster sauce', fr: 'Sauce d\'huître', pt: 'Molho de ostra', 'zh-CN': '蚝油', 'zh-TW': '蠔油' }, category: 'sauce', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'white-pepper', quantity: { value: 0.25, unit: 'tsp' }, name: { en: 'White pepper', fr: 'Poivre blanc', pt: 'Pimenta branca', 'zh-CN': '白胡椒', 'zh-TW': '白胡椒' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 2, unit: 'slices' }, name: { en: 'Ginger, minced', fr: 'Gingembre haché', pt: 'Gengibre picado', 'zh-CN': '姜末', 'zh-TW': '薑末' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak dried shiitake in warm water 20 min. Squeeze dry and dice finely. Reserve 2 tbsp soaking liquid.', fr: 'Faites tremper les shiitake 20 min. Essorez et hachez finement. Gardez 2 c.s. d\'eau de trempage.', pt: 'Deixe os shiitake de molho em água morna 20 min. Esprema e pique finamente. Reserve 2 cs do líquido.', 'zh-CN': '干冬菇温水泡20分钟，挤干切碎丁。留2勺泡水。', 'zh-TW': '乾冬菇溫水泡20分鐘，擠乾切碎丁。留2勺泡水。' } },
+      { order: 2, text: { en: 'In a bowl, mix ground pork with diced mushrooms, soy sauce, oyster sauce, sesame oil, cornstarch, sugar, pepper, ginger, and reserved soaking liquid. Stir vigorously in one direction until sticky.', fr: 'Dans un bol, mélangez le porc haché avec champignons, sauce soja, sauce d\'huître, huile de sésame, fécule, sucre, poivre, gingembre et eau de trempage. Remuez vigoureusement dans un sens.', pt: 'Numa tigela, misture a carne moída com cogumelos, molho de soja, molho de ostra, óleo de gergelim, amido, açúcar, pimenta, gengibre e líquido reservado. Mexa vigorosamente numa direção.', 'zh-CN': '碗中猪肉馅加冬菇丁、生抽、蚝油、香油、淀粉、糖、胡椒、姜末和泡水，朝一个方向搅拌上劲。', 'zh-TW': '碗中豬肉餡加冬菇丁、生抽、蠔油、香油、澱粉、糖、胡椒、薑末和泡水，朝一個方向攪拌上勁。' }, tip: { en: 'Stirring in one direction helps the meat bind together for a better texture.', fr: 'Remuer dans un sens aide la viande à se lier pour une meilleure texture.', pt: 'Mexer numa direção ajuda a carne a se ligar para melhor textura.', 'zh-CN': '朝同一方向搅打，肉饼才不散。', 'zh-TW': '朝同一方向攪打，肉餅才不散。' } },
+      { order: 3, text: { en: 'Press mixture into a shallow heatproof dish, flatten to about 2cm thick. Place a few whole mushroom caps on top for decoration.', fr: 'Pressez le mélange dans un plat résistant à la chaleur, aplatissez à 2 cm. Décorez avec quelques chapeaux de champignons.', pt: 'Pressione a mistura num prato refratário raso, alise até 2cm de espessura. Coloque alguns chapéus de cogumelo por cima.', 'zh-CN': '肉馅压入浅盘，整平约2厘米厚，表面放几朵整冬菇装饰。', 'zh-TW': '肉餡壓入淺盤，整平約2公分厚，表面放幾朵整冬菇裝飾。' } },
+      { order: 4, text: { en: 'Steam over high heat for 20 min until cooked through. The juices around the patty are delicious — pour them over rice!', fr: 'Cuisez à la vapeur 20 min à feu vif. Les jus autour de la galette sont délicieux — versez-les sur du riz !', pt: 'Cozinhe no vapor em fogo alto por 20 min. Os sucos ao redor são deliciosos — despeje sobre o arroz!', 'zh-CN': '大火蒸20分钟至熟透。盘底肉汁拌饭超好吃！', 'zh-TW': '大火蒸20分鐘至熟透。盤底肉汁拌飯超好吃！' } },
+    ],
+    tags: {
+      en: ['pork', 'steamed', 'Cantonese', 'mushroom', 'comfort food'],
+      fr: ['porc', 'vapeur', 'cantonais', 'champignon', 'réconfortant'],
+      pt: ['porco', 'vapor', 'cantonês', 'cogumelo', 'comfort food'],
+      'zh-CN': ['猪肉', '蒸', '粤菜', '冬菇', '家常'],
+      'zh-TW': ['豬肉', '蒸', '粵菜', '冬菇', '家常'],
+    },
+  },
+  // ──────────────────────────────────────────────
+  // 72. Soy Sauce Chicken (豉油鸡)
+  // ──────────────────────────────────────────────
+  {
+    id: 'soy-sauce-chicken',
+    region: 'cantonese',
+    category: 'chicken',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 40,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '豉油鸡',
+    pinyin: 'chǐyóu jī',
+    imageConfig: {
+      primaryColor: '#744210',
+      secondaryColor: '#FFFFF0',
+      icon: 'chicken',
+      pattern: 'waves',
+    },
+    name: {
+      en: 'Soy Sauce Chicken',
+      fr: 'Poulet sauce soja',
+      pt: 'Frango com Molho de Soja',
+      'zh-CN': '豉油鸡',
+      'zh-TW': '豉油雞',
+    },
+    description: {
+      en: 'Whole chicken poached in an aromatic soy sauce master stock — silky skin, juicy meat, iconic Cantonese flavor.',
+      fr: 'Poulet entier poché dans un bouillon maître au soja — peau soyeuse, viande juteuse, saveur cantonaise iconique.',
+      pt: 'Frango inteiro escalfado em caldo mestre de soja aromático — pele sedosa, carne suculenta, sabor cantonês icônico.',
+      'zh-CN': '整鸡在豉油卤水中浸煮，皮滑肉嫩，经典粤菜。',
+      'zh-TW': '整雞在豉油滷水中浸煮，皮滑肉嫩，經典粵菜。',
+    },
+    ingredients: [
+      { id: 'whole-chicken', quantity: { value: 1.5, unit: 'kg' }, name: { en: 'Whole chicken', fr: 'Poulet entier', pt: 'Frango inteiro', 'zh-CN': '整鸡', 'zh-TW': '整雞' }, category: 'protein', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 150, unit: 'ml' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 50, unit: 'ml' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'rock-sugar', quantity: { value: 50, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'ginger', quantity: { value: 6, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 4, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'cinnamon', quantity: { value: 1, unit: 'stick' }, name: { en: 'Cinnamon stick', fr: 'Bâton de cannelle', pt: 'Pau de canela', 'zh-CN': '桂皮', 'zh-TW': '桂皮' }, category: 'spice', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'In a large pot, combine 500ml water with both soy sauces, rock sugar, wine, ginger, scallions, star anise, and cinnamon. Bring to a boil and stir until sugar dissolves.', fr: 'Dans une grande casserole, mélangez 500 ml d\'eau avec les sauces soja, le sucre candi, le vin, le gingembre, les ciboules, l\'anis et la cannelle. Portez à ébullition.', pt: 'Numa panela grande, combine 500ml de água com os molhos de soja, açúcar cristal, vinho, gengibre, cebolinha, anis e canela. Ferva até o açúcar dissolver.', 'zh-CN': '大锅中加500毫升水、生抽、老抽、冰糖、料酒、姜葱、八角、桂皮，烧开搅至糖溶。', 'zh-TW': '大鍋中加500毫升水、生抽、老抽、冰糖、料酒、薑蔥、八角、桂皮，燒開攪至糖溶。' } },
+      { order: 2, text: { en: 'Lower the whole chicken breast-side down into the pot. The liquid should come halfway up. Bring back to boil, then cover and simmer on lowest heat for 15 min.', fr: 'Plongez le poulet poitrine vers le bas. Le liquide doit arriver à mi-hauteur. Portez à ébullition, couvrez et laissez mijoter 15 min.', pt: 'Coloque o frango com o peito para baixo. O líquido deve cobrir até a metade. Ferva, cubra e cozinhe em fogo mínimo 15 min.', 'zh-CN': '整鸡胸朝下放入，卤水到鸡身一半高。烧开后盖盖最小火煮15分钟。', 'zh-TW': '整雞胸朝下放入，滷水到雞身一半高。燒開後蓋蓋最小火煮15分鐘。' }, tip: { en: 'The key is gentle heat — the chicken poaches rather than boils for silky texture.', fr: 'La clé est la cuisson douce — le poulet poche plutôt que bouillir pour une texture soyeuse.', pt: 'A chave é fogo suave — o frango escalfa em vez de ferver para textura sedosa.', 'zh-CN': '关键是最小火浸煮，不是大火煮，鸡肉才嫩滑。', 'zh-TW': '關鍵是最小火浸煮，不是大火煮，雞肉才嫩滑。' } },
+      { order: 3, text: { en: 'Flip chicken over, cover, and simmer another 15 min. Turn off heat and let chicken steep in the liquid for 10 min with lid on.', fr: 'Retournez le poulet, couvrez et laissez mijoter 15 min. Éteignez le feu et laissez infuser 10 min.', pt: 'Vire o frango, cubra e cozinhe mais 15 min. Desligue o fogo e deixe no líquido 10 min.', 'zh-CN': '翻面，盖盖再煮15分钟。关火焖10分钟。', 'zh-TW': '翻面，蓋蓋再煮15分鐘。關火燜10分鐘。' } },
+      { order: 4, text: { en: 'Remove chicken and brush with sesame oil for a glossy finish. Let rest 10 min before chopping. Serve with some braising liquid as dipping sauce.', fr: 'Retirez le poulet et badigeonnez d\'huile de sésame. Laissez reposer 10 min avant de découper. Servez avec du jus de braisage.', pt: 'Retire o frango e pincele com óleo de gergelim. Deixe descansar 10 min antes de cortar. Sirva com um pouco do líquido como molho.', 'zh-CN': '鸡取出刷香油增亮，静置10分钟后斩件，蘸卤汁食用。', 'zh-TW': '雞取出刷香油增亮，靜置10分鐘後斬件，蘸滷汁食用。' } },
+    ],
+    tags: {
+      en: ['chicken', 'soy sauce', 'Cantonese', 'poached', 'classic'],
+      fr: ['poulet', 'sauce soja', 'cantonais', 'poché', 'classique'],
+      pt: ['frango', 'molho de soja', 'cantonês', 'escalfado', 'clássico'],
+      'zh-CN': ['鸡肉', '豉油', '粤菜', '浸煮', '经典'],
+      'zh-TW': ['雞肉', '豉油', '粵菜', '浸煮', '經典'],
+    },
+  },
+// ──────────────────────────────────────────────
+  // 73. Red-braised Beef Brisket (红烧牛腩)
+  // ──────────────────────────────────────────────
+  {
+    id: 'red-braised-beef-brisket',
+    region: 'cantonese',
+    category: 'beef',
+    cookingMethod: 'braise',
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '红烧牛腩',
+    pinyin: 'hóngshāo niúnǎn',
+    imageConfig: {
+      primaryColor: '#8B4513',
+      secondaryColor: '#FFF5F5',
+      icon: 'beef',
+      pattern: 'waves',
+    },
+    name: { en: 'Red-braised Beef Brisket', fr: 'Poitrine de bœuf braisée rouge', pt: 'Peito Bovino Braseado Vermelho', 'zh-CN': '红烧牛腩', 'zh-TW': '紅燒牛腩' },
+    description: { en: 'Meltingly tender beef brisket braised in soy sauce with star anise and daikon.', fr: 'Poitrine de bœuf fondante braisée au soja avec anis étoilé et radis blanc.', pt: 'Peito bovino derretendo de macio braseado em molho de soja com anis e daikon.', 'zh-CN': '牛腩用酱油和八角炖至软烂，配白萝卜。', 'zh-TW': '牛腩用醬油和八角燉至軟爛，配白蘿蔔。' },
+    ingredients: [
+      { id: 'beef-brisket', quantity: { value: 600, unit: 'g' }, name: { en: 'Beef brisket', fr: 'Poitrine de bœuf', pt: 'Peito bovino', 'zh-CN': '牛腩', 'zh-TW': '牛腩' }, category: 'protein', commonInEurope: true },
+      { id: 'white-radish', quantity: { value: 300, unit: 'g' }, name: { en: 'Daikon radish', fr: 'Radis blanc', pt: 'Rabanete daikon', 'zh-CN': '白萝卜', 'zh-TW': '白蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'rock-sugar', quantity: { value: 15, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 5, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut brisket into 3cm chunks. Blanch in boiling water with wine for 3 min, drain and rinse.', fr: 'Coupez la poitrine en morceaux de 3 cm. Blanchissez 3 min avec le vin, égouttez.', pt: 'Corte o peito em pedaços de 3cm. Blanqueie 3 min com o vinho, escorra.', 'zh-CN': '牛腩切3厘米块，加料酒沸水焯3分钟，沥干冲洗。', 'zh-TW': '牛腩切3公分塊，加料酒沸水汆3分鐘，瀝乾沖洗。' } },
+      { order: 2, text: { en: 'Heat oil, add sugar and stir until it melts and turns amber. Add beef and toss to coat.', fr: 'Chauffez l\'huile, ajoutez le sucre jusqu\'à coloration ambrée. Ajoutez le bœuf et enrobez.', pt: 'Aqueça o óleo, adicione o açúcar até derreter e ficar âmbar. Adicione a carne e misture.', 'zh-CN': '热油加冰糖炒至琥珀色，放牛腩翻炒上色。', 'zh-TW': '熱油加冰糖炒至琥珀色，放牛腩翻炒上色。' }, tip: { en: 'Don\'t let the sugar burn — it should be a deep amber, not black.', fr: 'Ne brûlez pas le sucre — il doit être ambré, pas noir.', pt: 'Não queime o açúcar — deve ficar âmbar escuro, não preto.', 'zh-CN': '糖色不要炒糊，琥珀色即可。', 'zh-TW': '糖色不要炒糊，琥珀色即可。' } },
+      { order: 3, text: { en: 'Add ginger, scallions, star anise, soy sauces, and water to cover. Bring to boil then simmer 1 hour.', fr: 'Ajoutez gingembre, ciboules, anis, sauces soja et eau. Portez à ébullition puis mijotez 1 h.', pt: 'Adicione gengibre, cebolinha, anis, molhos de soja e água. Ferva e depois cozinhe 1 h.', 'zh-CN': '加姜葱、八角、酱油和水没过，烧开后小火炖1小时。', 'zh-TW': '加薑蔥、八角、醬油和水沒過，燒開後小火燉1小時。' } },
+      { order: 4, text: { en: 'Add daikon chunks and simmer another 30 min until both beef and daikon are tender. Reduce sauce if needed.', fr: 'Ajoutez le radis et laissez mijoter 30 min. Réduisez la sauce si nécessaire.', pt: 'Adicione o daikon e cozinhe mais 30 min. Reduza o molho se necessário.', 'zh-CN': '加白萝卜块再炖30分钟至牛腩和萝卜都软烂，大火收汁。', 'zh-TW': '加白蘿蔔塊再燉30分鐘至牛腩和蘿蔔都軟爛，大火收汁。' } },
+    ],
+    tags: { en: ['beef', 'braised', 'Cantonese', 'daikon', 'comfort food'], fr: ['bœuf', 'braisé', 'cantonais', 'daikon', 'réconfortant'], pt: ['carne', 'braseado', 'cantonês', 'daikon', 'comfort food'], 'zh-CN': ['牛肉', '红烧', '粤菜', '萝卜', '家常'], 'zh-TW': ['牛肉', '紅燒', '粵菜', '蘿蔔', '家常'] },
+  },
+  // ──────────────────────────────────────────────
+  // 74. Sichuan Boiled Beef (水煮牛肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sichuan-boiled-beef',
+    region: 'sichuan',
+    category: 'beef',
+    cookingMethod: 'boil',
+    prepTime: 20,
+    cookTime: 15,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '水煮牛肉',
+    pinyin: 'shuǐzhǔ niúròu',
+    imageConfig: {
+      primaryColor: '#DC2626',
+      secondaryColor: '#FEF2F2',
+      icon: 'beef',
+      pattern: 'spicy',
+    },
+    name: { en: 'Sichuan Boiled Beef', fr: 'Bœuf bouilli du Sichuan', pt: 'Carne Bovina Fervida de Sichuan', 'zh-CN': '水煮牛肉', 'zh-TW': '水煮牛肉' },
+    description: { en: 'Thinly sliced beef in a fiery chili oil broth with bean sprouts — a Sichuan classic.', fr: 'Fines tranches de bœuf dans un bouillon de piment ardent avec germes de soja.', pt: 'Fatias finas de carne em caldo de pimenta ardente com broto de feijão.', 'zh-CN': '薄牛肉片在红油辣汤中，配豆芽，四川经典。', 'zh-TW': '薄牛肉片在紅油辣湯中，配豆芽，四川經典。' },
+    ingredients: [
+      { id: 'beef-sirloin', quantity: { value: 300, unit: 'g' }, name: { en: 'Beef sirloin, thinly sliced', fr: 'Faux-filet de bœuf, émincé', pt: 'Contrafilé bovino, fatiado fino', 'zh-CN': '牛里脊薄片', 'zh-TW': '牛里脊薄片' }, category: 'protein', commonInEurope: true },
+      { id: 'bean-sprouts', quantity: { value: 200, unit: 'g' }, name: { en: 'Bean sprouts', fr: 'Germes de soja', pt: 'Broto de feijão', 'zh-CN': '豆芽', 'zh-TW': '豆芽' }, category: 'vegetable', commonInEurope: true },
+      { id: 'napa-cabbage', quantity: { value: 200, unit: 'g' }, name: { en: 'Napa cabbage leaves', fr: 'Feuilles de chou chinois', pt: 'Folhas de couve chinesa', 'zh-CN': '大白菜叶', 'zh-TW': '大白菜葉' }, category: 'vegetable', commonInEurope: true },
+      { id: 'doubanjiang', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Doubanjiang (chili bean paste)', fr: 'Doubanjiang (pâte de piment)', pt: 'Doubanjiang (pasta de pimenta)', 'zh-CN': '豆瓣酱', 'zh-TW': '豆瓣醬' }, category: 'sauce', commonInEurope: false },
+      { id: 'dried-chili', quantity: { value: 15, unit: 'g' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干辣椒', 'zh-TW': '乾辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'sichuan-peppercorn', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sichuan peppercorns', fr: 'Poivre du Sichuan', pt: 'Pimenta de Sichuan', 'zh-CN': '花椒', 'zh-TW': '花椒' }, category: 'spice', commonInEurope: false },
+      { id: 'garlic', quantity: { value: 5, unit: 'cloves' }, name: { en: 'Garlic, minced', fr: 'Ail haché', pt: 'Alho picado', 'zh-CN': '蒜末', 'zh-TW': '蒜末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'vegetable-oil', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Marinate beef slices with wine, soy sauce, and cornstarch for 15 min. Blanch bean sprouts and cabbage, place in serving bowl.', fr: 'Marinez le bœuf avec vin, sauce soja et fécule 15 min. Blanchissez les germes et le chou, placez dans un bol de service.', pt: 'Marine a carne com vinho, molho de soja e amido por 15 min. Blanqueie os brotos e a couve, coloque na tigela.', 'zh-CN': '牛肉片加料酒、生抽、淀粉腌15分钟。豆芽和白菜焯水铺碗底。', 'zh-TW': '牛肉片加料酒、生抽、澱粉醃15分鐘。豆芽和白菜汆水鋪碗底。' } },
+      { order: 2, text: { en: 'Heat 2 tbsp oil, fry doubanjiang on low heat until oil turns red. Add 600ml water and bring to boil.', fr: 'Chauffez 2 c.s. d\'huile, faites revenir le doubanjiang à feu doux. Ajoutez 600 ml d\'eau et portez à ébullition.', pt: 'Aqueça 2 cs de óleo, frite o doubanjiang em fogo baixo. Adicione 600ml de água e ferva.', 'zh-CN': '2勺油小火炒豆瓣酱至出红油，加600毫升水烧开。', 'zh-TW': '2勺油小火炒豆瓣醬至出紅油，加600毫升水燒開。' } },
+      { order: 3, text: { en: 'Slide beef slices into the boiling broth one by one. Cook 1-2 min until just done. Pour everything over the vegetables in the bowl.', fr: 'Glissez les tranches de bœuf une par une. Cuisez 1-2 min. Versez le tout sur les légumes.', pt: 'Coloque as fatias de carne no caldo uma a uma. Cozinhe 1-2 min. Despeje sobre os vegetais.', 'zh-CN': '牛肉片一片片放入沸汤中煮1-2分钟，连汤倒在菜上。', 'zh-TW': '牛肉片一片片放入沸湯中煮1-2分鐘，連湯倒在菜上。' }, tip: { en: 'Don\'t overcook the beef — it should be just pink inside for tenderness.', fr: 'Ne cuisez pas trop le bœuf — il doit rester rosé à l\'intérieur.', pt: 'Não cozinhe demais a carne — deve ficar rosada por dentro.', 'zh-CN': '牛肉不要煮老，刚变色即可。', 'zh-TW': '牛肉不要煮老，剛變色即可。' } },
+      { order: 4, text: { en: 'Top with minced garlic, dried chilies, and peppercorns. Heat remaining oil until smoking and pour over — it should sizzle dramatically.', fr: 'Garnissez d\'ail haché, piments et poivre du Sichuan. Chauffez le reste d\'huile jusqu\'à fumée et versez dessus.', pt: 'Cubra com alho picado, pimentas e pimenta de Sichuan. Aqueça o óleo restante até fumegar e despeje por cima.', 'zh-CN': '碗上撒蒜末、干辣椒、花椒，剩余油烧至冒烟浇上，滋啦作响。', 'zh-TW': '碗上撒蒜末、乾辣椒、花椒，剩餘油燒至冒煙澆上，滋啦作響。' } },
+    ],
+    tags: { en: ['beef', 'spicy', 'Sichuan', 'chili oil', 'numbing'], fr: ['bœuf', 'pimenté', 'Sichuan', 'huile de piment', 'engourdissant'], pt: ['carne', 'picante', 'Sichuan', 'óleo de pimenta', 'entorpecente'], 'zh-CN': ['牛肉', '辣', '川菜', '红油', '麻辣'], 'zh-TW': ['牛肉', '辣', '川菜', '紅油', '麻辣'] },
+  },
+  // ──────────────────────────────────────────────
+  // 75. Oyster Sauce Beef (蚝油牛肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'oyster-sauce-beef',
+    region: 'cantonese',
+    category: 'beef',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 8,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '蚝油牛肉',
+    pinyin: 'háoyóu niúròu',
+    imageConfig: {
+      primaryColor: '#6B4423',
+      secondaryColor: '#FFF8F0',
+      icon: 'beef',
+      pattern: 'circles',
+    },
+    name: { en: 'Oyster Sauce Beef', fr: 'Bœuf sauce d\'huître', pt: 'Carne com Molho de Ostra', 'zh-CN': '蚝油牛肉', 'zh-TW': '蠔油牛肉' },
+    description: { en: 'Tender sliced beef stir-fried in rich oyster sauce with scallions — quick Cantonese classic.', fr: 'Fines tranches de bœuf sautées à la sauce d\'huître — un classique cantonais rapide.', pt: 'Fatias macias de carne refogadas em molho de ostra — clássico cantonês rápido.', 'zh-CN': '嫩牛肉片用蚝油快炒配葱段，粤菜快手菜。', 'zh-TW': '嫩牛肉片用蠔油快炒配蔥段，粵菜快手菜。' },
+    ingredients: [
+      { id: 'beef-sirloin', quantity: { value: 300, unit: 'g' }, name: { en: 'Beef sirloin, sliced', fr: 'Faux-filet, émincé', pt: 'Contrafilé, fatiado', 'zh-CN': '牛里脊片', 'zh-TW': '牛里脊片' }, category: 'protein', commonInEurope: true },
+      { id: 'oyster-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Oyster sauce', fr: 'Sauce d\'huître', pt: 'Molho de ostra', 'zh-CN': '蚝油', 'zh-TW': '蠔油' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 4, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sesame-oil', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Marinate beef with soy sauce, wine, cornstarch, and sesame oil for 15 min. Cut scallions into 5cm lengths.', fr: 'Marinez le bœuf avec sauce soja, vin, fécule et huile de sésame 15 min. Coupez les ciboules en tronçons de 5 cm.', pt: 'Marine a carne com molho de soja, vinho, amido e óleo de gergelim por 15 min. Corte a cebolinha em pedaços de 5cm.', 'zh-CN': '牛肉加生抽、料酒、淀粉、香油腌15分钟。葱切5厘米段。', 'zh-TW': '牛肉加生抽、料酒、澱粉、香油醃15分鐘。蔥切5公分段。' }, tip: { en: 'Adding a bit of oil to the marinade keeps the beef slices separated in the wok.', fr: 'Ajouter un peu d\'huile dans la marinade empêche les tranches de coller.', pt: 'Adicionar um pouco de óleo na marinada evita que as fatias grudem.', 'zh-CN': '腌肉时加点油，下锅不粘连。', 'zh-TW': '醃肉時加點油，下鍋不粘連。' } },
+      { order: 2, text: { en: 'Heat oil on high until smoking. Spread beef in wok and sear without moving for 30 seconds, then stir-fry until just browned. Remove.', fr: 'Chauffez l\'huile à feu vif. Étalez le bœuf et saisissez 30 s sans remuer, puis sautez. Retirez.', pt: 'Aqueça o óleo em fogo alto. Espalhe a carne e sele 30 s sem mexer, depois refogue. Retire.', 'zh-CN': '大火热油至冒烟，牛肉铺开煎30秒不动，再翻炒至微黄，盛出。', 'zh-TW': '大火熱油至冒煙，牛肉鋪開煎30秒不動，再翻炒至微黃，盛出。' } },
+      { order: 3, text: { en: 'In same wok, stir-fry ginger and scallion whites 30 seconds. Add oyster sauce and 2 tbsp water.', fr: 'Dans le même wok, sautez gingembre et blanc de ciboule 30 s. Ajoutez la sauce d\'huître et 2 c.s. d\'eau.', pt: 'Na mesma wok, refogue gengibre e parte branca da cebolinha 30 s. Adicione molho de ostra e 2 cs de água.', 'zh-CN': '同一锅炒姜片和葱白30秒，加蚝油和2勺水。', 'zh-TW': '同一鍋炒薑片和蔥白30秒，加蠔油和2勺水。' } },
+      { order: 4, text: { en: 'Return beef, add scallion greens, toss everything 30 seconds and serve immediately.', fr: 'Remettez le bœuf, ajoutez le vert de ciboule, mélangez 30 s et servez.', pt: 'Devolva a carne, adicione o verde da cebolinha, mexa 30 s e sirva.', 'zh-CN': '牛肉回锅，加葱绿翻炒30秒，出锅。', 'zh-TW': '牛肉回鍋，加蔥綠翻炒30秒，出鍋。' } },
+    ],
+    tags: { en: ['beef', 'oyster sauce', 'Cantonese', 'stir-fry', 'quick'], fr: ['bœuf', 'sauce huître', 'cantonais', 'sauté', 'rapide'], pt: ['carne', 'molho ostra', 'cantonês', 'refogado', 'rápido'], 'zh-CN': ['牛肉', '蚝油', '粤菜', '炒', '快手'], 'zh-TW': ['牛肉', '蠔油', '粵菜', '炒', '快手'] },
+  },
+  // ──────────────────────────────────────────────
+  // 76. Potato Beef Stew (土豆炖牛肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'potato-beef-stew',
+    region: 'northern',
+    category: 'beef',
+    cookingMethod: 'braise',
+    prepTime: 15,
+    cookTime: 60,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '土豆炖牛肉',
+    pinyin: 'tǔdòu dùn niúròu',
+    imageConfig: {
+      primaryColor: '#B45309',
+      secondaryColor: '#FEF3C7',
+      icon: 'potato',
+      pattern: 'dots',
+    },
+    name: { en: 'Potato Beef Stew', fr: 'Ragoût de bœuf aux pommes de terre', pt: 'Ensopado de Carne com Batata', 'zh-CN': '土豆炖牛肉', 'zh-TW': '馬鈴薯燉牛肉' },
+    description: { en: 'Hearty northern-style beef and potato stew with warm spices — perfect for cold days.', fr: 'Ragoût de bœuf et pommes de terre aux épices chaudes — parfait pour les jours froids.', pt: 'Ensopado de carne e batata com especiarias — perfeito para dias frios.', 'zh-CN': '牛肉和土豆慢炖的温暖家常菜，冬天最对味。', 'zh-TW': '牛肉和馬鈴薯慢燉的溫暖家常菜，冬天最對味。' },
+    ingredients: [
+      { id: 'beef-chuck', quantity: { value: 500, unit: 'g' }, name: { en: 'Beef chuck, cubed', fr: 'Paleron de bœuf, en cubes', pt: 'Acém bovino, em cubos', 'zh-CN': '牛腱肉块', 'zh-TW': '牛腱肉塊' }, category: 'protein', commonInEurope: true },
+      { id: 'potato', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Potatoes', fr: 'Pommes de terre', pt: 'Batatas', 'zh-CN': '土豆', 'zh-TW': '馬鈴薯' }, category: 'vegetable', commonInEurope: true },
+      { id: 'carrot', quantity: { value: 1, unit: 'pc' }, name: { en: 'Carrot', fr: 'Carotte', pt: 'Cenoura', 'zh-CN': '胡萝卜', 'zh-TW': '胡蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'onion', quantity: { value: 1, unit: 'pc' }, name: { en: 'Onion', fr: 'Oignon', pt: 'Cebola', 'zh-CN': '洋葱', 'zh-TW': '洋蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'bay-leaf', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Bay leaves', fr: 'Feuilles de laurier', pt: 'Folhas de louro', 'zh-CN': '香叶', 'zh-TW': '香葉' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 4, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut beef into 3cm cubes. Blanch in boiling water with wine 3 min, drain and rinse.', fr: 'Coupez le bœuf en cubes de 3 cm. Blanchissez 3 min avec le vin, égouttez.', pt: 'Corte a carne em cubos de 3cm. Blanqueie 3 min com vinho, escorra.', 'zh-CN': '牛肉切3厘米块，加料酒焯水3分钟，沥干。', 'zh-TW': '牛肉切3公分塊，加料酒汆水3分鐘，瀝乾。' } },
+      { order: 2, text: { en: 'Heat oil, fry onion and ginger until fragrant. Add beef and sear. Add soy sauce, star anise, bay leaves, and water to cover.', fr: 'Chauffez l\'huile, faites revenir oignon et gingembre. Ajoutez le bœuf et saisissez. Ajoutez sauce soja, anis, laurier et eau.', pt: 'Aqueça óleo, refogue cebola e gengibre. Adicione a carne e sele. Adicione molho de soja, anis, louro e água.', 'zh-CN': '热油炒洋葱和姜出香，加牛肉煎，加生抽、八角、香叶和水没过。', 'zh-TW': '熱油炒洋蔥和薑出香，加牛肉煎，加生抽、八角、香葉和水沒過。' } },
+      { order: 3, text: { en: 'Bring to boil, then simmer on low heat for 45 min until beef is nearly tender.', fr: 'Portez à ébullition, puis laissez mijoter 45 min à feu doux.', pt: 'Ferva, depois cozinhe em fogo baixo por 45 min.', 'zh-CN': '大火烧开，转小火炖45分钟至牛肉将熟。', 'zh-TW': '大火燒開，轉小火燉45分鐘至牛肉將熟。' }, tip: { en: 'Don\'t rush the simmering — low and slow makes the beef tender.', fr: 'Ne précipitez pas — le feu doux rend le bœuf tendre.', pt: 'Não apresse — fogo baixo deixa a carne macia.', 'zh-CN': '小火慢炖才能让牛肉软嫩。', 'zh-TW': '小火慢燉才能讓牛肉軟嫩。' } },
+      { order: 4, text: { en: 'Add potato and carrot chunks. Simmer 15 more min until vegetables are cooked through. Season with salt.', fr: 'Ajoutez pommes de terre et carotte. Laissez mijoter 15 min. Salez.', pt: 'Adicione batata e cenoura. Cozinhe mais 15 min. Tempere com sal.', 'zh-CN': '加土豆和胡萝卜块，再炖15分钟至蔬菜熟透，加盐调味。', 'zh-TW': '加馬鈴薯和胡蘿蔔塊，再燉15分鐘至蔬菜熟透，加鹽調味。' } },
+    ],
+    tags: { en: ['beef', 'potato', 'stew', 'northern', 'comfort food'], fr: ['bœuf', 'pomme de terre', 'ragoût', 'nord', 'réconfortant'], pt: ['carne', 'batata', 'ensopado', 'norte', 'comfort food'], 'zh-CN': ['牛肉', '土豆', '炖', '北方', '家常'], 'zh-TW': ['牛肉', '馬鈴薯', '燉', '北方', '家常'] },
+  },
+  // ──────────────────────────────────────────────
+  // 77. Lamb Soup with Bread (羊肉泡馍)
+  // ──────────────────────────────────────────────
+  {
+    id: 'lamb-soup-bread',
+    region: 'northwestern',
+    category: 'lamb',
+    cookingMethod: 'simmer',
+    prepTime: 20,
+    cookTime: 120,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '羊肉泡馍',
+    pinyin: 'yángròu pàomó',
+    imageConfig: {
+      primaryColor: '#92400E',
+      secondaryColor: '#FFFBEB',
+      icon: 'lamb',
+      pattern: 'stripes',
+    },
+    name: { en: 'Lamb Soup with Bread', fr: 'Soupe d\'agneau au pain', pt: 'Sopa de Cordeiro com Pão', 'zh-CN': '羊肉泡馍', 'zh-TW': '羊肉泡饃' },
+    description: { en: 'Rich lamb broth with hand-torn flatbread — a warming Xi\'an specialty.', fr: 'Riche bouillon d\'agneau avec du pain plat déchiré à la main — spécialité de Xi\'an.', pt: 'Caldo rico de cordeiro com pão sírio rasgado à mão — especialidade de Xi\'an.', 'zh-CN': '浓郁羊汤配手掰馍，西安名吃。', 'zh-TW': '濃郁羊湯配手掰饃，西安名吃。' },
+    ingredients: [
+      { id: 'lamb-leg', quantity: { value: 500, unit: 'g' }, name: { en: 'Lamb leg, bone-in', fr: 'Gigot d\'agneau avec os', pt: 'Perna de cordeiro com osso', 'zh-CN': '带骨羊腿', 'zh-TW': '帶骨羊腿' }, category: 'protein', commonInEurope: true },
+      { id: 'flatbread', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Flatbread or pita', fr: 'Pain plat ou pita', pt: 'Pão sírio ou pita', 'zh-CN': '白馍（烧饼）', 'zh-TW': '白饃（燒餅）' }, category: 'grain', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 5, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 3, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'cinnamon', quantity: { value: 1, unit: 'stick' }, name: { en: 'Cinnamon stick', fr: 'Bâton de cannelle', pt: 'Pau de canela', 'zh-CN': '桂皮', 'zh-TW': '桂皮' }, category: 'spice', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'cilantro', quantity: { value: 1, unit: 'bunch' }, name: { en: 'Fresh cilantro', fr: 'Coriandre fraîche', pt: 'Coentro fresco', 'zh-CN': '香菜', 'zh-TW': '香菜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'chili-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Chili oil (optional)', fr: 'Huile de piment (optionnel)', pt: 'Óleo de pimenta (opcional)', 'zh-CN': '辣椒油（可选）', 'zh-TW': '辣椒油（可選）' }, category: 'sauce', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak lamb in cold water 1 hour. Place in pot with 2L water, ginger, scallions, star anise, and cinnamon. Bring to boil, skim foam.', fr: 'Faites tremper l\'agneau 1 h. Mettez dans une casserole avec 2 L d\'eau, gingembre, ciboules, anis et cannelle. Portez à ébullition, écumez.', pt: 'Deixe o cordeiro de molho 1 h. Coloque na panela com 2L de água, gengibre, cebolinha, anis e canela. Ferva, retire a espuma.', 'zh-CN': '羊腿冷水泡1小时，放入锅加2升水、姜葱、八角、桂皮，烧开撇浮沫。', 'zh-TW': '羊腿冷水泡1小時，放入鍋加2升水、薑蔥、八角、桂皮，燒開撇浮沫。' } },
+      { order: 2, text: { en: 'Reduce heat and simmer 2 hours until lamb is very tender and falls off the bone. Remove lamb, shred the meat, and discard bones.', fr: 'Réduisez le feu et laissez mijoter 2 h. Retirez l\'agneau, effilochez la viande, jetez les os.', pt: 'Reduza o fogo e cozinhe 2 h. Retire o cordeiro, desfie a carne, descarte os ossos.', 'zh-CN': '小火炖2小时至羊肉脱骨，捞出撕成小块，骨头丢弃。', 'zh-TW': '小火燉2小時至羊肉脫骨，撈出撕成小塊，骨頭丟棄。' }, tip: { en: 'The broth should turn milky white — that means all the goodness is in the soup.', fr: 'Le bouillon doit devenir blanc laiteux — signe que toute la saveur est dans la soupe.', pt: 'O caldo deve ficar branco leitoso — isso significa que todo o sabor está na sopa.', 'zh-CN': '汤炖成奶白色才够鲜。', 'zh-TW': '湯燉成奶白色才夠鮮。' } },
+      { order: 3, text: { en: 'Tear or cut flatbread into small 1cm pieces. Place in bowls with shredded lamb.', fr: 'Déchirez le pain en morceaux de 1 cm. Placez dans les bols avec l\'agneau effiloché.', pt: 'Rasgue o pão em pedaços de 1cm. Coloque nas tigelas com o cordeiro desfiado.', 'zh-CN': '馍掰成1厘米小块，放碗中加羊肉丝。', 'zh-TW': '饃掰成1公分小塊，放碗中加羊肉絲。' } },
+      { order: 4, text: { en: 'Ladle boiling broth over the bread and lamb. Season with salt, garnish with cilantro and chili oil.', fr: 'Versez le bouillon bouillant sur le pain et l\'agneau. Salez, garnissez de coriandre et huile de piment.', pt: 'Despeje o caldo fervente sobre o pão e o cordeiro. Tempere com sal, decore com coentro e óleo de pimenta.', 'zh-CN': '浇上滚烫的羊汤，加盐，撒香菜，淋辣椒油。', 'zh-TW': '澆上滾燙的羊湯，加鹽，撒香菜，淋辣椒油。' } },
+    ],
+    tags: { en: ['lamb', 'soup', 'bread', 'Northwestern', "Xi'an"], fr: ['agneau', 'soupe', 'pain', 'nord-ouest', "Xi'an"], pt: ['cordeiro', 'sopa', 'pão', 'noroeste', "Xi'an"], 'zh-CN': ['羊肉', '汤', '泡馍', '西北', '西安'], 'zh-TW': ['羊肉', '湯', '泡饃', '西北', '西安'] },
+  },
+  // ──────────────────────────────────────────────
+  // 78. Red-braised Lamb (红焖羊肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'red-braised-lamb',
+    region: 'northern',
+    category: 'lamb',
+    cookingMethod: 'braise',
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '红焖羊肉',
+    pinyin: 'hóngmèn yángròu',
+    imageConfig: {
+      primaryColor: '#991B1B',
+      secondaryColor: '#FEF2F2',
+      icon: 'lamb',
+      pattern: 'waves',
+    },
+    name: { en: 'Red-braised Lamb', fr: 'Agneau braisé rouge', pt: 'Cordeiro Braseado Vermelho', 'zh-CN': '红焖羊肉', 'zh-TW': '紅燜羊肉' },
+    description: { en: 'Lamb chunks braised in soy sauce with carrots and warm spices until fork-tender.', fr: 'Morceaux d\'agneau braisés au soja avec carottes et épices chaudes.', pt: 'Pedaços de cordeiro braseados em molho de soja com cenouras e especiarias.', 'zh-CN': '羊肉块配胡萝卜和香料炖至软烂。', 'zh-TW': '羊肉塊配胡蘿蔔和香料燉至軟爛。' },
+    ingredients: [
+      { id: 'lamb-shoulder', quantity: { value: 600, unit: 'g' }, name: { en: 'Lamb shoulder, cubed', fr: 'Épaule d\'agneau, en cubes', pt: 'Paleta de cordeiro, em cubos', 'zh-CN': '羊肩肉块', 'zh-TW': '羊肩肉塊' }, category: 'protein', commonInEurope: true },
+      { id: 'carrot', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Carrots', fr: 'Carottes', pt: 'Cenouras', 'zh-CN': '胡萝卜', 'zh-TW': '胡蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'rock-sugar', quantity: { value: 15, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 5, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'star-anise', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Star anise', fr: 'Anis étoilé', pt: 'Anis estrelado', 'zh-CN': '八角', 'zh-TW': '八角' }, category: 'spice', commonInEurope: true },
+      { id: 'cinnamon', quantity: { value: 1, unit: 'stick' }, name: { en: 'Cinnamon stick', fr: 'Bâton de cannelle', pt: 'Pau de canela', 'zh-CN': '桂皮', 'zh-TW': '桂皮' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut lamb into 3cm cubes. Blanch in boiling water with wine 5 min, drain and rinse well.', fr: 'Coupez l\'agneau en cubes de 3 cm. Blanchissez 5 min avec le vin, égouttez et rincez bien.', pt: 'Corte o cordeiro em cubos de 3cm. Blanqueie 5 min com vinho, escorra e lave bem.', 'zh-CN': '羊肉切3厘米块，加料酒焯水5分钟，沥干冲洗。', 'zh-TW': '羊肉切3公分塊，加料酒汆水5分鐘，瀝乾沖洗。' }, tip: { en: 'Blanching removes the gamey smell — don\'t skip this step for lamb.', fr: 'Le blanchiment enlève l\'odeur forte — ne sautez pas cette étape pour l\'agneau.', pt: 'Branquear remove o cheiro forte — não pule esta etapa para cordeiro.', 'zh-CN': '焯水去膻味，羊肉一定要焯。', 'zh-TW': '汆水去羶味，羊肉一定要汆。' } },
+      { order: 2, text: { en: 'Heat oil, add sugar and melt to amber. Add lamb and toss to coat. Add ginger, star anise, cinnamon.', fr: 'Chauffez l\'huile, faites fondre le sucre jusqu\'à coloration ambrée. Ajoutez l\'agneau et enrobez. Ajoutez gingembre, anis, cannelle.', pt: 'Aqueça óleo, derreta o açúcar até âmbar. Adicione o cordeiro e misture. Adicione gengibre, anis, canela.', 'zh-CN': '热油化冰糖至琥珀色，加羊肉翻炒上色，加姜、八角、桂皮。', 'zh-TW': '熱油化冰糖至琥珀色，加羊肉翻炒上色，加薑、八角、桂皮。' } },
+      { order: 3, text: { en: 'Add soy sauces and water to cover. Bring to boil, then simmer on low heat for 1 hour.', fr: 'Ajoutez les sauces soja et l\'eau. Portez à ébullition, puis laissez mijoter 1 h.', pt: 'Adicione molhos de soja e água. Ferva, depois cozinhe em fogo baixo 1 h.', 'zh-CN': '加酱油和水没过，烧开后小火炖1小时。', 'zh-TW': '加醬油和水沒過，燒開後小火燉1小時。' } },
+      { order: 4, text: { en: 'Add carrot chunks, simmer another 30 min until lamb is very tender. Reduce sauce on high heat.', fr: 'Ajoutez les carottes, mijotez 30 min de plus. Réduisez la sauce à feu vif.', pt: 'Adicione cenouras, cozinhe mais 30 min. Reduza o molho em fogo alto.', 'zh-CN': '加胡萝卜块再炖30分钟至羊肉软烂，大火收汁。', 'zh-TW': '加胡蘿蔔塊再燉30分鐘至羊肉軟爛，大火收汁。' } },
+    ],
+    tags: { en: ['lamb', 'braised', 'northern', 'carrots', 'warm'], fr: ['agneau', 'braisé', 'nord', 'carottes', 'chaud'], pt: ['cordeiro', 'braseado', 'norte', 'cenouras', 'quente'], 'zh-CN': ['羊肉', '焖', '北方', '胡萝卜', '暖身'], 'zh-TW': ['羊肉', '燜', '北方', '胡蘿蔔', '暖身'] },
+  },
+  // ──────────────────────────────────────────────
+  // 79. Cumin Lamb Chops (手抓羊排)
+  // ──────────────────────────────────────────────
+  {
+    id: 'cumin-lamb-chops',
+    region: 'northwestern',
+    category: 'lamb',
+    cookingMethod: 'roast',
+    prepTime: 15,
+    cookTime: 25,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '手抓羊排',
+    pinyin: 'shǒuzhuā yángpái',
+    imageConfig: {
+      primaryColor: '#78350F',
+      secondaryColor: '#FEF3C7',
+      icon: 'lamb',
+      pattern: 'stripes',
+    },
+    name: { en: 'Cumin Lamb Chops', fr: 'Côtelettes d\'agneau au cumin', pt: 'Costeletas de Cordeiro com Cominho', 'zh-CN': '手抓羊排', 'zh-TW': '手抓羊排' },
+    description: { en: 'Lamb chops roasted with cumin, chili flakes, and sesame — eat with your hands!', fr: 'Côtelettes d\'agneau grillées au cumin, flocons de piment et sésame.', pt: 'Costeletas de cordeiro assadas com cominho, flocos de pimenta e gergelim.', 'zh-CN': '孜然辣椒粉烤羊排，手抓着吃！', 'zh-TW': '孜然辣椒粉烤羊排，手抓著吃！' },
+    ingredients: [
+      { id: 'lamb-chops', quantity: { value: 600, unit: 'g' }, name: { en: 'Lamb chops', fr: 'Côtelettes d\'agneau', pt: 'Costeletas de cordeiro', 'zh-CN': '羊排', 'zh-TW': '羊排' }, category: 'protein', commonInEurope: true },
+      { id: 'cumin-seeds', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Cumin seeds', fr: 'Graines de cumin', pt: 'Sementes de cominho', 'zh-CN': '孜然粒', 'zh-TW': '孜然粒' }, category: 'spice', commonInEurope: true },
+      { id: 'chili-flakes', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Chili flakes', fr: 'Flocons de piment', pt: 'Flocos de pimenta', 'zh-CN': '辣椒粉', 'zh-TW': '辣椒粉' }, category: 'spice', commonInEurope: true },
+      { id: 'sesame-seeds', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'White sesame seeds', fr: 'Graines de sésame blanches', pt: 'Sementes de gergelim brancas', 'zh-CN': '白芝麻', 'zh-TW': '白芝麻' }, category: 'spice', commonInEurope: true },
+      { id: 'salt', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Marinate lamb chops with wine, salt, and oil for 30 min (or overnight in fridge).', fr: 'Marinez les côtelettes avec vin, sel et huile 30 min (ou toute la nuit).', pt: 'Marine as costeletas com vinho, sal e óleo por 30 min (ou durante a noite).', 'zh-CN': '羊排加料酒、盐和油腌30分钟（冷藏过夜更好）。', 'zh-TW': '羊排加料酒、鹽和油醃30分鐘（冷藏過夜更好）。' } },
+      { order: 2, text: { en: 'Preheat oven to 220°C. Place chops on a lined baking tray and roast 15 min.', fr: 'Préchauffez le four à 220°C. Placez les côtelettes sur une plaque et rôtissez 15 min.', pt: 'Pré-aqueça o forno a 220°C. Coloque as costeletas numa assadeira e asse 15 min.', 'zh-CN': '烤箱预热220°C，羊排放烤盘烤15分钟。', 'zh-TW': '烤箱預熱220°C，羊排放烤盤烤15分鐘。' } },
+      { order: 3, text: { en: 'Toast cumin seeds in a dry pan until fragrant. Crush lightly. Mix with chili flakes, sesame seeds, and salt.', fr: 'Faites griller les graines de cumin à sec. Écrasez légèrement. Mélangez avec piment, sésame et sel.', pt: 'Torre as sementes de cominho numa frigideira seca. Esmague levemente. Misture com pimenta, gergelim e sal.', 'zh-CN': '孜然粒干锅炒香，轻压碎，和辣椒粉、芝麻、盐混合。', 'zh-TW': '孜然粒乾鍋炒香，輕壓碎，和辣椒粉、芝麻、鹽混合。' }, tip: { en: 'Toasting cumin seeds before crushing releases much more aroma than using pre-ground cumin.', fr: 'Griller les graines avant de les écraser libère beaucoup plus d\'arôme.', pt: 'Torrar as sementes antes de moer libera muito mais aroma.', 'zh-CN': '孜然先炒再碾碎，比直接用粉香得多。', 'zh-TW': '孜然先炒再碾碎，比直接用粉香得多。' } },
+      { order: 4, text: { en: 'Sprinkle spice mix generously over the chops. Roast another 5-10 min until edges are crispy.', fr: 'Saupoudrez généreusement le mélange d\'épices. Rôtissez 5-10 min de plus.', pt: 'Polvilhe a mistura de especiarias generosamente. Asse mais 5-10 min até ficar crocante.', 'zh-CN': '调料撒在羊排上，再烤5-10分钟至边缘酥脆。', 'zh-TW': '調料撒在羊排上，再烤5-10分鐘至邊緣酥脆。' } },
+    ],
+    tags: { en: ['lamb', 'cumin', 'roasted', 'Northwestern', 'spicy'], fr: ['agneau', 'cumin', 'rôti', 'nord-ouest', 'épicé'], pt: ['cordeiro', 'cominho', 'assado', 'noroeste', 'picante'], 'zh-CN': ['羊肉', '孜然', '烤', '西北', '香辣'], 'zh-TW': ['羊肉', '孜然', '烤', '西北', '香辣'] },
+  },
+  // ──────────────────────────────────────────────
+  // 80. Lamb Stewed with Daikon (萝卜炖羊肉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'lamb-stewed-daikon',
+    region: 'home-style',
+    category: 'lamb',
+    cookingMethod: 'simmer',
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '萝卜炖羊肉',
+    pinyin: 'luóbo dùn yángròu',
+    imageConfig: {
+      primaryColor: '#A16207',
+      secondaryColor: '#FEFCE8',
+      icon: 'lamb',
+      pattern: 'dots',
+    },
+    name: { en: 'Lamb Stewed with Daikon', fr: 'Agneau mijoté au radis blanc', pt: 'Cordeiro Estufado com Daikon', 'zh-CN': '萝卜炖羊肉', 'zh-TW': '蘿蔔燉羊肉' },
+    description: { en: 'Tender lamb and daikon simmered in a warming, lightly spiced broth.', fr: 'Agneau tendre et radis blanc mijotés dans un bouillon chaud et légèrement épicé.', pt: 'Cordeiro macio e daikon cozidos em caldo quente e levemente temperado.', 'zh-CN': '羊肉和白萝卜慢炖成暖身汤，冬天必备。', 'zh-TW': '羊肉和白蘿蔔慢燉成暖身湯，冬天必備。' },
+    ingredients: [
+      { id: 'lamb-shoulder', quantity: { value: 500, unit: 'g' }, name: { en: 'Lamb shoulder, cubed', fr: 'Épaule d\'agneau, en cubes', pt: 'Paleta de cordeiro, em cubos', 'zh-CN': '羊肩肉块', 'zh-TW': '羊肩肉塊' }, category: 'protein', commonInEurope: true },
+      { id: 'white-radish', quantity: { value: 400, unit: 'g' }, name: { en: 'Daikon radish', fr: 'Radis blanc', pt: 'Rabanete daikon', 'zh-CN': '白萝卜', 'zh-TW': '白蘿蔔' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 6, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 3, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'salt', quantity: { value: 1.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'white-pepper', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'White pepper', fr: 'Poivre blanc', pt: 'Pimenta branca', 'zh-CN': '白胡椒', 'zh-TW': '白胡椒' }, category: 'spice', commonInEurope: true },
+      { id: 'cilantro', quantity: { value: 1, unit: 'bunch' }, name: { en: 'Cilantro', fr: 'Coriandre', pt: 'Coentro', 'zh-CN': '香菜', 'zh-TW': '香菜' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut lamb into chunks. Blanch in boiling water with wine 5 min, skim foam, drain and rinse.', fr: 'Coupez l\'agneau en morceaux. Blanchissez 5 min avec le vin, écumez, égouttez et rincez.', pt: 'Corte o cordeiro em pedaços. Blanqueie 5 min com vinho, retire a espuma, escorra e lave.', 'zh-CN': '羊肉切块，加料酒焯水5分钟，撇浮沫，沥干冲洗。', 'zh-TW': '羊肉切塊，加料酒汆水5分鐘，撇浮沫，瀝乾沖洗。' } },
+      { order: 2, text: { en: 'Put lamb in pot with 1.5L water, ginger, and scallion. Bring to boil, then simmer 1 hour until lamb is tender.', fr: 'Mettez l\'agneau dans une casserole avec 1,5 L d\'eau, gingembre et ciboule. Portez à ébullition, puis mijotez 1 h.', pt: 'Coloque o cordeiro na panela com 1,5L de água, gengibre e cebolinha. Ferva, depois cozinhe 1 h.', 'zh-CN': '羊肉放入锅加1.5升水、姜片、葱段，烧开后小火炖1小时。', 'zh-TW': '羊肉放入鍋加1.5升水、薑片、蔥段，燒開後小火燉1小時。' }, tip: { en: 'Keep the heat very low — the broth should barely simmer, not boil.', fr: 'Gardez le feu très bas — le bouillon doit à peine frémir.', pt: 'Mantenha o fogo bem baixo — o caldo deve mal ferver.', 'zh-CN': '火一定要小，汤微微冒泡就好。', 'zh-TW': '火一定要小，湯微微冒泡就好。' } },
+      { order: 3, text: { en: 'Peel and cut daikon into large chunks. Add to pot and simmer 30 more min until daikon is translucent.', fr: 'Pelez et coupez le radis en gros morceaux. Ajoutez et laissez mijoter 30 min.', pt: 'Descasque e corte o daikon em pedaços grandes. Adicione e cozinhe mais 30 min.', 'zh-CN': '白萝卜去皮切大块，加入锅再炖30分钟至透明。', 'zh-TW': '白蘿蔔去皮切大塊，加入鍋再燉30分鐘至透明。' } },
+      { order: 4, text: { en: 'Season with salt and white pepper. Garnish with cilantro and serve hot.', fr: 'Salez et poivrez de poivre blanc. Garnissez de coriandre et servez chaud.', pt: 'Tempere com sal e pimenta branca. Decore com coentro e sirva quente.', 'zh-CN': '加盐和白胡椒调味，撒香菜，趁热喝。', 'zh-TW': '加鹽和白胡椒調味，撒香菜，趁熱喝。' } },
+    ],
+    tags: { en: ['lamb', 'daikon', 'stew', 'warming', 'winter'], fr: ['agneau', 'daikon', 'ragoût', 'réchauffant', 'hiver'], pt: ['cordeiro', 'daikon', 'ensopado', 'aquecedor', 'inverno'], 'zh-CN': ['羊肉', '萝卜', '炖', '暖身', '冬天'], 'zh-TW': ['羊肉', '蘿蔔', '燉', '暖身', '冬天'] },
+  },
+  // ──────────────────────────────────────────────
+  // 81. Steamed Sea Bass (清蒸鲈鱼)
+  // ──────────────────────────────────────────────
+  {
+    id: 'steamed-sea-bass',
+    region: 'cantonese',
+    category: 'fish-seafood',
+    cookingMethod: 'steam',
+    prepTime: 10,
+    cookTime: 12,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '清蒸鲈鱼',
+    pinyin: 'qīngzhēng lúyú',
+    imageConfig: {
+      primaryColor: '#3B82F6',
+      secondaryColor: '#EFF6FF',
+      icon: 'fish',
+      pattern: 'waves',
+    },
+    name: { en: 'Steamed Sea Bass', fr: 'Bar vapeur', pt: 'Robalo no Vapor', 'zh-CN': '清蒸鲈鱼', 'zh-TW': '清蒸鱸魚' },
+    description: { en: 'Whole sea bass steamed to perfection with ginger, scallion, and sizzling soy-oil dressing.', fr: 'Bar entier cuit à la vapeur à la perfection avec gingembre, ciboule et sauce soja brûlante.', pt: 'Robalo inteiro cozido no vapor com gengibre, cebolinha e molho de soja quente.', 'zh-CN': '整条鲈鱼蒸至鲜嫩，浇上滚烫的葱油豉油，粤菜经典。', 'zh-TW': '整條鱸魚蒸至鮮嫩，澆上滾燙的蔥油豉油，粵菜經典。' },
+    ingredients: [
+      { id: 'sea-bass', quantity: { value: 1, unit: 'whole' }, name: { en: 'Whole sea bass (about 500g)', fr: 'Bar entier (environ 500 g)', pt: 'Robalo inteiro (cerca de 500g)', 'zh-CN': '整条鲈鱼（约500克）', 'zh-TW': '整條鱸魚（約500克）' }, category: 'protein', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 10, unit: 'g' }, name: { en: 'Ginger, julienned', fr: 'Gingembre, en julienne', pt: 'Gengibre, em juliana', 'zh-CN': '姜丝', 'zh-TW': '薑絲' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 3, unit: 'stalks' }, name: { en: 'Scallions, shredded', fr: 'Ciboules, en filaments', pt: 'Cebolinha, em tiras', 'zh-CN': '葱丝', 'zh-TW': '蔥絲' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '蒸鱼豉油', 'zh-TW': '蒸魚豉油' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'cilantro', quantity: { value: 1, unit: 'sprig' }, name: { en: 'Cilantro', fr: 'Coriandre', pt: 'Coentro', 'zh-CN': '香菜', 'zh-TW': '香菜' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Clean and score the fish with 3 diagonal cuts on each side. Place ginger slices inside the belly and underneath the fish.', fr: 'Nettoyez le poisson et faites 3 incisions en diagonale de chaque côté. Placez du gingembre dans le ventre et sous le poisson.', pt: 'Limpe o peixe e faça 3 cortes diagonais em cada lado. Coloque gengibre na barriga e embaixo do peixe.', 'zh-CN': '鱼清洗干净，两面各斜切3刀，肚子里和鱼底下放姜片。', 'zh-TW': '魚清洗乾淨，兩面各斜切3刀，肚子裡和魚底下放薑片。' }, tip: { en: 'Scoring lets steam penetrate evenly so the fish cooks perfectly.', fr: 'Les incisions permettent à la vapeur de pénétrer uniformément.', pt: 'Os cortes permitem que o vapor penetre uniformemente.', 'zh-CN': '划刀让蒸汽均匀渗透，鱼才熟得均匀。', 'zh-TW': '劃刀讓蒸氣均勻滲透，魚才熟得均勻。' } },
+      { order: 2, text: { en: 'Bring steamer water to a rolling boil. Place fish in and steam on high heat for 8-10 min (depending on size). Don\'t lift the lid.', fr: 'Portez l\'eau du cuiseur à ébullition. Placez le poisson et cuisez 8-10 min à feu vif. Ne soulevez pas le couvercle.', pt: 'Ferva bem a água do vaporizador. Coloque o peixe e cozinhe 8-10 min em fogo alto. Não levante a tampa.', 'zh-CN': '蒸锅水烧至大滚，放入鱼，大火蒸8-10分钟（视大小），不要揭盖。', 'zh-TW': '蒸鍋水燒至大滾，放入魚，大火蒸8-10分鐘（視大小），不要揭蓋。' } },
+      { order: 3, text: { en: 'Carefully drain the steaming liquid from the plate. Discard old ginger. Top with fresh julienned ginger and shredded scallions.', fr: 'Égouttez soigneusement le liquide. Retirez le vieux gingembre. Garnissez de gingembre frais et ciboule.', pt: 'Escorra cuidadosamente o líquido. Descarte o gengibre velho. Cubra com gengibre fresco e cebolinha.', 'zh-CN': '倒掉蒸出的汁水，去掉旧姜，铺上新鲜姜丝和葱丝。', 'zh-TW': '倒掉蒸出的汁水，去掉舊薑，鋪上新鮮薑絲和蔥絲。' } },
+      { order: 4, text: { en: 'Pour soy sauce over the fish. Heat oil until smoking and pour over the scallions and ginger — it should sizzle loudly!', fr: 'Versez la sauce soja sur le poisson. Chauffez l\'huile jusqu\'à fumée et versez sur les ciboules — ça doit grésiller !', pt: 'Despeje o molho de soja sobre o peixe. Aqueça o óleo até fumegar e despeje sobre a cebolinha — deve chiar!', 'zh-CN': '浇豉油，油烧至冒烟浇在葱姜丝上，滋啦作响！', 'zh-TW': '澆豉油，油燒至冒煙澆在蔥薑絲上，滋啦作響！' } },
+    ],
+    tags: { en: ['fish', 'steamed', 'Cantonese', 'ginger', 'classic'], fr: ['poisson', 'vapeur', 'cantonais', 'gingembre', 'classique'], pt: ['peixe', 'vapor', 'cantonês', 'gengibre', 'clássico'], 'zh-CN': ['鱼', '蒸', '粤菜', '姜', '经典'], 'zh-TW': ['魚', '蒸', '粵菜', '薑', '經典'] },
+  },
+  // ──────────────────────────────────────────────
+  // 82. Red-braised Fish (红烧鱼块)
+  // ──────────────────────────────────────────────
+  {
+    id: 'red-braised-fish',
+    region: 'home-style',
+    category: 'fish-seafood',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 20,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '红烧鱼块',
+    pinyin: 'hóngshāo yúkuài',
+    imageConfig: {
+      primaryColor: '#B91C1C',
+      secondaryColor: '#FEF2F2',
+      icon: 'fish',
+      pattern: 'circles',
+    },
+    name: { en: 'Red-braised Fish', fr: 'Poisson braisé rouge', pt: 'Peixe Braseado Vermelho', 'zh-CN': '红烧鱼块', 'zh-TW': '紅燒魚塊' },
+    description: { en: 'Fish chunks braised in a savory-sweet soy sauce with ginger and scallion.', fr: 'Morceaux de poisson braisés dans une sauce soja sucrée-salée avec gingembre et ciboule.', pt: 'Pedaços de peixe braseados em molho de soja agridoce com gengibre e cebolinha.', 'zh-CN': '鱼块用酱油红烧，配姜葱，咸甜鲜美。', 'zh-TW': '魚塊用醬油紅燒，配薑蔥，鹹甜鮮美。' },
+    ingredients: [
+      { id: 'firm-white-fish', quantity: { value: 500, unit: 'g' }, name: { en: 'Firm white fish (cod or sea bream), cut into chunks', fr: 'Poisson blanc ferme (cabillaud ou daurade), en morceaux', pt: 'Peixe branco firme (bacalhau ou dourada), em pedaços', 'zh-CN': '硬白鱼（鳕鱼或鲷鱼）切块', 'zh-TW': '硬白魚（鱈魚或鯛魚）切塊' }, category: 'protein', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 4, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Pat fish chunks dry with paper towels. Season lightly with salt.', fr: 'Séchez les morceaux de poisson avec du papier. Salez légèrement.', pt: 'Seque os pedaços de peixe com papel. Tempere levemente com sal.', 'zh-CN': '鱼块用纸巾吸干水分，撒少许盐。', 'zh-TW': '魚塊用紙巾吸乾水分，撒少許鹽。' }, tip: { en: 'Dry fish sears better and won\'t stick to the pan as much.', fr: 'Le poisson sec saisit mieux et colle moins à la poêle.', pt: 'Peixe seco sela melhor e gruda menos na panela.', 'zh-CN': '鱼越干煎得越好，不容易粘锅。', 'zh-TW': '魚越乾煎得越好，不容易粘鍋。' } },
+      { order: 2, text: { en: 'Heat oil until hot. Pan-fry fish on both sides until golden, about 2 min per side. Remove.', fr: 'Chauffez l\'huile. Poêlez le poisson des deux côtés 2 min. Retirez.', pt: 'Aqueça o óleo. Frite o peixe dos dois lados 2 min. Retire.', 'zh-CN': '热油煎鱼至两面金黄，每面约2分钟，盛出。', 'zh-TW': '熱油煎魚至兩面金黃，每面約2分鐘，盛出。' } },
+      { order: 3, text: { en: 'In the same pan, fry ginger, garlic, and scallion whites until fragrant. Add soy sauces, wine, sugar, vinegar, and 150ml water. Bring to boil.', fr: 'Dans la même poêle, faites revenir gingembre, ail et blanc de ciboule. Ajoutez sauces soja, vin, sucre, vinaigre et 150 ml d\'eau. Portez à ébullition.', pt: 'Na mesma panela, frite gengibre, alho e parte branca da cebolinha. Adicione molhos de soja, vinho, açúcar, vinagre e 150ml de água. Ferva.', 'zh-CN': '同一锅炒姜蒜和葱白出香，加生抽、老抽、料酒、糖、醋和150毫升水烧开。', 'zh-TW': '同一鍋炒薑蒜和蔥白出香，加生抽、老抽、料酒、糖、醋和150毫升水燒開。' } },
+      { order: 4, text: { en: 'Return fish to the sauce. Braise on low heat 10 min, spooning sauce over the fish occasionally. Garnish with scallion greens.', fr: 'Remettez le poisson dans la sauce. Braisez 10 min à feu doux en arrosant de sauce. Garnissez de ciboule.', pt: 'Devolva o peixe ao molho. Braseie em fogo baixo 10 min, regando com molho. Decore com cebolinha.', 'zh-CN': '鱼块回锅，小火焖10分钟，不时浇汁。撒葱花。', 'zh-TW': '魚塊回鍋，小火燜10分鐘，不時澆汁。撒蔥花。' } },
+    ],
+    tags: { en: ['fish', 'braised', 'home-style', 'soy sauce', 'savory'], fr: ['poisson', 'braisé', 'familial', 'sauce soja', 'savoureux'], pt: ['peixe', 'braseado', 'caseiro', 'molho de soja', 'saboroso'], 'zh-CN': ['鱼', '红烧', '家常', '酱油', '鲜美'], 'zh-TW': ['魚', '紅燒', '家常', '醬油', '鮮美'] },
+  },
+// ──────────────────────────────────────────────
+  // 83. Sweet and Sour Fish (糖醋鱼)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sweet-sour-fish',
+    region: 'shandong',
+    category: 'fish-seafood',
+    cookingMethod: 'deep-fry',
+    prepTime: 20,
+    cookTime: 20,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '糖醋鱼',
+    pinyin: 'tángcù yú',
+    imageConfig: {
+      primaryColor: '#F59E0B',
+      secondaryColor: '#FFFBEB',
+      icon: 'fish',
+      pattern: 'circles',
+    },
+    name: { en: 'Sweet and Sour Fish', fr: 'Poisson aigre-doux', pt: 'Peixe Agridoce', 'zh-CN': '糖醋鱼', 'zh-TW': '糖醋魚' },
+    description: { en: 'Whole fried fish draped in a glossy sweet and sour sauce — a Shandong banquet classic.', fr: 'Poisson entier frit nappé d\'une sauce aigre-douce brillante — classique de banquet du Shandong.', pt: 'Peixe inteiro frito coberto com molho agridoce brilhante — clássico de banquete de Shandong.', 'zh-CN': '整鱼炸酥浇上亮晶晶的糖醋汁，鲁菜宴客名菜。', 'zh-TW': '整魚炸酥澆上亮晶晶的糖醋汁，魯菜宴客名菜。' },
+    ingredients: [
+      { id: 'whole-fish', quantity: { value: 1, unit: 'whole' }, name: { en: 'Whole fish (sea bream or carp, ~600g)', fr: 'Poisson entier (daurade ou carpe, ~600 g)', pt: 'Peixe inteiro (dourada ou carpa, ~600g)', 'zh-CN': '整鱼（鲷鱼或鲤鱼，约600克）', 'zh-TW': '整魚（鯛魚或鯉魚，約600克）' }, category: 'protein', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Cornstarch', fr: 'Fécule de maïs', pt: 'Amido de milho', 'zh-CN': '淀粉', 'zh-TW': '澱粉' }, category: 'other', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ketchup', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Ketchup', fr: 'Ketchup', pt: 'Ketchup', 'zh-CN': '番茄酱', 'zh-TW': '番茄醬' }, category: 'sauce', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 500, unit: 'ml' }, name: { en: 'Vegetable oil (for frying)', fr: 'Huile végétale (friture)', pt: 'Óleo vegetal (para fritar)', 'zh-CN': '植物油（炸用）', 'zh-TW': '植物油（炸用）' }, category: 'oil', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger, minced', fr: 'Gingembre haché', pt: 'Gengibre picado', 'zh-CN': '姜末', 'zh-TW': '薑末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 2, unit: 'cloves' }, name: { en: 'Garlic, minced', fr: 'Ail haché', pt: 'Alho picado', 'zh-CN': '蒜末', 'zh-TW': '蒜末' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Clean fish and score deeply on both sides in a cross-hatch pattern. Coat thoroughly with cornstarch.', fr: 'Nettoyez le poisson et incisez profondément en croisillons des deux côtés. Enrobez de fécule.', pt: 'Limpe o peixe e faça cortes profundos em padrão cruzado dos dois lados. Cubra com amido.', 'zh-CN': '鱼洗净两面深切花刀，均匀裹上淀粉。', 'zh-TW': '魚洗淨兩面深切花刀，均勻裹上澱粉。' }, tip: { en: 'Deep cross-cuts let the fish curl beautifully when fried and absorb more sauce.', fr: 'Les incisions profondes font que le poisson se courbe joliment à la friture.', pt: 'Cortes profundos fazem o peixe curvar lindamente ao fritar.', 'zh-CN': '花刀切深些，炸出来造型好看还入味。', 'zh-TW': '花刀切深些，炸出來造型好看還入味。' } },
+      { order: 2, text: { en: 'Heat oil to 180°C. Carefully lower fish and fry 5-6 min until golden and crispy. Drain on paper.', fr: 'Chauffez l\'huile à 180°C. Faites frire le poisson 5-6 min. Égouttez.', pt: 'Aqueça o óleo a 180°C. Frite o peixe 5-6 min até dourar. Escorra.', 'zh-CN': '油温180°C，小心放入鱼炸5-6分钟至金黄酥脆，控油。', 'zh-TW': '油溫180°C，小心放入魚炸5-6分鐘至金黃酥脆，控油。' } },
+      { order: 3, text: { en: 'In a clean pan, sauté ginger and garlic. Add vinegar, sugar, ketchup, soy sauce, and 3 tbsp water. Cook until sauce thickens.', fr: 'Dans une poêle propre, faites revenir gingembre et ail. Ajoutez vinaigre, sucre, ketchup, sauce soja et 3 c.s. d\'eau. Cuisez jusqu\'à épaississement.', pt: 'Numa panela limpa, refogue gengibre e alho. Adicione vinagre, açúcar, ketchup, molho de soja e 3 cs de água. Cozinhe até engrossar.', 'zh-CN': '干净锅炒姜蒜，加醋、糖、番茄酱、生抽和3勺水，煮至浓稠。', 'zh-TW': '乾淨鍋炒薑蒜，加醋、糖、番茄醬、生抽和3勺水，煮至濃稠。' } },
+      { order: 4, text: { en: 'Place fried fish on a platter and pour the sweet-sour sauce over it. Serve immediately.', fr: 'Placez le poisson frit sur un plat et versez la sauce. Servez immédiatement.', pt: 'Coloque o peixe frito num prato e despeje o molho. Sirva imediatamente.', 'zh-CN': '炸好的鱼摆盘，浇上糖醋酱汁，立即上桌。', 'zh-TW': '炸好的魚擺盤，澆上糖醋醬汁，立即上桌。' } },
+    ],
+    tags: { en: ['fish', 'sweet-sour', 'Shandong', 'deep-fried', 'banquet'], fr: ['poisson', 'aigre-doux', 'Shandong', 'frit', 'banquet'], pt: ['peixe', 'agridoce', 'Shandong', 'frito', 'banquete'], 'zh-CN': ['鱼', '糖醋', '鲁菜', '炸', '宴客'], 'zh-TW': ['魚', '糖醋', '魯菜', '炸', '宴客'] },
+  },
+  // ──────────────────────────────────────────────
+  // 84. Dry-fried Prawns (干烧虾)
+  // ──────────────────────────────────────────────
+  {
+    id: 'dry-fried-prawns',
+    region: 'sichuan',
+    category: 'fish-seafood',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'medium',
+    chineseName: '干烧虾',
+    pinyin: 'gānshāo xiā',
+    imageConfig: {
+      primaryColor: '#DC2626',
+      secondaryColor: '#FEF2F2',
+      icon: 'shrimp',
+      pattern: 'spicy',
+    },
+    name: { en: 'Dry-fried Prawns', fr: 'Crevettes sautées à sec', pt: 'Camarões Fritos a Seco', 'zh-CN': '干烧虾', 'zh-TW': '乾燒蝦' },
+    description: { en: 'Prawns stir-fried in a spicy, savory dry sauce with doubanjiang — bold Sichuan seafood.', fr: 'Crevettes sautées dans une sauce sèche épicée au doubanjiang — fruits de mer du Sichuan.', pt: 'Camarões fritos em molho seco picante com doubanjiang — frutos do mar de Sichuan.', 'zh-CN': '大虾用豆瓣酱干烧至入味，四川风味海鲜。', 'zh-TW': '大蝦用豆瓣醬乾燒至入味，四川風味海鮮。' },
+    ingredients: [
+      { id: 'prawns', quantity: { value: 400, unit: 'g' }, name: { en: 'Large prawns (shell-on)', fr: 'Grosses crevettes (avec coquille)', pt: 'Camarões grandes (com casca)', 'zh-CN': '大虾（带壳）', 'zh-TW': '大蝦（帶殼）' }, category: 'protein', commonInEurope: true },
+      { id: 'doubanjiang', quantity: { value: 1.5, unit: 'tbsp' }, name: { en: 'Doubanjiang', fr: 'Doubanjiang', pt: 'Doubanjiang', 'zh-CN': '豆瓣酱', 'zh-TW': '豆瓣醬' }, category: 'sauce', commonInEurope: false },
+      { id: 'ketchup', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Ketchup', fr: 'Ketchup', pt: 'Ketchup', 'zh-CN': '番茄酱', 'zh-TW': '番茄醬' }, category: 'sauce', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 3, unit: 'slices' }, name: { en: 'Ginger, minced', fr: 'Gingembre haché', pt: 'Gengibre picado', 'zh-CN': '姜末', 'zh-TW': '薑末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic, minced', fr: 'Ail haché', pt: 'Alho picado', 'zh-CN': '蒜末', 'zh-TW': '蒜末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions, chopped', fr: 'Ciboules hachées', pt: 'Cebolinha picada', 'zh-CN': '葱花', 'zh-TW': '蔥花' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Clean prawns, trim legs but keep shells on. Devein by cutting along the back.', fr: 'Nettoyez les crevettes, gardez les coquilles. Déveillez en coupant le long du dos.', pt: 'Limpe os camarões, mantenha a casca. Retire a veia cortando pelas costas.', 'zh-CN': '虾洗净去虾线，剪须留壳。', 'zh-TW': '蝦洗淨去蝦線，剪鬚留殼。' } },
+      { order: 2, text: { en: 'Heat oil until hot. Fry prawns until shells turn red and crispy, about 3 min. Remove.', fr: 'Chauffez l\'huile. Faites frire les crevettes jusqu\'à ce que les coquilles rougissent, 3 min. Retirez.', pt: 'Aqueça o óleo. Frite os camarões até as cascas ficarem vermelhas, 3 min. Retire.', 'zh-CN': '热油炸虾至壳变红酥脆，约3分钟，捞出。', 'zh-TW': '熱油炸蝦至殼變紅酥脆，約3分鐘，撈出。' }, tip: { en: 'Frying shell-on prawns gives them an irresistible crunch.', fr: 'Frire les crevettes avec la coquille donne un croquant irrésistible.', pt: 'Fritar camarões com casca dá uma crocância irresistível.', 'zh-CN': '带壳炸的虾吃起来更香脆。', 'zh-TW': '帶殼炸的蝦吃起來更香脆。' } },
+      { order: 3, text: { en: 'Leave 1 tbsp oil in wok. Fry ginger, garlic, and doubanjiang on low heat until oil turns red. Add ketchup and sugar.', fr: 'Gardez 1 c.s. d\'huile. Faites revenir gingembre, ail et doubanjiang à feu doux. Ajoutez ketchup et sucre.', pt: 'Deixe 1 cs de óleo. Frite gengibre, alho e doubanjiang em fogo baixo. Adicione ketchup e açúcar.', 'zh-CN': '锅留1勺油，小火炒姜蒜和豆瓣酱至出红油，加番茄酱和糖。', 'zh-TW': '鍋留1勺油，小火炒薑蒜和豆瓣醬至出紅油，加番茄醬和糖。' } },
+      { order: 4, text: { en: 'Return prawns, add wine, toss over high heat until sauce coats the prawns and is nearly dry. Garnish with scallions.', fr: 'Remettez les crevettes, ajoutez le vin, mélangez à feu vif jusqu\'à ce que la sauce soit presque sèche. Garnissez de ciboule.', pt: 'Devolva os camarões, adicione vinho, mexa em fogo alto até o molho quase secar. Decore com cebolinha.', 'zh-CN': '虾回锅加料酒，大火翻炒至酱汁收干包裹虾身，撒葱花。', 'zh-TW': '蝦回鍋加料酒，大火翻炒至醬汁收乾包裹蝦身，撒蔥花。' } },
+    ],
+    tags: { en: ['prawns', 'spicy', 'Sichuan', 'dry-fried', 'seafood'], fr: ['crevettes', 'pimenté', 'Sichuan', 'sauté sec', 'fruits de mer'], pt: ['camarões', 'picante', 'Sichuan', 'frito seco', 'frutos do mar'], 'zh-CN': ['虾', '辣', '川菜', '干烧', '海鲜'], 'zh-TW': ['蝦', '辣', '川菜', '乾燒', '海鮮'] },
+  },
+  // ──────────────────────────────────────────────
+  // 85. Steamed Scallops with Garlic Vermicelli (蒜蓉粉丝蒸扇贝)
+  // ──────────────────────────────────────────────
+  {
+    id: 'steamed-scallops-garlic-vermicelli',
+    region: 'cantonese',
+    category: 'fish-seafood',
+    cookingMethod: 'steam',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '蒜蓉粉丝蒸扇贝',
+    pinyin: 'suànróng fěnsī zhēng shànbèi',
+    imageConfig: {
+      primaryColor: '#10B981',
+      secondaryColor: '#ECFDF5',
+      icon: 'scallop',
+      pattern: 'dots',
+    },
+    name: { en: 'Steamed Scallops with Garlic Vermicelli', fr: 'Coquilles Saint-Jacques vapeur à l\'ail et vermicelles', pt: 'Vieiras no Vapor com Alho e Aletria', 'zh-CN': '蒜蓉粉丝蒸扇贝', 'zh-TW': '蒜蓉粉絲蒸扇貝' },
+    description: { en: 'Fresh scallops steamed on the half shell with garlic and glass noodles — elegant dim sum favorite.', fr: 'Coquilles Saint-Jacques sur demi-coquille à la vapeur avec ail et vermicelles de verre.', pt: 'Vieiras na meia concha cozidas no vapor com alho e macarrão de vidro.', 'zh-CN': '扇贝配蒜蓉粉丝蒸，鲜嫩入味，粤式经典。', 'zh-TW': '扇貝配蒜蓉粉絲蒸，鮮嫩入味，粵式經典。' },
+    ingredients: [
+      { id: 'scallops', quantity: { value: 8, unit: 'pcs' }, name: { en: 'Scallops on half shell', fr: 'Coquilles Saint-Jacques sur demi-coquille', pt: 'Vieiras na meia concha', 'zh-CN': '半壳扇贝', 'zh-TW': '半殼扇貝' }, category: 'protein', commonInEurope: true },
+      { id: 'glass-noodles', quantity: { value: 50, unit: 'g' }, name: { en: 'Glass noodles (mung bean vermicelli)', fr: 'Vermicelles de soja (haricot mungo)', pt: 'Macarrão de vidro (aletria de feijão mungo)', 'zh-CN': '粉丝', 'zh-TW': '粉絲' }, category: 'grain', commonInEurope: false },
+      { id: 'garlic', quantity: { value: 6, unit: 'cloves' }, name: { en: 'Garlic, finely minced', fr: 'Ail finement haché', pt: 'Alho bem picado', 'zh-CN': '蒜蓉', 'zh-TW': '蒜蓉' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 1, unit: 'stalk' }, name: { en: 'Scallion, finely chopped', fr: 'Ciboule finement hachée', pt: 'Cebolinha bem picada', 'zh-CN': '葱花', 'zh-TW': '蔥花' }, category: 'vegetable', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak glass noodles in warm water 10 min until soft. Drain and cut into shorter lengths.', fr: 'Faites tremper les vermicelles 10 min dans l\'eau chaude. Égouttez et coupez.', pt: 'Deixe o macarrão de molho em água morna 10 min. Escorra e corte.', 'zh-CN': '粉丝温水泡10分钟至软，沥干剪短。', 'zh-TW': '粉絲溫水泡10分鐘至軟，瀝乾剪短。' } },
+      { order: 2, text: { en: 'Place a small nest of noodles on each scallop half shell. Set scallop meat on top.', fr: 'Placez un nid de vermicelles sur chaque demi-coquille. Posez la noix dessus.', pt: 'Coloque um ninho de macarrão em cada meia concha. Coloque a vieira por cima.', 'zh-CN': '每个扇贝壳上放一小团粉丝，上面放扇贝肉。', 'zh-TW': '每個扇貝殼上放一小團粉絲，上面放扇貝肉。' } },
+      { order: 3, text: { en: 'Heat oil, fry minced garlic on medium-low heat until golden and fragrant. Spoon garlic oil over each scallop.', fr: 'Chauffez l\'huile, faites revenir l\'ail à feu moyen-doux jusqu\'à doré. Nappez chaque coquille d\'huile d\'ail.', pt: 'Aqueça o óleo, frite o alho em fogo médio-baixo até dourar. Coloque o óleo de alho sobre cada vieira.', 'zh-CN': '热油中小火炒蒜蓉至金黄出香，勺到每个扇贝上。', 'zh-TW': '熱油中小火炒蒜蓉至金黃出香，勺到每個扇貝上。' }, tip: { en: 'Low heat for the garlic — burnt garlic is bitter and ruins the dish.', fr: 'Feu doux pour l\'ail — l\'ail brûlé est amer et gâche le plat.', pt: 'Fogo baixo para o alho — alho queimado é amargo e arruína o prato.', 'zh-CN': '蒜蓉小火炒，炒糊了会发苦。', 'zh-TW': '蒜蓉小火炒，炒糊了會發苦。' } },
+      { order: 4, text: { en: 'Steam over high heat for 6-8 min. Drizzle with soy sauce, sprinkle scallion, and serve.', fr: 'Cuisez à la vapeur 6-8 min à feu vif. Arrosez de sauce soja, parsemez de ciboule.', pt: 'Cozinhe no vapor em fogo alto 6-8 min. Regue com molho de soja, polvilhe cebolinha.', 'zh-CN': '大火蒸6-8分钟，淋生抽，撒葱花即可。', 'zh-TW': '大火蒸6-8分鐘，淋生抽，撒蔥花即可。' } },
+    ],
+    tags: { en: ['scallops', 'steamed', 'Cantonese', 'garlic', 'elegant'], fr: ['coquilles', 'vapeur', 'cantonais', 'ail', 'élégant'], pt: ['vieiras', 'vapor', 'cantonês', 'alho', 'elegante'], 'zh-CN': ['扇贝', '蒸', '粤菜', '蒜蓉', '精致'], 'zh-TW': ['扇貝', '蒸', '粵菜', '蒜蓉', '精緻'] },
+  },
+  // ──────────────────────────────────────────────
+  // 86. Fish with Scallion Oil (葱油鱼)
+  // ──────────────────────────────────────────────
+  {
+    id: 'fish-scallion-oil',
+    region: 'jiangsu-shanghai',
+    category: 'fish-seafood',
+    cookingMethod: 'steam',
+    prepTime: 10,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '葱油鱼',
+    pinyin: 'cōngyóu yú',
+    imageConfig: {
+      primaryColor: '#059669',
+      secondaryColor: '#ECFDF5',
+      icon: 'fish',
+      pattern: 'stripes',
+    },
+    name: { en: 'Fish with Scallion Oil', fr: 'Poisson à l\'huile de ciboule', pt: 'Peixe com Óleo de Cebolinha', 'zh-CN': '葱油鱼', 'zh-TW': '蔥油魚' },
+    description: { en: 'Steamed fish fillets drizzled with sizzling scallion oil — simple Jiangsu elegance.', fr: 'Filets de poisson vapeur arrosés d\'huile de ciboule grésillante — élégance simple du Jiangsu.', pt: 'Filés de peixe no vapor regados com óleo de cebolinha crepitante — elegância simples de Jiangsu.', 'zh-CN': '蒸鱼浇上滋啦作响的葱油，江浙简约鲜美。', 'zh-TW': '蒸魚澆上滋啦作響的蔥油，江浙簡約鮮美。' },
+    ingredients: [
+      { id: 'white-fish-fillet', quantity: { value: 400, unit: 'g' }, name: { en: 'White fish fillet (sea bass or sole)', fr: 'Filet de poisson blanc (bar ou sole)', pt: 'Filé de peixe branco (robalo ou linguado)', 'zh-CN': '白鱼片（鲈鱼或龙利）', 'zh-TW': '白魚片（鱸魚或龍利）' }, category: 'protein', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 6, unit: 'stalks' }, name: { en: 'Scallions, shredded', fr: 'Ciboules, en filaments', pt: 'Cebolinha, em tiras', 'zh-CN': '葱丝', 'zh-TW': '蔥絲' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 6, unit: 'slices' }, name: { en: 'Ginger, julienned', fr: 'Gingembre, en julienne', pt: 'Gengibre, em juliana', 'zh-CN': '姜丝', 'zh-TW': '薑絲' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'cooking-wine', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Shaoxing wine', fr: 'Vin de Shaoxing', pt: 'Vinho Shaoxing', 'zh-CN': '料酒', 'zh-TW': '料酒' }, category: 'sauce', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Place fish fillets on a plate, scatter half the ginger on top, drizzle with wine. Steam 8-10 min until fish flakes easily.', fr: 'Placez les filets sur une assiette, parsemez de la moitié du gingembre, arrosez de vin. Cuisez à la vapeur 8-10 min.', pt: 'Coloque os filés num prato, espalhe metade do gengibre, regue com vinho. Cozinhe no vapor 8-10 min.', 'zh-CN': '鱼片放盘中，铺一半姜丝，淋料酒，蒸8-10分钟至鱼熟。', 'zh-TW': '魚片放盤中，鋪一半薑絲，淋料酒，蒸8-10分鐘至魚熟。' } },
+      { order: 2, text: { en: 'Drain off steaming liquid. Remove old ginger. Top with fresh ginger and all the shredded scallions.', fr: 'Égouttez le liquide. Retirez le vieux gingembre. Garnissez de gingembre frais et ciboules.', pt: 'Escorra o líquido. Retire o gengibre velho. Cubra com gengibre fresco e cebolinha.', 'zh-CN': '倒掉蒸汁，去旧姜，铺上新鲜姜丝和所有葱丝。', 'zh-TW': '倒掉蒸汁，去舊薑，鋪上新鮮薑絲和所有蔥絲。' } },
+      { order: 3, text: { en: 'Pour soy sauce over the fish. Heat oil until smoking hot and pour over the scallions — they should sizzle and curl.', fr: 'Versez la sauce soja sur le poisson. Chauffez l\'huile et versez sur les ciboules — elles doivent grésiller.', pt: 'Despeje o molho de soja sobre o peixe. Aqueça o óleo até fumegar e despeje sobre a cebolinha — deve chiar.', 'zh-CN': '浇生抽，油烧至冒烟浇在葱丝上，滋啦出香！', 'zh-TW': '澆生抽，油燒至冒煙澆在蔥絲上，滋啦出香！' }, tip: { en: 'The smoking-hot oil is what makes this dish special — it cooks the scallions instantly and releases incredible fragrance.', fr: 'L\'huile fumante est ce qui rend ce plat spécial — elle cuit les ciboules instantanément.', pt: 'O óleo fumegante é o que torna este prato especial — cozinha a cebolinha instantaneamente.', 'zh-CN': '油一定要烧到冒烟，才能激发葱的香气。', 'zh-TW': '油一定要燒到冒煙，才能激發蔥的香氣。' } },
+    ],
+    tags: { en: ['fish', 'steamed', 'Jiangsu', 'scallion oil', 'elegant'], fr: ['poisson', 'vapeur', 'Jiangsu', 'huile de ciboule', 'élégant'], pt: ['peixe', 'vapor', 'Jiangsu', 'óleo de cebolinha', 'elegante'], 'zh-CN': ['鱼', '蒸', '江浙', '葱油', '鲜美'], 'zh-TW': ['魚', '蒸', '江浙', '蔥油', '鮮美'] },
+  },
+  // ──────────────────────────────────────────────
+  // 87. Yangzhou Fried Rice (扬州炒饭)
+  // ──────────────────────────────────────────────
+  {
+    id: 'yangzhou-fried-rice',
+    region: 'jiangsu-shanghai',
+    category: 'rice-noodles',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '扬州炒饭',
+    pinyin: 'yángzhōu chǎofàn',
+    imageConfig: {
+      primaryColor: '#F59E0B',
+      secondaryColor: '#FFFFF0',
+      icon: 'rice',
+      pattern: 'dots',
+    },
+    name: { en: 'Yangzhou Fried Rice', fr: 'Riz sauté de Yangzhou', pt: 'Arroz Frito de Yangzhou', 'zh-CN': '扬州炒饭', 'zh-TW': '揚州炒飯' },
+    description: { en: 'Classic Chinese fried rice with shrimp, ham, eggs, peas, and corn — colorful and satisfying.', fr: 'Riz sauté classique chinois avec crevettes, jambon, œufs, petits pois et maïs.', pt: 'Arroz frito clássico chinês com camarão, presunto, ovos, ervilhas e milho.', 'zh-CN': '经典虾仁火腿蛋炒饭，粒粒分明，色彩缤纷。', 'zh-TW': '經典蝦仁火腿蛋炒飯，粒粒分明，色彩繽紛。' },
+    ingredients: [
+      { id: 'cooked-rice', quantity: { value: 400, unit: 'g' }, name: { en: 'Day-old cooked rice', fr: 'Riz cuit de la veille', pt: 'Arroz cozido do dia anterior', 'zh-CN': '隔夜米饭', 'zh-TW': '隔夜米飯' }, category: 'grain', commonInEurope: true },
+      { id: 'shrimp', quantity: { value: 100, unit: 'g' }, name: { en: 'Shrimp, peeled', fr: 'Crevettes, décortiquées', pt: 'Camarão, descascado', 'zh-CN': '虾仁', 'zh-TW': '蝦仁' }, category: 'protein', commonInEurope: true },
+      { id: 'ham', quantity: { value: 80, unit: 'g' }, name: { en: 'Ham, diced', fr: 'Jambon, en dés', pt: 'Presunto, em cubos', 'zh-CN': '火腿丁', 'zh-TW': '火腿丁' }, category: 'protein', commonInEurope: true },
+      { id: 'egg', quantity: { value: 3, unit: 'pcs' }, name: { en: 'Eggs', fr: 'Œufs', pt: 'Ovos', 'zh-CN': '鸡蛋', 'zh-TW': '雞蛋' }, category: 'protein', commonInEurope: true },
+      { id: 'peas', quantity: { value: 50, unit: 'g' }, name: { en: 'Green peas', fr: 'Petits pois', pt: 'Ervilhas', 'zh-CN': '青豆', 'zh-TW': '青豆' }, category: 'vegetable', commonInEurope: true },
+      { id: 'corn', quantity: { value: 50, unit: 'g' }, name: { en: 'Corn kernels', fr: 'Grains de maïs', pt: 'Grãos de milho', 'zh-CN': '玉米粒', 'zh-TW': '玉米粒' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions, chopped', fr: 'Ciboules hachées', pt: 'Cebolinha picada', 'zh-CN': '葱花', 'zh-TW': '蔥花' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Break up cold rice with your hands to separate grains. Beat eggs.', fr: 'Émiettez le riz froid avec vos mains. Battez les œufs.', pt: 'Separe o arroz frio com as mãos. Bata os ovos.', 'zh-CN': '隔夜饭用手拨散，鸡蛋打散。', 'zh-TW': '隔夜飯用手撥散，雞蛋打散。' }, tip: { en: 'Day-old rice is drier and fries better — fresh rice will be mushy.', fr: 'Le riz de la veille est plus sec et saute mieux — le riz frais sera pâteux.', pt: 'Arroz do dia anterior é mais seco e frita melhor — arroz fresco fica pastoso.', 'zh-CN': '隔夜饭水分少，炒出来粒粒分明。', 'zh-TW': '隔夜飯水分少，炒出來粒粒分明。' } },
+      { order: 2, text: { en: 'Heat oil on high. Pour in eggs and immediately add rice on top. Stir-fry vigorously to coat rice grains with egg.', fr: 'Chauffez l\'huile à feu vif. Versez les œufs et ajoutez immédiatement le riz. Sautez vigoureusement.', pt: 'Aqueça óleo em fogo alto. Despeje os ovos e imediatamente adicione o arroz. Refogue vigorosamente.', 'zh-CN': '大火热油，倒入蛋液立刻加饭，快速翻炒让每粒饭裹上蛋。', 'zh-TW': '大火熱油，倒入蛋液立刻加飯，快速翻炒讓每粒飯裹上蛋。' } },
+      { order: 3, text: { en: 'Add shrimp, ham, peas, and corn. Stir-fry 2-3 min until shrimp turns pink.', fr: 'Ajoutez crevettes, jambon, petits pois et maïs. Sautez 2-3 min.', pt: 'Adicione camarão, presunto, ervilhas e milho. Refogue 2-3 min.', 'zh-CN': '加虾仁、火腿、青豆、玉米粒翻炒2-3分钟至虾变色。', 'zh-TW': '加蝦仁、火腿、青豆、玉米粒翻炒2-3分鐘至蝦變色。' } },
+      { order: 4, text: { en: 'Season with soy sauce and salt. Add scallions, toss a few more times, and serve.', fr: 'Assaisonnez de sauce soja et sel. Ajoutez les ciboules, mélangez et servez.', pt: 'Tempere com molho de soja e sal. Adicione cebolinha, mexa mais e sirva.', 'zh-CN': '加生抽和盐调味，撒葱花翻几下出锅。', 'zh-TW': '加生抽和鹽調味，撒蔥花翻幾下出鍋。' } },
+    ],
+    tags: { en: ['rice', 'fried', 'Jiangsu', 'shrimp', 'classic'], fr: ['riz', 'sauté', 'Jiangsu', 'crevettes', 'classique'], pt: ['arroz', 'frito', 'Jiangsu', 'camarão', 'clássico'], 'zh-CN': ['炒饭', '虾仁', '江浙', '经典', '快手'], 'zh-TW': ['炒飯', '蝦仁', '江浙', '經典', '快手'] },
+  },
+  // ──────────────────────────────────────────────
+  // 88. Dry Dan Dan Noodles (担担面)
+  // ──────────────────────────────────────────────
+  {
+    id: 'dry-dan-dan-noodles',
+    region: 'sichuan',
+    category: 'rice-noodles',
+    cookingMethod: 'boil',
+    prepTime: 15,
+    cookTime: 10,
+    servings: 2,
+    difficulty: 'medium',
+    chineseName: '担担面',
+    pinyin: 'dàndàn miàn',
+    imageConfig: {
+      primaryColor: '#DC2626',
+      secondaryColor: '#FEF2F2',
+      icon: 'noodle',
+      pattern: 'spicy',
+    },
+    name: { en: 'Dry Dan Dan Noodles', fr: 'Nouilles Dan Dan sèches', pt: 'Macarrão Dan Dan Seco', 'zh-CN': '担担面（干拌）', 'zh-TW': '擔擔麵（乾拌）' },
+    description: { en: 'Spicy sesame-peanut sauce tossed with noodles and minced pork — iconic Sichuan street food.', fr: 'Sauce sésame-cacahuète épicée mélangée aux nouilles et porc haché — street food iconique du Sichuan.', pt: 'Molho picante de gergelim e amendoim com macarrão e carne moída — street food icônico de Sichuan.', 'zh-CN': '麻辣花生芝麻酱拌面配肉末，四川经典街头小吃。', 'zh-TW': '麻辣花生芝麻醬拌麵配肉末，四川經典街頭小吃。' },
+    ingredients: [
+      { id: 'dried-noodles', quantity: { value: 250, unit: 'g' }, name: { en: 'Dried wheat noodles', fr: 'Nouilles de blé séchées', pt: 'Macarrão de trigo seco', 'zh-CN': '干面条', 'zh-TW': '乾麵條' }, category: 'grain', commonInEurope: true },
+      { id: 'ground-pork', quantity: { value: 150, unit: 'g' }, name: { en: 'Ground pork', fr: 'Porc haché', pt: 'Carne de porco moída', 'zh-CN': '猪肉末', 'zh-TW': '豬肉末' }, category: 'protein', commonInEurope: true },
+      { id: 'sesame-paste', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Sesame paste (tahini)', fr: 'Pâte de sésame (tahini)', pt: 'Pasta de gergelim (tahini)', 'zh-CN': '芝麻酱', 'zh-TW': '芝麻醬' }, category: 'sauce', commonInEurope: true },
+      { id: 'chili-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Chili oil', fr: 'Huile de piment', pt: 'Óleo de pimenta', 'zh-CN': '辣椒油', 'zh-TW': '辣椒油' }, category: 'sauce', commonInEurope: false },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'chinese-black-vinegar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Chinese black vinegar', fr: 'Vinaigre noir chinois', pt: 'Vinagre preto chinês', 'zh-CN': '陈醋', 'zh-TW': '陳醋' }, category: 'sauce', commonInEurope: false },
+      { id: 'sichuan-peppercorn', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Ground Sichuan peppercorn', fr: 'Poivre du Sichuan moulu', pt: 'Pimenta de Sichuan moída', 'zh-CN': '花椒粉', 'zh-TW': '花椒粉' }, category: 'spice', commonInEurope: false },
+      { id: 'roasted-peanuts', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Roasted peanuts, crushed', fr: 'Cacahuètes grillées écrasées', pt: 'Amendoins torrados triturados', 'zh-CN': '炒花生碎', 'zh-TW': '炒花生碎' }, category: 'other', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Mix sauce: sesame paste, chili oil, soy sauce, vinegar, peppercorn powder, and 2 tbsp warm water until smooth. Divide into bowls.', fr: 'Préparez la sauce : pâte de sésame, huile de piment, sauce soja, vinaigre, poivre du Sichuan et 2 c.s. d\'eau chaude. Répartissez dans les bols.', pt: 'Misture o molho: pasta de gergelim, óleo de pimenta, molho de soja, vinagre, pimenta de Sichuan e 2 cs de água morna. Divida nas tigelas.', 'zh-CN': '芝麻酱、辣椒油、生抽、陈醋、花椒粉和2勺温水拌成酱汁，分入碗中。', 'zh-TW': '芝麻醬、辣椒油、生抽、陳醋、花椒粉和2勺溫水拌成醬汁，分入碗中。' }, tip: { en: 'Add warm water to the sesame paste first to loosen it — cold water makes it seize up.', fr: 'Ajoutez d\'abord l\'eau chaude à la pâte de sésame pour la détendre.', pt: 'Adicione água morna primeiro à pasta de gergelim para soltar — água fria endurece.', 'zh-CN': '先用温水把芝麻酱澥开，凉水会结块。', 'zh-TW': '先用溫水把芝麻醬澥開，涼水會結塊。' } },
+      { order: 2, text: { en: 'Heat oil, cook ground pork over high heat, breaking it up, until browned and crispy. Season with a splash of soy sauce.', fr: 'Chauffez l\'huile, cuisez le porc haché à feu vif en l\'émiettant. Ajoutez un peu de sauce soja.', pt: 'Aqueça óleo, cozinhe a carne moída em fogo alto, quebrando, até dourar. Tempere com um pouco de molho de soja.', 'zh-CN': '热油大火炒肉末至焦香酥脆，加少许生抽调味。', 'zh-TW': '熱油大火炒肉末至焦香酥脆，加少許生抽調味。' } },
+      { order: 3, text: { en: 'Cook noodles according to package. Drain well and add to bowls with the sauce. Toss thoroughly.', fr: 'Cuisez les nouilles selon l\'emballage. Égouttez bien et ajoutez dans les bols avec la sauce. Mélangez bien.', pt: 'Cozinhe o macarrão conforme a embalagem. Escorra bem e adicione às tigelas com o molho. Misture bem.', 'zh-CN': '面条按包装煮好，沥干放入碗中和酱汁拌匀。', 'zh-TW': '麵條按包裝煮好，瀝乾放入碗中和醬汁拌勻。' } },
+      { order: 4, text: { en: 'Top with crispy pork, crushed peanuts, and chopped scallions.', fr: 'Garnissez de porc croustillant, cacahuètes et ciboules.', pt: 'Cubra com carne crocante, amendoins e cebolinha.', 'zh-CN': '撒上酥脆肉末、花生碎和葱花。', 'zh-TW': '撒上酥脆肉末、花生碎和蔥花。' } },
+    ],
+    tags: { en: ['noodles', 'spicy', 'Sichuan', 'sesame', 'street food'], fr: ['nouilles', 'pimenté', 'Sichuan', 'sésame', 'street food'], pt: ['macarrão', 'picante', 'Sichuan', 'gergelim', 'street food'], 'zh-CN': ['面', '辣', '川菜', '芝麻', '小吃'], 'zh-TW': ['麵', '辣', '川菜', '芝麻', '小吃'] },
+  },
+  // ──────────────────────────────────────────────
+  // 89. Scallion Oil Noodles (葱油拌面)
+  // ──────────────────────────────────────────────
+  {
+    id: 'scallion-oil-noodles',
+    region: 'jiangsu-shanghai',
+    category: 'rice-noodles',
+    cookingMethod: 'boil',
+    prepTime: 5,
+    cookTime: 15,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '葱油拌面',
+    pinyin: 'cōngyóu bànmiàn',
+    imageConfig: {
+      primaryColor: '#78350F',
+      secondaryColor: '#FEF3C7',
+      icon: 'noodle',
+      pattern: 'stripes',
+    },
+    name: { en: 'Scallion Oil Noodles', fr: 'Nouilles à l\'huile de ciboule', pt: 'Macarrão com Óleo de Cebolinha', 'zh-CN': '葱油拌面', 'zh-TW': '蔥油拌麵' },
+    description: { en: 'Simple Shanghai noodles tossed in caramelized scallion oil and soy sauce — deceptively delicious.', fr: 'Nouilles simples de Shanghai en huile de ciboule caramélisée — d\'une simplicité trompeuse.', pt: 'Macarrão simples de Xangai com óleo de cebolinha caramelizada — enganosamente delicioso.', 'zh-CN': '上海经典葱油拌面，焦香葱油配酱油，简单却极致美味。', 'zh-TW': '上海經典蔥油拌麵，焦香蔥油配醬油，簡單卻極致美味。' },
+    ingredients: [
+      { id: 'dried-noodles', quantity: { value: 200, unit: 'g' }, name: { en: 'Thin dried noodles', fr: 'Nouilles fines séchées', pt: 'Macarrão fino seco', 'zh-CN': '细面条', 'zh-TW': '細麵條' }, category: 'grain', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 8, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut scallions into 5cm lengths. Separate white and green parts.', fr: 'Coupez les ciboules en tronçons de 5 cm. Séparez blanc et vert.', pt: 'Corte a cebolinha em pedaços de 5cm. Separe partes brancas e verdes.', 'zh-CN': '葱切5厘米段，葱白葱绿分开。', 'zh-TW': '蔥切5公分段，蔥白蔥綠分開。' } },
+      { order: 2, text: { en: 'Heat oil on medium-low. Add scallions and fry slowly, stirring occasionally, for 10-12 min until deeply golden and crispy.', fr: 'Chauffez l\'huile à feu moyen-doux. Ajoutez les ciboules et faites frire lentement 10-12 min jusqu\'à dorées et croustillantes.', pt: 'Aqueça o óleo em fogo médio-baixo. Adicione a cebolinha e frite lentamente 10-12 min até dourar e ficar crocante.', 'zh-CN': '中小火热油，放入所有葱段慢慢炸10-12分钟至深金黄酥脆。', 'zh-TW': '中小火熱油，放入所有蔥段慢慢炸10-12分鐘至深金黃酥脆。' }, tip: { en: 'Patience is everything — slow-fried scallions develop a deep caramel sweetness.', fr: 'La patience est tout — les ciboules frites lentement développent une douceur caramélisée.', pt: 'Paciência é tudo — cebolinha frita lentamente desenvolve doçura caramelizada.', 'zh-CN': '葱油的精髓在于慢慢熬，葱焦香甜才好吃。', 'zh-TW': '蔥油的精髓在於慢慢熬，蔥焦香甜才好吃。' } },
+      { order: 3, text: { en: 'Remove fried scallions. Mix the scallion oil with both soy sauces and sugar in a bowl.', fr: 'Retirez les ciboules frites. Mélangez l\'huile avec les sauces soja et le sucre.', pt: 'Retire a cebolinha frita. Misture o óleo com os molhos de soja e açúcar.', 'zh-CN': '捞出炸葱段，葱油加生抽、老抽、糖拌匀。', 'zh-TW': '撈出炸蔥段，蔥油加生抽、老抽、糖拌勻。' } },
+      { order: 4, text: { en: 'Cook noodles until al dente, drain well. Toss with scallion oil sauce and top with the crispy fried scallions.', fr: 'Cuisez les nouilles al dente, égouttez. Mélangez avec la sauce et garnissez des ciboules frites.', pt: 'Cozinhe o macarrão al dente, escorra. Misture com o molho e cubra com a cebolinha frita.', 'zh-CN': '面条煮至有嚼劲，沥干，拌入葱油酱汁，放上炸葱段。', 'zh-TW': '麵條煮至有嚼勁，瀝乾，拌入蔥油醬汁，放上炸蔥段。' } },
+    ],
+    tags: { en: ['noodles', 'scallion', 'Shanghai', 'simple', 'aromatic'], fr: ['nouilles', 'ciboule', 'Shanghai', 'simple', 'aromatique'], pt: ['macarrão', 'cebolinha', 'Xangai', 'simples', 'aromático'], 'zh-CN': ['面', '葱油', '上海', '简单', '焦香'], 'zh-TW': ['麵', '蔥油', '上海', '簡單', '焦香'] },
+  },
+  // ──────────────────────────────────────────────
+  // 90. Stir-fried Rice Noodles (炒米粉)
+  // ──────────────────────────────────────────────
+  {
+    id: 'stir-fried-rice-noodles',
+    region: 'cantonese',
+    category: 'rice-noodles',
+    cookingMethod: 'stir-fry',
+    prepTime: 10,
+    cookTime: 10,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '炒米粉',
+    pinyin: 'chǎo mǐfěn',
+    imageConfig: {
+      primaryColor: '#D97706',
+      secondaryColor: '#FEF3C7',
+      icon: 'noodle',
+      pattern: 'waves',
+    },
+    name: { en: 'Stir-fried Rice Noodles', fr: 'Vermicelles de riz sautés', pt: 'Macarrão de Arroz Frito', 'zh-CN': '炒米粉', 'zh-TW': '炒米粉' },
+    description: { en: 'Thin rice noodles stir-fried with bean sprouts, soy sauce, and vegetables — classic Cantonese quick meal.', fr: 'Vermicelles de riz sautés avec germes de soja et légumes — repas rapide cantonais.', pt: 'Macarrão de arroz fino frito com brotos de feijão e vegetais — refeição rápida cantonesa.', 'zh-CN': '米粉配豆芽和蔬菜快炒，粤式快手饭。', 'zh-TW': '米粉配豆芽和蔬菜快炒，粵式快手飯。' },
+    ingredients: [
+      { id: 'rice-vermicelli', quantity: { value: 200, unit: 'g' }, name: { en: 'Thin rice vermicelli', fr: 'Vermicelles de riz fins', pt: 'Aletria de arroz fina', 'zh-CN': '细米粉', 'zh-TW': '細米粉' }, category: 'grain', commonInEurope: true },
+      { id: 'bean-sprouts', quantity: { value: 150, unit: 'g' }, name: { en: 'Bean sprouts', fr: 'Germes de soja', pt: 'Broto de feijão', 'zh-CN': '豆芽', 'zh-TW': '豆芽' }, category: 'vegetable', commonInEurope: true },
+      { id: 'carrot', quantity: { value: 1, unit: 'small' }, name: { en: 'Carrot, julienned', fr: 'Carotte, en julienne', pt: 'Cenoura, em juliana', 'zh-CN': '胡萝卜丝', 'zh-TW': '胡蘿蔔絲' }, category: 'vegetable', commonInEurope: true },
+      { id: 'egg', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Eggs', fr: 'Œufs', pt: 'Ovos', 'zh-CN': '鸡蛋', 'zh-TW': '雞蛋' }, category: 'protein', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'dark-soy-sauce', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Dark soy sauce', fr: 'Sauce soja foncée', pt: 'Molho de soja escuro', 'zh-CN': '老抽', 'zh-TW': '老抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak rice vermicelli in warm water 10 min until soft but still slightly firm. Drain well.', fr: 'Faites tremper les vermicelles 10 min dans l\'eau chaude. Égouttez bien.', pt: 'Deixe o macarrão de molho em água morna 10 min. Escorra bem.', 'zh-CN': '米粉温水泡10分钟至软但稍有弹性，沥干。', 'zh-TW': '米粉溫水泡10分鐘至軟但稍有彈性，瀝乾。' }, tip: { en: 'Don\'t oversoak — slightly firm noodles won\'t get mushy when stir-fried.', fr: 'Ne faites pas trop tremper — des nouilles légèrement fermes ne deviendront pas pâteuses.', pt: 'Não deixe demais — macarrão levemente firme não fica pastoso ao fritar.', 'zh-CN': '不要泡太软，稍硬一点炒出来不会烂。', 'zh-TW': '不要泡太軟，稍硬一點炒出來不會爛。' } },
+      { order: 2, text: { en: 'Heat oil, scramble eggs, break into pieces, and remove. In same wok, stir-fry carrot 1 min.', fr: 'Chauffez l\'huile, brouillezles œufs, cassez en morceaux et retirez. Sautez la carotte 1 min.', pt: 'Aqueça óleo, mexa os ovos, quebre em pedaços e retire. Refogue cenoura 1 min.', 'zh-CN': '热油炒鸡蛋拨碎盛出，同锅炒胡萝卜丝1分钟。', 'zh-TW': '熱油炒雞蛋撥碎盛出，同鍋炒胡蘿蔔絲1分鐘。' } },
+      { order: 3, text: { en: 'Add rice noodles, both soy sauces, and toss over high heat. Add bean sprouts and scallions, stir-fry 1 more min.', fr: 'Ajoutez les vermicelles et les sauces soja, mélangez à feu vif. Ajoutez germes de soja et ciboules, sautez 1 min.', pt: 'Adicione o macarrão e os molhos de soja, mexa em fogo alto. Adicione brotos e cebolinha, refogue 1 min.', 'zh-CN': '加米粉和酱油大火翻炒，加豆芽和葱段再炒1分钟。', 'zh-TW': '加米粉和醬油大火翻炒，加豆芽和蔥段再炒1分鐘。' } },
+      { order: 4, text: { en: 'Return eggs, season with salt, toss to combine and serve.', fr: 'Remettez les œufs, salez, mélangez et servez.', pt: 'Devolva os ovos, tempere com sal, misture e sirva.', 'zh-CN': '鸡蛋回锅，加盐翻匀出锅。', 'zh-TW': '雞蛋回鍋，加鹽翻勻出鍋。' } },
+    ],
+    tags: { en: ['noodles', 'rice', 'Cantonese', 'stir-fry', 'quick'], fr: ['nouilles', 'riz', 'cantonais', 'sauté', 'rapide'], pt: ['macarrão', 'arroz', 'cantonês', 'refogado', 'rápido'], 'zh-CN': ['米粉', '炒', '粤菜', '快手', '家常'], 'zh-TW': ['米粉', '炒', '粵菜', '快手', '家常'] },
+  },
+  // ──────────────────────────────────────────────
+  // 91. Three Earth Treasures (地三鲜)
+  // ──────────────────────────────────────────────
+  {
+    id: 'three-earth-treasures',
+    region: 'northern',
+    category: 'vegetables',
+    cookingMethod: 'stir-fry',
+    prepTime: 15,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '地三鲜',
+    pinyin: 'dìsānxiān',
+    imageConfig: {
+      primaryColor: '#7C3AED',
+      secondaryColor: '#EDE9FE',
+      icon: 'eggplant',
+      pattern: 'dots',
+    },
+    name: { en: 'Three Earth Treasures', fr: 'Trois trésors de la terre', pt: 'Três Tesouros da Terra', 'zh-CN': '地三鲜', 'zh-TW': '地三鮮' },
+    description: { en: 'Potato, eggplant, and green pepper stir-fried in garlic soy sauce — northeastern vegetable classic.', fr: 'Pomme de terre, aubergine et poivron vert sautés à la sauce soja et ail.', pt: 'Batata, berinjela e pimentão verde refogados em molho de soja com alho.', 'zh-CN': '土豆、茄子、青椒三样蔬菜配蒜香酱油炒，东北经典素菜。', 'zh-TW': '馬鈴薯、茄子、青椒三樣蔬菜配蒜香醬油炒，東北經典素菜。' },
+    ingredients: [
+      { id: 'eggplant', quantity: { value: 1, unit: 'large' }, name: { en: 'Chinese eggplant (or regular)', fr: 'Aubergine chinoise (ou classique)', pt: 'Berinjela chinesa (ou normal)', 'zh-CN': '茄子', 'zh-TW': '茄子' }, category: 'vegetable', commonInEurope: true },
+      { id: 'potato', quantity: { value: 1, unit: 'large' }, name: { en: 'Potato', fr: 'Pomme de terre', pt: 'Batata', 'zh-CN': '土豆', 'zh-TW': '馬鈴薯' }, category: 'vegetable', commonInEurope: true },
+      { id: 'green-pepper', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Green peppers', fr: 'Poivrons verts', pt: 'Pimentões verdes', 'zh-CN': '青椒', 'zh-TW': '青椒' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 4, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'oyster-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Oyster sauce', fr: 'Sauce d\'huître', pt: 'Molho de ostra', 'zh-CN': '蚝油', 'zh-TW': '蠔油' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'cornstarch', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Cornstarch (in 2tbsp water)', fr: 'Fécule de maïs (dans 2 c.s. d\'eau)', pt: 'Amido de milho (em 2cs de água)', 'zh-CN': '淀粉（2勺水调）', 'zh-TW': '澱粉（2勺水調）' }, category: 'other', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 4, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut eggplant and potato into bite-size chunks. Cut peppers into similar pieces.', fr: 'Coupez l\'aubergine et la pomme de terre en morceaux. Coupez les poivrons pareillement.', pt: 'Corte a berinjela e a batata em pedaços. Corte os pimentões em pedaços similares.', 'zh-CN': '茄子和土豆切滚刀块，青椒切块。', 'zh-TW': '茄子和馬鈴薯切滾刀塊，青椒切塊。' } },
+      { order: 2, text: { en: 'Heat oil, fry potato chunks until golden and cooked through. Remove. Fry eggplant until soft and golden. Remove.', fr: 'Chauffez l\'huile, faites frire la pomme de terre jusqu\'à dorée. Retirez. Faites frire l\'aubergine. Retirez.', pt: 'Aqueça óleo, frite a batata até dourar. Retire. Frite a berinjela até amolecer. Retire.', 'zh-CN': '热油炸土豆至金黄熟透，捞出。再炸茄子至软金黄，捞出。', 'zh-TW': '熱油炸馬鈴薯至金黃熟透，撈出。再炸茄子至軟金黃，撈出。' }, tip: { en: 'Frying the potato and eggplant separately before combining gives better texture than stir-frying raw.', fr: 'Frire la pomme de terre et l\'aubergine séparément donne une meilleure texture.', pt: 'Fritar a batata e berinjela separadamente dá melhor textura.', 'zh-CN': '先炸后炒，口感比生炒好很多。', 'zh-TW': '先炸後炒，口感比生炒好很多。' } },
+      { order: 3, text: { en: 'In 1 tbsp oil, stir-fry green pepper and garlic 1 min. Add soy sauce, oyster sauce, sugar, and cornstarch slurry.', fr: 'Dans 1 c.s. d\'huile, sautez poivron et ail 1 min. Ajoutez sauce soja, sauce d\'huître, sucre et eau féculée.', pt: 'Em 1 cs de óleo, refogue pimentão e alho 1 min. Adicione molho de soja, molho de ostra, açúcar e amido diluído.', 'zh-CN': '1勺油炒青椒和蒜1分钟，加生抽、蚝油、糖和淀粉水。', 'zh-TW': '1勺油炒青椒和蒜1分鐘，加生抽、蠔油、糖和澱粉水。' } },
+      { order: 4, text: { en: 'Return potato and eggplant, toss everything together until sauce coats all pieces evenly. Serve.', fr: 'Remettez pomme de terre et aubergine, mélangez pour enrober uniformément. Servez.', pt: 'Devolva batata e berinjela, misture para cobrir uniformemente. Sirva.', 'zh-CN': '土豆和茄子回锅翻炒均匀，酱汁裹满即可。', 'zh-TW': '馬鈴薯和茄子回鍋翻炒均勻，醬汁裹滿即可。' } },
+    ],
+    tags: { en: ['vegetable', 'potato', 'eggplant', 'northern', 'stir-fry'], fr: ['légume', 'pomme de terre', 'aubergine', 'nord', 'sauté'], pt: ['vegetal', 'batata', 'berinjela', 'norte', 'refogado'], 'zh-CN': ['蔬菜', '土豆', '茄子', '东北', '炒'], 'zh-TW': ['蔬菜', '馬鈴薯', '茄子', '東北', '炒'] },
+  },
+  // ──────────────────────────────────────────────
+  // 92. Dry-fried Green Beans (Sichuan) (干煸豆角)
+  // ──────────────────────────────────────────────
+  {
+    id: 'dry-fried-green-beans-sichuan',
+    region: 'sichuan',
+    category: 'vegetables',
+    cookingMethod: 'stir-fry',
+    prepTime: 10,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '干煸豆角',
+    pinyin: 'gānbiān dòujiǎo',
+    imageConfig: {
+      primaryColor: '#16A34A',
+      secondaryColor: '#F0FDF4',
+      icon: 'bean',
+      pattern: 'stripes',
+    },
+    name: { en: 'Dry-fried Green Beans (Sichuan)', fr: 'Haricots verts sautés à sec (Sichuan)', pt: 'Vagem Frita a Seco (Sichuan)', 'zh-CN': '干煸豆角', 'zh-TW': '乾煸豆角' },
+    description: { en: 'Green beans charred in the wok and tossed with minced pork and Sichuan spices — addictively savory.', fr: 'Haricots verts grillés au wok avec porc haché et épices du Sichuan.', pt: 'Vagens tostadas na wok com carne moída e temperos de Sichuan.', 'zh-CN': '豆角煸至焦皮，配肉末和川味调料，越吃越上瘾。', 'zh-TW': '豆角煸至焦皮，配肉末和川味調料，越吃越上癮。' },
+    ingredients: [
+      { id: 'green-beans', quantity: { value: 400, unit: 'g' }, name: { en: 'Green beans (string beans)', fr: 'Haricots verts', pt: 'Vagens', 'zh-CN': '豆角', 'zh-TW': '豆角' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ground-pork', quantity: { value: 100, unit: 'g' }, name: { en: 'Ground pork', fr: 'Porc haché', pt: 'Carne de porco moída', 'zh-CN': '猪肉末', 'zh-TW': '豬肉末' }, category: 'protein', commonInEurope: true },
+      { id: 'preserved-vegetable', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Preserved mustard (ya cai)', fr: 'Moutarde conservée (ya cai)', pt: 'Mostarda em conserva (ya cai)', 'zh-CN': '芽菜', 'zh-TW': '芽菜' }, category: 'vegetable', commonInEurope: false },
+      { id: 'dried-chili', quantity: { value: 6, unit: 'pcs' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干辣椒', 'zh-TW': '乾辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'sichuan-peppercorn', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sichuan peppercorns', fr: 'Poivre du Sichuan', pt: 'Pimenta de Sichuan', 'zh-CN': '花椒', 'zh-TW': '花椒' }, category: 'spice', commonInEurope: false },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic, minced', fr: 'Ail haché', pt: 'Alho picado', 'zh-CN': '蒜末', 'zh-TW': '蒜末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 2, unit: 'slices' }, name: { en: 'Ginger, minced', fr: 'Gingembre haché', pt: 'Gengibre picado', 'zh-CN': '姜末', 'zh-TW': '薑末' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Trim green beans and snap into 5cm lengths. Pat dry completely.', fr: 'Parez les haricots et cassez en tronçons de 5 cm. Séchez complètement.', pt: 'Limpe as vagens e quebre em pedaços de 5cm. Seque completamente.', 'zh-CN': '豆角掐头去尾掰成5厘米段，擦干水分。', 'zh-TW': '豆角掐頭去尾掰成5公分段，擦乾水分。' } },
+      { order: 2, text: { en: 'Heat oil on high. Add beans and stir-fry, pressing them against the wok, until blistered and charred in spots, about 5-7 min. Remove.', fr: 'Chauffez l\'huile à feu vif. Sautez les haricots en les pressant contre le wok 5-7 min. Retirez.', pt: 'Aqueça óleo em fogo alto. Refogue as vagens pressionando contra a wok 5-7 min. Retire.', 'zh-CN': '大火热油，豆角下锅煸炒，贴锅壁按压，至表皮起焦斑5-7分钟，盛出。', 'zh-TW': '大火熱油，豆角下鍋煸炒，貼鍋壁按壓，至表皮起焦斑5-7分鐘，盛出。' }, tip: { en: 'The wrinkled, slightly charred skin is what makes this dish — don\'t rush it.', fr: 'La peau ridée et légèrement grillée est ce qui fait ce plat.', pt: 'A pele enrugada e levemente tostada é o que faz este prato.', 'zh-CN': '煸到起皱焦斑才是地道的干煸豆角。', 'zh-TW': '煸到起皺焦斑才是地道的乾煸豆角。' } },
+      { order: 3, text: { en: 'In remaining oil, fry pork until browned and crumbly. Add ginger, garlic, chilies, peppercorns, and preserved vegetable. Stir-fry 1 min.', fr: 'Dans l\'huile restante, faites revenir le porc. Ajoutez gingembre, ail, piments, poivre du Sichuan et légume conservé. Sautez 1 min.', pt: 'No óleo restante, frite a carne até dourar. Adicione gengibre, alho, pimentas, pimenta de Sichuan e conserva. Refogue 1 min.', 'zh-CN': '余油炒肉末至焦香，加姜蒜末、干辣椒、花椒和芽菜翻炒1分钟。', 'zh-TW': '餘油炒肉末至焦香，加薑蒜末、乾辣椒、花椒和芽菜翻炒1分鐘。' } },
+      { order: 4, text: { en: 'Return beans, add soy sauce and salt. Toss everything together over high heat for 1 min and serve.', fr: 'Remettez les haricots, ajoutez sauce soja et sel. Mélangez 1 min à feu vif. Servez.', pt: 'Devolva as vagens, adicione molho de soja e sal. Mexa 1 min em fogo alto e sirva.', 'zh-CN': '豆角回锅，加生抽和盐，大火翻炒1分钟出锅。', 'zh-TW': '豆角回鍋，加生抽和鹽，大火翻炒1分鐘出鍋。' } },
+    ],
+    tags: { en: ['vegetable', 'green beans', 'Sichuan', 'dry-fried', 'spicy'], fr: ['légume', 'haricots verts', 'Sichuan', 'sauté sec', 'épicé'], pt: ['vegetal', 'vagens', 'Sichuan', 'frito seco', 'picante'], 'zh-CN': ['蔬菜', '豆角', '川菜', '干煸', '下饭'], 'zh-TW': ['蔬菜', '豆角', '川菜', '乾煸', '下飯'] },
+  },
+// ──────────────────────────────────────────────
+  // 93. Tiger Skin Peppers (虎皮青椒)
+  // ──────────────────────────────────────────────
+  {
+    id: 'tiger-skin-peppers',
+    region: 'sichuan',
+    category: 'vegetables',
+    cookingMethod: 'pan-fry',
+    prepTime: 5,
+    cookTime: 10,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '虎皮青椒',
+    pinyin: 'hǔpí qīngjiāo',
+    imageConfig: {
+      primaryColor: '#16A34A',
+      secondaryColor: '#DCFCE7',
+      icon: 'pepper',
+      pattern: 'stripes',
+    },
+    name: { en: 'Tiger Skin Peppers', fr: 'Poivrons peau de tigre', pt: 'Pimentões Pele de Tigre', 'zh-CN': '虎皮青椒', 'zh-TW': '虎皮青椒' },
+    description: { en: 'Blistered green peppers in sweet soy vinegar sauce — the charred skin looks like tiger stripes.', fr: 'Poivrons verts grillés en sauce soja sucrée au vinaigre — la peau grillée ressemble à des rayures de tigre.', pt: 'Pimentões verdes tostados em molho de soja agridoce com vinagre — a pele tostada parece listras de tigre.', 'zh-CN': '青椒煎至起虎皮，浇上甜咸酱汁，简单又下饭。', 'zh-TW': '青椒煎至起虎皮，澆上甜鹹醬汁，簡單又下飯。' },
+    ingredients: [
+      { id: 'green-pepper', quantity: { value: 300, unit: 'g' }, name: { en: 'Shishito or thin green peppers', fr: 'Poivrons shishito ou fins poivrons verts', pt: 'Pimentões shishito ou verdes finos', 'zh-CN': '青椒（细长形）', 'zh-TW': '青椒（細長形）' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic, sliced', fr: 'Ail émincé', pt: 'Alho fatiado', 'zh-CN': '蒜片', 'zh-TW': '蒜片' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'rice-vinegar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Rice vinegar', fr: 'Vinaigre de riz', pt: 'Vinagre de arroz', 'zh-CN': '米醋', 'zh-TW': '米醋' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 1, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Wash peppers, poke each one with a knife to prevent bursting. Pat dry.', fr: 'Lavez les poivrons, piquez chacun d\'un coup de couteau. Séchez.', pt: 'Lave os pimentões, fure cada um com faca. Seque.', 'zh-CN': '青椒洗净，每个用刀尖戳一下防炸裂，擦干。', 'zh-TW': '青椒洗淨，每個用刀尖戳一下防炸裂，擦乾。' } },
+      { order: 2, text: { en: 'Heat oil in a dry wok. Press peppers flat against the wok and cook without moving until blistered and charred, then flip. About 5 min total.', fr: 'Chauffez l\'huile dans un wok sec. Pressez les poivrons et cuisez sans remuer jusqu\'à cloquage, puis retournez. Environ 5 min.', pt: 'Aqueça óleo na wok seca. Pressione os pimentões e cozinhe sem mexer até bolhar, depois vire. Cerca de 5 min.', 'zh-CN': '锅中少油，青椒铺平按压不动，煎至起虎皮泡再翻面，共约5分钟。', 'zh-TW': '鍋中少油，青椒鋪平按壓不動，煎至起虎皮泡再翻面，共約5分鐘。' }, tip: { en: 'Don\'t move the peppers — pressing them flat against the hot wok creates the blistered tiger skin.', fr: 'Ne bougez pas les poivrons — les presser contre le wok crée les cloques.', pt: 'Não mexa os pimentões — pressioná-los contra a wok cria as bolhas.', 'zh-CN': '不要翻动，按住煎才能起虎皮。', 'zh-TW': '不要翻動，按住煎才能起虎皮。' } },
+      { order: 3, text: { en: 'Push peppers to the side. Add garlic and fry 20 seconds. Add soy sauce, vinegar, and sugar. Toss everything together.', fr: 'Poussez les poivrons. Ajoutez l\'ail 20 s. Ajoutez sauce soja, vinaigre et sucre. Mélangez.', pt: 'Empurre os pimentões para o lado. Adicione alho 20 s. Adicione molho de soja, vinagre e açúcar. Misture.', 'zh-CN': '青椒推到一边，加蒜片炒20秒，加生抽、醋、糖翻炒均匀。', 'zh-TW': '青椒推到一邊，加蒜片炒20秒，加生抽、醋、糖翻炒均勻。' } },
+    ],
+    tags: { en: ['vegetable', 'pepper', 'Sichuan', 'pan-fried', 'simple'], fr: ['légume', 'poivron', 'Sichuan', 'poêlé', 'simple'], pt: ['vegetal', 'pimentão', 'Sichuan', 'frigideira', 'simples'], 'zh-CN': ['蔬菜', '青椒', '川菜', '煎', '简单'], 'zh-TW': ['蔬菜', '青椒', '川菜', '煎', '簡單'] },
+  },
+  // ──────────────────────────────────────────────
+  // 94. Garlic Spinach (蒜蓉菠菜)
+  // ──────────────────────────────────────────────
+  {
+    id: 'garlic-spinach',
+    region: 'home-style',
+    category: 'vegetables',
+    cookingMethod: 'stir-fry',
+    prepTime: 5,
+    cookTime: 5,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '蒜蓉菠菜',
+    pinyin: 'suànróng bōcài',
+    imageConfig: {
+      primaryColor: '#15803D',
+      secondaryColor: '#F0FDF4',
+      icon: 'leaf',
+      pattern: 'dots',
+    },
+    name: { en: 'Garlic Spinach', fr: 'Épinards à l\'ail', pt: 'Espinafre com Alho', 'zh-CN': '蒜蓉菠菜', 'zh-TW': '蒜蓉菠菜' },
+    description: { en: 'Quick-wilted spinach with garlic — the simplest and most nutritious Chinese green.', fr: 'Épinards rapidement sautés à l\'ail — le légume vert chinois le plus simple et nutritif.', pt: 'Espinafre rapidamente refogado com alho — o verde chinês mais simples e nutritivo.', 'zh-CN': '蒜炒菠菜，最简单营养的中式绿叶菜。', 'zh-TW': '蒜炒菠菜，最簡單營養的中式綠葉菜。' },
+    ingredients: [
+      { id: 'spinach', quantity: { value: 400, unit: 'g' }, name: { en: 'Fresh spinach', fr: 'Épinards frais', pt: 'Espinafre fresco', 'zh-CN': '菠菜', 'zh-TW': '菠菜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 4, unit: 'cloves' }, name: { en: 'Garlic, sliced', fr: 'Ail émincé', pt: 'Alho fatiado', 'zh-CN': '蒜片', 'zh-TW': '蒜片' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'sesame-oil', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sesame oil', fr: 'Huile de sésame', pt: 'Óleo de gergelim', 'zh-CN': '香油', 'zh-TW': '香油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Wash spinach thoroughly. Trim root ends. If large, cut into sections.', fr: 'Lavez bien les épinards. Coupez les racines. Si grands, coupez en sections.', pt: 'Lave bem o espinafre. Corte as raízes. Se grande, corte em seções.', 'zh-CN': '菠菜洗净，切去根部。大棵的切段。', 'zh-TW': '菠菜洗淨，切去根部。大棵的切段。' } },
+      { order: 2, text: { en: 'Heat oil on high. Add garlic and stir 10 seconds until fragrant but not browned.', fr: 'Chauffez l\'huile à feu vif. Ajoutez l\'ail et remuez 10 s sans colorer.', pt: 'Aqueça óleo em fogo alto. Adicione alho e mexa 10 s sem dourar.', 'zh-CN': '大火热油，蒜片下锅炒10秒出香，不要炒黄。', 'zh-TW': '大火熱油，蒜片下鍋炒10秒出香，不要炒黃。' }, tip: { en: 'High heat and speed are key — spinach wilts in seconds and becomes watery if overcooked.', fr: 'Le feu vif et la rapidité sont clés — les épinards fondent en secondes.', pt: 'Fogo alto e rapidez são chave — espinafre murcha em segundos.', 'zh-CN': '大火快炒是关键，菠菜炒过了会出很多水。', 'zh-TW': '大火快炒是關鍵，菠菜炒過了會出很多水。' } },
+      { order: 3, text: { en: 'Add spinach and toss rapidly with tongs. Season with salt. Cook only until just wilted, about 30 seconds. Drizzle sesame oil and serve.', fr: 'Ajoutez les épinards et mélangez rapidement. Salez. Cuisez 30 s maximum. Arrosez d\'huile de sésame.', pt: 'Adicione o espinafre e mexa rapidamente. Tempere com sal. Cozinhe apenas até murchar, 30 s. Regue com óleo de gergelim.', 'zh-CN': '加菠菜快速翻炒，加盐，炒至刚断生约30秒，淋香油出锅。', 'zh-TW': '加菠菜快速翻炒，加鹽，炒至剛斷生約30秒，淋香油出鍋。' } },
+    ],
+    tags: { en: ['vegetable', 'spinach', 'garlic', 'quick', 'healthy'], fr: ['légume', 'épinard', 'ail', 'rapide', 'sain'], pt: ['vegetal', 'espinafre', 'alho', 'rápido', 'saudável'], 'zh-CN': ['蔬菜', '菠菜', '蒜', '快手', '健康'], 'zh-TW': ['蔬菜', '菠菜', '蒜', '快手', '健康'] },
+  },
+  // ──────────────────────────────────────────────
+  // 95. Home-style Braised Tofu (家常豆腐)
+  // ──────────────────────────────────────────────
+  {
+    id: 'home-style-braised-tofu',
+    region: 'sichuan',
+    category: 'vegetables',
+    cookingMethod: 'braise',
+    prepTime: 10,
+    cookTime: 15,
+    servings: 3,
+    difficulty: 'easy',
+    chineseName: '家常豆腐',
+    pinyin: 'jiācháng dòufu',
+    imageConfig: {
+      primaryColor: '#EA580C',
+      secondaryColor: '#FFF7ED',
+      icon: 'tofu',
+      pattern: 'circles',
+    },
+    name: { en: 'Home-style Braised Tofu', fr: 'Tofu braisé maison', pt: 'Tofu Braseado Caseiro', 'zh-CN': '家常豆腐', 'zh-TW': '家常豆腐' },
+    description: { en: 'Pan-fried firm tofu braised in savory doubanjiang sauce with vegetables — everyday Sichuan comfort.', fr: 'Tofu ferme poêlé braisé dans une sauce doubanjiang avec légumes.', pt: 'Tofu firme frito braseado em molho doubanjiang com vegetais.', 'zh-CN': '煎豆腐配豆瓣酱炖，四川人天天吃的家常菜。', 'zh-TW': '煎豆腐配豆瓣醬燉，四川人天天吃的家常菜。' },
+    ingredients: [
+      { id: 'firm-tofu', quantity: { value: 400, unit: 'g' }, name: { en: 'Firm tofu', fr: 'Tofu ferme', pt: 'Tofu firme', 'zh-CN': '老豆腐', 'zh-TW': '老豆腐' }, category: 'protein', commonInEurope: true },
+      { id: 'doubanjiang', quantity: { value: 1.5, unit: 'tbsp' }, name: { en: 'Doubanjiang', fr: 'Doubanjiang', pt: 'Doubanjiang', 'zh-CN': '豆瓣酱', 'zh-TW': '豆瓣醬' }, category: 'sauce', commonInEurope: false },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'ginger', quantity: { value: 2, unit: 'slices' }, name: { en: 'Ginger', fr: 'Gingembre', pt: 'Gengibre', 'zh-CN': '姜', 'zh-TW': '薑' }, category: 'vegetable', commonInEurope: true },
+      { id: 'scallion', quantity: { value: 2, unit: 'stalks' }, name: { en: 'Scallions', fr: 'Ciboules', pt: 'Cebolinha', 'zh-CN': '葱', 'zh-TW': '蔥' }, category: 'vegetable', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 3, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut tofu into 1cm thick triangles or rectangles. Pat dry with paper towels.', fr: 'Coupez le tofu en triangles ou rectangles de 1 cm. Séchez avec du papier.', pt: 'Corte o tofu em triângulos ou retângulos de 1cm. Seque com papel.', 'zh-CN': '豆腐切1厘米厚三角片或方片，用纸巾吸干水分。', 'zh-TW': '豆腐切1公分厚三角片或方片，用紙巾吸乾水分。' } },
+      { order: 2, text: { en: 'Heat oil and pan-fry tofu on both sides until golden and slightly crispy, about 3 min per side. Remove.', fr: 'Chauffez l\'huile et poêlez le tofu des deux côtés 3 min. Retirez.', pt: 'Aqueça óleo e frite o tofu dos dois lados 3 min. Retire.', 'zh-CN': '热油煎豆腐至两面金黄微脆，每面约3分钟，盛出。', 'zh-TW': '熱油煎豆腐至兩面金黃微脆，每面約3分鐘，盛出。' }, tip: { en: 'Don\'t move the tofu until it forms a crust — it will stick and break if you flip too early.', fr: 'Ne bougez pas le tofu avant qu\'il ne forme une croûte.', pt: 'Não mexa o tofu até formar crosta — vai grudar se virar cedo demais.', 'zh-CN': '豆腐不要急着翻，结壳了自然就不粘了。', 'zh-TW': '豆腐不要急著翻，結殼了自然就不粘了。' } },
+      { order: 3, text: { en: 'In remaining oil, fry garlic, ginger, and doubanjiang until oil turns red. Add soy sauce, sugar, and 100ml water.', fr: 'Dans l\'huile restante, faites revenir ail, gingembre et doubanjiang. Ajoutez sauce soja, sucre et 100 ml d\'eau.', pt: 'No óleo restante, frite alho, gengibre e doubanjiang. Adicione molho de soja, açúcar e 100ml de água.', 'zh-CN': '余油炒蒜姜和豆瓣酱至出红油，加生抽、糖和100毫升水。', 'zh-TW': '餘油炒蒜薑和豆瓣醬至出紅油，加生抽、糖和100毫升水。' } },
+      { order: 4, text: { en: 'Return tofu, simmer 5 min until sauce thickens and tofu absorbs the flavors. Garnish with scallions.', fr: 'Remettez le tofu, laissez mijoter 5 min. Garnissez de ciboules.', pt: 'Devolva o tofu, cozinhe 5 min até o molho engrossar. Decore com cebolinha.', 'zh-CN': '豆腐回锅，焖5分钟至汤汁浓稠入味，撒葱花。', 'zh-TW': '豆腐回鍋，燜5分鐘至湯汁濃稠入味，撒蔥花。' } },
+    ],
+    tags: { en: ['tofu', 'braised', 'Sichuan', 'doubanjiang', 'vegetarian'], fr: ['tofu', 'braisé', 'Sichuan', 'doubanjiang', 'végétarien'], pt: ['tofu', 'braseado', 'Sichuan', 'doubanjiang', 'vegetariano'], 'zh-CN': ['豆腐', '烧', '川菜', '豆瓣酱', '家常'], 'zh-TW': ['豆腐', '燒', '川菜', '豆瓣醬', '家常'] },
+  },
+  // ──────────────────────────────────────────────
+  // 96. Celery with Lily Bulb (西芹炒百合)
+  // ──────────────────────────────────────────────
+  {
+    id: 'celery-lily-bulb',
+    region: 'jiangsu-shanghai',
+    category: 'vegetables',
+    cookingMethod: 'stir-fry',
+    prepTime: 10,
+    cookTime: 5,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '西芹炒百合',
+    pinyin: 'xīqín chǎo bǎihé',
+    imageConfig: {
+      primaryColor: '#F0FDF4',
+      secondaryColor: '#D1FAE5',
+      icon: 'celery',
+      pattern: 'waves',
+    },
+    name: { en: 'Celery with Lily Bulb', fr: 'Céleri aux bulbes de lis', pt: 'Aipo com Bulbo de Lírio', 'zh-CN': '西芹炒百合', 'zh-TW': '西芹炒百合' },
+    description: { en: 'Crunchy celery and delicate lily bulb petals — an elegant, light Jiangsu stir-fry.', fr: 'Céleri croquant et pétales délicates de bulbe de lis — un sauté élégant et léger du Jiangsu.', pt: 'Aipo crocante e pétalas delicadas de bulbo de lírio — um refogado elegante e leve de Jiangsu.', 'zh-CN': '西芹配百合瓣清炒，清淡雅致的江浙素菜。', 'zh-TW': '西芹配百合瓣清炒，清淡雅緻的江浙素菜。' },
+    ingredients: [
+      { id: 'celery', quantity: { value: 300, unit: 'g' }, name: { en: 'Celery stalks', fr: 'Branches de céleri', pt: 'Talos de aipo', 'zh-CN': '西芹', 'zh-TW': '西芹' }, category: 'vegetable', commonInEurope: true },
+      { id: 'lily-bulb', quantity: { value: 100, unit: 'g' }, name: { en: 'Fresh lily bulb', fr: 'Bulbe de lis frais', pt: 'Bulbo de lírio fresco', 'zh-CN': '鲜百合', 'zh-TW': '鮮百合' }, category: 'vegetable', commonInEurope: false },
+      { id: 'goji-berries', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Goji berries', fr: 'Baies de goji', pt: 'Bagas de goji', 'zh-CN': '枸杞', 'zh-TW': '枸杞' }, category: 'other', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 2, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Separate lily bulb into individual petals and rinse. Soak goji berries in warm water 5 min. Cut celery into thin diagonal slices.', fr: 'Séparez le bulbe en pétales et rincez. Faites tremper les baies de goji 5 min. Coupez le céleri en tranches diagonales.', pt: 'Separe o bulbo em pétalas e lave. Deixe as bagas de goji de molho 5 min. Corte o aipo em fatias diagonais.', 'zh-CN': '百合掰成瓣洗净，枸杞温水泡5分钟，西芹斜切薄片。', 'zh-TW': '百合掰成瓣洗淨，枸杞溫水泡5分鐘，西芹斜切薄片。' } },
+      { order: 2, text: { en: 'Heat oil, stir-fry garlic 10 seconds. Add celery and stir-fry 2 min until crisp-tender.', fr: 'Chauffez l\'huile, sautez l\'ail 10 s. Ajoutez le céleri et sautez 2 min.', pt: 'Aqueça óleo, refogue alho 10 s. Adicione o aipo e refogue 2 min.', 'zh-CN': '热油炒蒜10秒，加西芹翻炒2分钟至断生。', 'zh-TW': '熱油炒蒜10秒，加西芹翻炒2分鐘至斷生。' }, tip: { en: 'Lily bulb cooks very quickly — add it last so it stays delicate.', fr: 'Le bulbe de lis cuit très vite — ajoutez-le en dernier.', pt: 'O bulbo de lírio cozinha muito rápido — adicione por último.', 'zh-CN': '百合很快就熟，最后放才不会烂。', 'zh-TW': '百合很快就熟，最後放才不會爛。' } },
+      { order: 3, text: { en: 'Add lily bulb petals and goji berries. Stir-fry 30 seconds. Season with salt and serve immediately.', fr: 'Ajoutez les pétales de lis et les baies de goji. Sautez 30 s. Salez et servez.', pt: 'Adicione as pétalas de lírio e bagas de goji. Refogue 30 s. Tempere com sal e sirva.', 'zh-CN': '加百合瓣和枸杞翻炒30秒，加盐调味即可。', 'zh-TW': '加百合瓣和枸杞翻炒30秒，加鹽調味即可。' } },
+    ],
+    tags: { en: ['vegetable', 'celery', 'lily bulb', 'Jiangsu', 'light'], fr: ['légume', 'céleri', 'bulbe de lis', 'Jiangsu', 'léger'], pt: ['vegetal', 'aipo', 'bulbo de lírio', 'Jiangsu', 'leve'], 'zh-CN': ['蔬菜', '西芹', '百合', '江浙', '清淡'], 'zh-TW': ['蔬菜', '西芹', '百合', '江浙', '清淡'] },
+  },
+  // ──────────────────────────────────────────────
+  // 97. Vinegar-tossed Napa Cabbage (醋溜白菜)
+  // ──────────────────────────────────────────────
+  {
+    id: 'vinegar-napa-cabbage',
+    region: 'northern',
+    category: 'vegetables',
+    cookingMethod: 'stir-fry',
+    prepTime: 5,
+    cookTime: 5,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '醋溜白菜',
+    pinyin: 'cùliū báicài',
+    imageConfig: {
+      primaryColor: '#FDE68A',
+      secondaryColor: '#FFFFF0',
+      icon: 'cabbage',
+      pattern: 'stripes',
+    },
+    name: { en: 'Vinegar-tossed Napa Cabbage', fr: 'Chou chinois au vinaigre', pt: 'Repolho Chinês com Vinagre', 'zh-CN': '醋溜白菜', 'zh-TW': '醋溜白菜' },
+    description: { en: 'Napa cabbage stir-fried with vinegar and sugar — tangy, slightly sweet, classic northern side dish.', fr: 'Chou chinois sauté au vinaigre et sucre — un accompagnement acidulé du nord.', pt: 'Repolho chinês refogado com vinagre e açúcar — acompanhamento ácido do norte.', 'zh-CN': '白菜加醋糖快炒，酸甜开胃，北方经典配菜。', 'zh-TW': '白菜加醋糖快炒，酸甜開胃，北方經典配菜。' },
+    ingredients: [
+      { id: 'napa-cabbage', quantity: { value: 400, unit: 'g' }, name: { en: 'Napa cabbage', fr: 'Chou chinois', pt: 'Repolho chinês', 'zh-CN': '大白菜', 'zh-TW': '大白菜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'dried-chili', quantity: { value: 4, unit: 'pcs' }, name: { en: 'Dried red chilies', fr: 'Piments rouges séchés', pt: 'Pimentas vermelhas secas', 'zh-CN': '干辣椒', 'zh-TW': '乾辣椒' }, category: 'spice', commonInEurope: true },
+      { id: 'chinese-black-vinegar', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Chinese black vinegar', fr: 'Vinaigre noir chinois', pt: 'Vinagre preto chinês', 'zh-CN': '陈醋', 'zh-TW': '陳醋' }, category: 'sauce', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'light-soy-sauce', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Light soy sauce', fr: 'Sauce soja claire', pt: 'Molho de soja claro', 'zh-CN': '生抽', 'zh-TW': '生抽' }, category: 'sauce', commonInEurope: true },
+      { id: 'garlic', quantity: { value: 3, unit: 'cloves' }, name: { en: 'Garlic', fr: 'Ail', pt: 'Alho', 'zh-CN': '蒜', 'zh-TW': '蒜' }, category: 'vegetable', commonInEurope: true },
+      { id: 'vegetable-oil', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Vegetable oil', fr: 'Huile végétale', pt: 'Óleo vegetal', 'zh-CN': '植物油', 'zh-TW': '植物油' }, category: 'oil', commonInEurope: true },
+      { id: 'salt', quantity: { value: 0.5, unit: 'tsp' }, name: { en: 'Salt', fr: 'Sel', pt: 'Sal', 'zh-CN': '盐', 'zh-TW': '鹽' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Tear napa cabbage into large pieces. Keep white stems and green leaves separate — the stems need more time.', fr: 'Déchirez le chou en grands morceaux. Séparez les tiges blanches des feuilles vertes.', pt: 'Rasgue o repolho em pedaços grandes. Separe talos brancos e folhas verdes.', 'zh-CN': '白菜撕成大块，白帮和绿叶分开——白帮需要多炒。', 'zh-TW': '白菜撕成大塊，白幫和綠葉分開——白幫需要多炒。' } },
+      { order: 2, text: { en: 'Heat oil on high. Add dried chilies and garlic, fry 10 seconds. Add white stems first and stir-fry 2 min.', fr: 'Chauffez l\'huile à feu vif. Ajoutez piments et ail 10 s. Ajoutez les tiges d\'abord, sautez 2 min.', pt: 'Aqueça óleo em fogo alto. Adicione pimentas e alho 10 s. Adicione os talos primeiro, refogue 2 min.', 'zh-CN': '大火热油，干辣椒和蒜炒10秒，先下白帮炒2分钟。', 'zh-TW': '大火熱油，乾辣椒和蒜炒10秒，先下白幫炒2分鐘。' }, tip: { en: 'The vinegar should hit the hot wok — the sizzle and steam is what gives this dish its character.', fr: 'Le vinaigre doit toucher le wok chaud — le grésillement donne son caractère au plat.', pt: 'O vinagre deve tocar a wok quente — o chiado e o vapor dão caráter ao prato.', 'zh-CN': '醋要沿锅边倒，热锅激出醋香。', 'zh-TW': '醋要沿鍋邊倒，熱鍋激出醋香。' } },
+      { order: 3, text: { en: 'Add green leaves, soy sauce, sugar, and salt. Stir-fry 1 min. Pour vinegar along the edge of the wok and toss quickly. Serve immediately.', fr: 'Ajoutez les feuilles, sauce soja, sucre et sel. Sautez 1 min. Versez le vinaigre sur le bord du wok. Servez.', pt: 'Adicione as folhas, molho de soja, açúcar e sal. Refogue 1 min. Despeje o vinagre pela borda da wok. Sirva.', 'zh-CN': '加绿叶、生抽、糖、盐翻炒1分钟，沿锅边倒醋快速翻匀，出锅。', 'zh-TW': '加綠葉、生抽、糖、鹽翻炒1分鐘，沿鍋邊倒醋快速翻勻，出鍋。' } },
+    ],
+    tags: { en: ['vegetable', 'cabbage', 'vinegar', 'northern', 'tangy'], fr: ['légume', 'chou', 'vinaigre', 'nord', 'acidulé'], pt: ['vegetal', 'repolho', 'vinagre', 'norte', 'ácido'], 'zh-CN': ['蔬菜', '白菜', '醋', '北方', '酸甜'], 'zh-TW': ['蔬菜', '白菜', '醋', '北方', '酸甜'] },
+  },
+  // ──────────────────────────────────────────────
+  // 98. Sweet Red Bean Soup (红豆沙)
+  // ──────────────────────────────────────────────
+  {
+    id: 'sweet-red-bean-soup',
+    region: 'cantonese',
+    category: 'desserts',
+    cookingMethod: 'simmer',
+    prepTime: 15,
+    cookTime: 90,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '红豆沙',
+    pinyin: 'hóngdòu shā',
+    imageConfig: {
+      primaryColor: '#DC2626',
+      secondaryColor: '#FEF2F2',
+      icon: 'bean',
+      pattern: 'dots',
+    },
+    name: { en: 'Sweet Red Bean Soup', fr: 'Soupe sucrée aux haricots rouges', pt: 'Sopa Doce de Feijão Vermelho', 'zh-CN': '红豆沙', 'zh-TW': '紅豆沙' },
+    description: { en: 'Creamy sweet soup made from simmered red adzuki beans with tangerine peel — classic Cantonese dessert.', fr: 'Soupe sucrée crémeuse de haricots adzuki avec peau de mandarine — dessert cantonais classique.', pt: 'Sopa doce cremosa de feijão adzuki com casca de tangerina — sobremesa cantonesa clássica.', 'zh-CN': '红豆慢煮至绵沙配陈皮，经典广式甜品。', 'zh-TW': '紅豆慢煮至綿沙配陳皮，經典廣式甜品。' },
+    ingredients: [
+      { id: 'red-adzuki-beans', quantity: { value: 200, unit: 'g' }, name: { en: 'Red adzuki beans', fr: 'Haricots adzuki rouges', pt: 'Feijão adzuki vermelho', 'zh-CN': '红豆', 'zh-TW': '紅豆' }, category: 'grain', commonInEurope: true },
+      { id: 'rock-sugar', quantity: { value: 60, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'dried-tangerine-peel', quantity: { value: 1, unit: 'piece' }, name: { en: 'Dried tangerine peel (chen pi)', fr: 'Peau de mandarine séchée (chen pi)', pt: 'Casca de tangerina seca (chen pi)', 'zh-CN': '陈皮', 'zh-TW': '陳皮' }, category: 'spice', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Soak beans in water for 4 hours or overnight. Soak tangerine peel in warm water 15 min, scrape off white pith.', fr: 'Faites tremper les haricots 4 h ou toute la nuit. Faites tremper la peau de mandarine 15 min, grattez la partie blanche.', pt: 'Deixe os feijões de molho 4 h ou durante a noite. Deixe a casca de tangerina de molho 15 min, raspe a parte branca.', 'zh-CN': '红豆泡4小时或过夜。陈皮温水泡15分钟，刮去白瓤。', 'zh-TW': '紅豆泡4小時或過夜。陳皮溫水泡15分鐘，刮去白瓤。' }, tip: { en: 'Soaking the beans beforehand cuts the cooking time significantly.', fr: 'Faire tremper les haricots réduit considérablement le temps de cuisson.', pt: 'Deixar os feijões de molho reduz significativamente o tempo de cozimento.', 'zh-CN': '提前泡豆能大大缩短煮的时间。', 'zh-TW': '提前泡豆能大大縮短煮的時間。' } },
+      { order: 2, text: { en: 'Put beans and tangerine peel in a pot with 1.5L water. Bring to boil, then simmer on low heat for 1-1.5 hours until beans are very soft and starting to break down.', fr: 'Mettez les haricots et la peau dans une casserole avec 1,5 L d\'eau. Portez à ébullition, puis laissez mijoter 1-1,5 h.', pt: 'Coloque os feijões e a casca numa panela com 1,5L de água. Ferva, depois cozinhe em fogo baixo 1-1,5 h.', 'zh-CN': '红豆和陈皮放入锅加1.5升水，烧开后小火煮1-1.5小时至豆烂开花。', 'zh-TW': '紅豆和陳皮放入鍋加1.5升水，燒開後小火煮1-1.5小時至豆爛開花。' } },
+      { order: 3, text: { en: 'Add rock sugar and stir until dissolved. For a smoother texture, blend half the soup and mix back. Serve warm or chilled.', fr: 'Ajoutez le sucre candi et remuez. Pour une texture plus lisse, mixez la moitié et remélangez. Servez chaud ou froid.', pt: 'Adicione o açúcar cristal e mexa até dissolver. Para textura mais lisa, bata metade e misture. Sirva quente ou frio.', 'zh-CN': '加冰糖搅至溶化。想更细滑可打碎一半再混合。可热食或冷藏后吃。', 'zh-TW': '加冰糖攪至溶化。想更細滑可打碎一半再混合。可熱食或冷藏後吃。' } },
+    ],
+    tags: { en: ['dessert', 'red bean', 'Cantonese', 'sweet', 'soup'], fr: ['dessert', 'haricot rouge', 'cantonais', 'sucré', 'soupe'], pt: ['sobremesa', 'feijão vermelho', 'cantonês', 'doce', 'sopa'], 'zh-CN': ['甜品', '红豆', '粤菜', '甜', '汤'], 'zh-TW': ['甜品', '紅豆', '粵菜', '甜', '湯'] },
+  },
+  // ──────────────────────────────────────────────
+  // 99. Osmanthus Jelly (桂花糕)
+  // ──────────────────────────────────────────────
+  {
+    id: 'osmanthus-jelly',
+    region: 'jiangsu-shanghai',
+    category: 'desserts',
+    cookingMethod: 'boil',
+    prepTime: 10,
+    cookTime: 10,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '桂花糕',
+    pinyin: 'guìhuā gāo',
+    imageConfig: {
+      primaryColor: '#F59E0B',
+      secondaryColor: '#FFFBEB',
+      icon: 'flower',
+      pattern: 'waves',
+    },
+    name: { en: 'Osmanthus Jelly', fr: 'Gelée à l\'osmanthus', pt: 'Gelatina de Osmanto', 'zh-CN': '桂花糕', 'zh-TW': '桂花糕' },
+    description: { en: 'Delicate jelly infused with osmanthus flowers — a refreshing Jiangsu sweet.', fr: 'Gelée délicate parfumée aux fleurs d\'osmanthus — un dessert rafraîchissant du Jiangsu.', pt: 'Gelatina delicada perfumada com flores de osmanto — uma sobremesa refrescante de Jiangsu.', 'zh-CN': '桂花香味的清爽果冻，江浙经典甜点。', 'zh-TW': '桂花香味的清爽果凍，江浙經典甜點。' },
+    ingredients: [
+      { id: 'osmanthus-flowers', quantity: { value: 2, unit: 'tbsp' }, name: { en: 'Dried osmanthus flowers', fr: 'Fleurs d\'osmanthus séchées', pt: 'Flores de osmanto secas', 'zh-CN': '干桂花', 'zh-TW': '乾桂花' }, category: 'spice', commonInEurope: false },
+      { id: 'agar-agar', quantity: { value: 5, unit: 'g' }, name: { en: 'Agar-agar powder', fr: 'Poudre d\'agar-agar', pt: 'Pó de ágar-ágar', 'zh-CN': '琼脂粉', 'zh-TW': '瓊脂粉' }, category: 'other', commonInEurope: true },
+      { id: 'sugar', quantity: { value: 60, unit: 'g' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'goji-berries', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Goji berries', fr: 'Baies de goji', pt: 'Bagas de goji', 'zh-CN': '枸杞', 'zh-TW': '枸杞' }, category: 'other', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Dissolve agar-agar in 500ml water. Bring to a boil while stirring. Add sugar and stir until dissolved.', fr: 'Dissolvez l\'agar-agar dans 500 ml d\'eau. Portez à ébullition en remuant. Ajoutez le sucre.', pt: 'Dissolva o ágar-ágar em 500ml de água. Ferva mexendo. Adicione o açúcar e mexa.', 'zh-CN': '琼脂粉加500毫升水搅匀，边搅边煮开，加糖搅至溶化。', 'zh-TW': '瓊脂粉加500毫升水攪勻，邊攪邊煮開，加糖攪至溶化。' } },
+      { order: 2, text: { en: 'Remove from heat. Stir in osmanthus flowers and a few goji berries.', fr: 'Retirez du feu. Incorporez les fleurs d\'osmanthus et quelques baies de goji.', pt: 'Retire do fogo. Adicione as flores de osmanto e algumas bagas de goji.', 'zh-CN': '离火，拌入桂花和枸杞。', 'zh-TW': '離火，拌入桂花和枸杞。' }, tip: { en: 'Don\'t boil the osmanthus flowers — adding them off heat preserves their fragrance.', fr: 'Ne faites pas bouillir les fleurs — les ajouter hors du feu préserve leur parfum.', pt: 'Não ferva as flores — adicioná-las fora do fogo preserva o aroma.', 'zh-CN': '桂花不要煮，离火再放才能保留香气。', 'zh-TW': '桂花不要煮，離火再放才能保留香氣。' } },
+      { order: 3, text: { en: 'Pour into a shallow mold or dish. Let cool to room temperature, then refrigerate 2 hours until firm. Cut into diamond shapes to serve.', fr: 'Versez dans un moule plat. Laissez refroidir, puis réfrigérez 2 h. Coupez en losanges.', pt: 'Despeje num molde raso. Deixe esfriar, depois refrigere 2 h. Corte em losangos.', 'zh-CN': '倒入浅模具，放凉后冷藏2小时至凝固，切菱形块食用。', 'zh-TW': '倒入淺模具，放涼後冷藏2小時至凝固，切菱形塊食用。' } },
+    ],
+    tags: { en: ['dessert', 'osmanthus', 'Jiangsu', 'jelly', 'floral'], fr: ['dessert', 'osmanthus', 'Jiangsu', 'gelée', 'floral'], pt: ['sobremesa', 'osmanto', 'Jiangsu', 'gelatina', 'floral'], 'zh-CN': ['甜品', '桂花', '江浙', '果冻', '清香'], 'zh-TW': ['甜品', '桂花', '江浙', '果凍', '清香'] },
+  },
+  // ──────────────────────────────────────────────
+  // 100. Black Sesame Tangyuan (芝麻汤圆)
+  // ──────────────────────────────────────────────
+  {
+    id: 'black-sesame-tangyuan',
+    region: 'home-style',
+    category: 'desserts',
+    cookingMethod: 'boil',
+    prepTime: 30,
+    cookTime: 10,
+    servings: 4,
+    difficulty: 'medium',
+    chineseName: '芝麻汤圆',
+    pinyin: 'zhīma tāngyuán',
+    imageConfig: {
+      primaryColor: '#1F2937',
+      secondaryColor: '#F3F4F6',
+      icon: 'sesame',
+      pattern: 'circles',
+    },
+    name: { en: 'Black Sesame Tangyuan', fr: 'Tangyuan au sésame noir', pt: 'Tangyuan de Gergelim Preto', 'zh-CN': '芝麻汤圆', 'zh-TW': '芝麻湯圓' },
+    description: { en: 'Chewy glutinous rice balls filled with sweet black sesame paste — a Lantern Festival treat.', fr: 'Boules de riz gluant farcies de pâte de sésame noir — un délice de la Fête des Lanternes.', pt: 'Bolinhas de arroz glutinoso recheadas com pasta de gergelim preto — um doce do Festival das Lanternas.', 'zh-CN': '糯米皮包黑芝麻馅，元宵节经典甜品。', 'zh-TW': '糯米皮包黑芝麻餡，元宵節經典甜品。' },
+    ingredients: [
+      { id: 'glutinous-rice-flour', quantity: { value: 200, unit: 'g' }, name: { en: 'Glutinous rice flour', fr: 'Farine de riz gluant', pt: 'Farinha de arroz glutinoso', 'zh-CN': '糯米粉', 'zh-TW': '糯米粉' }, category: 'grain', commonInEurope: false },
+      { id: 'black-sesame-paste', quantity: { value: 100, unit: 'g' }, name: { en: 'Black sesame paste', fr: 'Pâte de sésame noir', pt: 'Pasta de gergelim preto', 'zh-CN': '黑芝麻酱', 'zh-TW': '黑芝麻醬' }, category: 'other', commonInEurope: false },
+      { id: 'sugar', quantity: { value: 40, unit: 'g' }, name: { en: 'Sugar', fr: 'Sucre', pt: 'Açúcar', 'zh-CN': '糖', 'zh-TW': '糖' }, category: 'spice', commonInEurope: true },
+      { id: 'lard-or-butter', quantity: { value: 20, unit: 'g' }, name: { en: 'Butter (or lard)', fr: 'Beurre (ou saindoux)', pt: 'Manteiga (ou banha)', 'zh-CN': '黄油（或猪油）', 'zh-TW': '奶油（或豬油）' }, category: 'other', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Make filling: mix black sesame paste with sugar and softened butter. Refrigerate 20 min until firm enough to roll into small balls.', fr: 'Préparez la farce : mélangez la pâte de sésame avec le sucre et le beurre ramolli. Réfrigérez 20 min.', pt: 'Faça o recheio: misture a pasta de gergelim com açúcar e manteiga amolecida. Refrigere 20 min.', 'zh-CN': '黑芝麻酱加糖和软化的黄油拌匀，冷藏20分钟至能搓成小球。', 'zh-TW': '黑芝麻醬加糖和軟化的奶油拌勻，冷藏20分鐘至能搓成小球。' }, tip: { en: 'Freeze the filling balls 10 min if they are too soft — cold filling is much easier to wrap.', fr: 'Congelez les boules de farce 10 min si elles sont trop molles.', pt: 'Congele as bolinhas de recheio 10 min se estiverem muito moles.', 'zh-CN': '馅太软就冻10分钟，冷的馅更好包。', 'zh-TW': '餡太軟就凍10分鐘，冷的餡更好包。' } },
+      { order: 2, text: { en: 'Mix glutinous rice flour with warm water (about 150ml) gradually until a soft, pliable dough forms. Divide into 12 pieces.', fr: 'Mélangez la farine avec de l\'eau chaude (environ 150 ml) progressivement. Divisez en 12.', pt: 'Misture a farinha com água morna (cerca de 150ml) gradualmente. Divida em 12 pedaços.', 'zh-CN': '糯米粉加约150毫升温水慢慢揉成柔软面团，分成12份。', 'zh-TW': '糯米粉加約150毫升溫水慢慢揉成柔軟麵團，分成12份。' } },
+      { order: 3, text: { en: 'Flatten each piece, place a filling ball in the center, and seal tightly by pinching and rolling into a smooth ball.', fr: 'Aplatissez chaque morceau, placez une boule de farce au centre, scellez et roulez en boule lisse.', pt: 'Alise cada pedaço, coloque uma bolinha de recheio no centro, feche e role até ficar lisa.', 'zh-CN': '每份面团按扁，放一个芝麻馅球，捏合搓圆。', 'zh-TW': '每份麵團按扁，放一個芝麻餡球，捏合搓圓。' } },
+      { order: 4, text: { en: 'Boil a large pot of water. Add tangyuan gently. They are ready when they float to the surface, about 3-4 min. Serve in the cooking water or a light ginger syrup.', fr: 'Faites bouillir de l\'eau. Ajoutez les tangyuan. Ils sont prêts quand ils remontent, 3-4 min.', pt: 'Ferva uma panela grande de água. Adicione os tangyuan. Estão prontos quando flutuarem, 3-4 min.', 'zh-CN': '大锅水烧开，轻放汤圆，浮起来就熟了，约3-4分钟。可配姜糖水。', 'zh-TW': '大鍋水燒開，輕放湯圓，浮起來就熟了，約3-4分鐘。可配薑糖水。' } },
+    ],
+    tags: { en: ['dessert', 'sesame', 'glutinous rice', 'Lantern Festival', 'sweet'], fr: ['dessert', 'sésame', 'riz gluant', 'Fête des Lanternes', 'sucré'], pt: ['sobremesa', 'gergelim', 'arroz glutinoso', 'Festival das Lanternas', 'doce'], 'zh-CN': ['甜品', '芝麻', '糯米', '元宵节', '甜'], 'zh-TW': ['甜品', '芝麻', '糯米', '元宵節', '甜'] },
+  },
+  // ──────────────────────────────────────────────
+  // 101. Mung Bean Sweet Soup (绿豆汤)
+  // ──────────────────────────────────────────────
+  {
+    id: 'mung-bean-sweet-soup',
+    region: 'home-style',
+    category: 'desserts',
+    cookingMethod: 'simmer',
+    prepTime: 10,
+    cookTime: 60,
+    servings: 4,
+    difficulty: 'easy',
+    chineseName: '绿豆汤',
+    pinyin: 'lǜdòu tāng',
+    imageConfig: {
+      primaryColor: '#22C55E',
+      secondaryColor: '#F0FDF4',
+      icon: 'bean',
+      pattern: 'waves',
+    },
+    name: { en: 'Mung Bean Sweet Soup', fr: 'Soupe sucrée aux haricots mungo', pt: 'Sopa Doce de Feijão Mungo', 'zh-CN': '绿豆汤', 'zh-TW': '綠豆湯' },
+    description: { en: 'Cooling summer dessert soup with tender mung beans — the ultimate Chinese summer drink.', fr: 'Soupe dessert rafraîchissante d\'été aux haricots mungo — la boisson d\'été chinoise par excellence.', pt: 'Sopa-sobremesa refrescante de verão com feijão mungo — a bebida de verão chinesa por excelência.', 'zh-CN': '消暑清热的绿豆汤，夏天必喝。', 'zh-TW': '消暑清熱的綠豆湯，夏天必喝。' },
+    ingredients: [
+      { id: 'mung-beans', quantity: { value: 150, unit: 'g' }, name: { en: 'Mung beans', fr: 'Haricots mungo', pt: 'Feijão mungo', 'zh-CN': '绿豆', 'zh-TW': '綠豆' }, category: 'grain', commonInEurope: false },
+      { id: 'rock-sugar', quantity: { value: 50, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Rinse mung beans. Soak in water 1 hour (optional but speeds cooking). Drain.', fr: 'Rincez les haricots mungo. Faites tremper 1 h (optionnel). Égouttez.', pt: 'Lave os feijões mungo. Deixe de molho 1 h (opcional). Escorra.', 'zh-CN': '绿豆洗净，泡水1小时（可不泡），沥干。', 'zh-TW': '綠豆洗淨，泡水1小時（可不泡），瀝乾。' } },
+      { order: 2, text: { en: 'Add beans to 1.5L water. Bring to a boil, then simmer on low heat for 40-60 min until beans split open and are very soft.', fr: 'Ajoutez les haricots à 1,5 L d\'eau. Portez à ébullition, puis laissez mijoter 40-60 min.', pt: 'Adicione os feijões a 1,5L de água. Ferva, depois cozinhe em fogo baixo 40-60 min.', 'zh-CN': '绿豆加1.5升水，烧开后小火煮40-60分钟至开花酥烂。', 'zh-TW': '綠豆加1.5升水，燒開後小火煮40-60分鐘至開花酥爛。' }, tip: { en: 'For a green-colored soup, cook with the lid on. For a muddier, thicker soup, cook uncovered.', fr: 'Pour une soupe verte, cuisez avec le couvercle. Pour une soupe plus épaisse, cuisez sans couvercle.', pt: 'Para sopa verde, cozinhe com tampa. Para sopa mais espessa, cozinhe sem tampa.', 'zh-CN': '想绿色就盖盖煮，想浓稠就敞开煮。', 'zh-TW': '想綠色就蓋蓋煮，想濃稠就敞開煮。' } },
+      { order: 3, text: { en: 'Add rock sugar and stir until dissolved. Serve warm or chill in the fridge for a cold summer treat.', fr: 'Ajoutez le sucre candi et remuez. Servez chaud ou froid.', pt: 'Adicione o açúcar cristal e mexa. Sirva quente ou refrigerado.', 'zh-CN': '加冰糖搅至溶化。可热喝也可冰镇后喝。', 'zh-TW': '加冰糖攪至溶化。可熱喝也可冰鎮後喝。' } },
+    ],
+    tags: { en: ['dessert', 'mung bean', 'summer', 'cooling', 'sweet'], fr: ['dessert', 'haricot mungo', 'été', 'rafraîchissant', 'sucré'], pt: ['sobremesa', 'feijão mungo', 'verão', 'refrescante', 'doce'], 'zh-CN': ['甜品', '绿豆', '夏天', '清热', '甜'], 'zh-TW': ['甜品', '綠豆', '夏天', '清熱', '甜'] },
+  },
+  // ──────────────────────────────────────────────
+  // 102. Rock Sugar Steamed Pear (冰糖雪梨)
+  // ──────────────────────────────────────────────
+  {
+    id: 'rock-sugar-steamed-pear',
+    region: 'home-style',
+    category: 'desserts',
+    cookingMethod: 'steam',
+    prepTime: 10,
+    cookTime: 40,
+    servings: 2,
+    difficulty: 'easy',
+    chineseName: '冰糖雪梨',
+    pinyin: 'bīngtáng xuělí',
+    imageConfig: {
+      primaryColor: '#FEF9C3',
+      secondaryColor: '#FFFFF0',
+      icon: 'pear',
+      pattern: 'dots',
+    },
+    name: { en: 'Rock Sugar Steamed Pear', fr: 'Poire à la vapeur au sucre candi', pt: 'Pera no Vapor com Açúcar Cristal', 'zh-CN': '冰糖雪梨', 'zh-TW': '冰糖雪梨' },
+    description: { en: 'Whole pear steamed with rock sugar and goji berries — a soothing winter remedy for dry coughs.', fr: 'Poire entière à la vapeur avec sucre candi et baies de goji — un remède hivernal apaisant.', pt: 'Pera inteira no vapor com açúcar cristal e bagas de goji — um remédio calmante de inverno.', 'zh-CN': '整颗雪梨炖冰糖，冬天润肺止咳的甜品。', 'zh-TW': '整顆雪梨燉冰糖，冬天潤肺止咳的甜品。' },
+    ingredients: [
+      { id: 'pear', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Pears (firm, like Nashi or Bartlett)', fr: 'Poires (fermes, comme Nashi ou Williams)', pt: 'Peras (firmes, como Nashi ou Williams)', 'zh-CN': '雪梨', 'zh-TW': '雪梨' }, category: 'other', commonInEurope: true },
+      { id: 'rock-sugar', quantity: { value: 30, unit: 'g' }, name: { en: 'Rock sugar', fr: 'Sucre candi', pt: 'Açúcar cristal', 'zh-CN': '冰糖', 'zh-TW': '冰糖' }, category: 'spice', commonInEurope: true },
+      { id: 'goji-berries', quantity: { value: 1, unit: 'tbsp' }, name: { en: 'Goji berries', fr: 'Baies de goji', pt: 'Bagas de goji', 'zh-CN': '枸杞', 'zh-TW': '枸杞' }, category: 'other', commonInEurope: true },
+      { id: 'red-dates', quantity: { value: 2, unit: 'pcs' }, name: { en: 'Dried red dates (jujubes)', fr: 'Dattes rouges séchées (jujubes)', pt: 'Tâmaras vermelhas secas (jujubas)', 'zh-CN': '红枣', 'zh-TW': '紅棗' }, category: 'other', commonInEurope: false },
+    ],
+    steps: [
+      { order: 1, text: { en: 'Cut the top off each pear to make a lid. Scoop out the core with a spoon, creating a hollow.', fr: 'Coupez le haut de chaque poire pour faire un couvercle. Évidez le cœur avec une cuillère.', pt: 'Corte o topo de cada pera para fazer uma tampa. Retire o miolo com uma colher.', 'zh-CN': '雪梨切掉顶部做盖子，用勺子挖去梨核。', 'zh-TW': '雪梨切掉頂部做蓋子，用湯匙挖去梨核。' } },
+      { order: 2, text: { en: 'Place rock sugar, goji berries, and red dates inside each pear. Put the lid back on and secure with a toothpick.', fr: 'Placez le sucre, les baies de goji et les dattes dans chaque poire. Remettez le couvercle et fixez avec un cure-dent.', pt: 'Coloque o açúcar, bagas de goji e tâmaras dentro de cada pera. Coloque a tampa e prenda com palito.', 'zh-CN': '冰糖、枸杞、红枣放入梨中，盖上梨盖用牙签固定。', 'zh-TW': '冰糖、枸杞、紅棗放入梨中，蓋上梨蓋用牙籤固定。' } },
+      { order: 3, text: { en: 'Place pears in a deep bowl. Steam for 40 min until pear is very soft and translucent. Serve warm with the sweet juices.', fr: 'Placez les poires dans un bol profond. Cuisez à la vapeur 40 min. Servez chaud avec le jus sucré.', pt: 'Coloque as peras numa tigela funda. Cozinhe no vapor 40 min. Sirva quente com o suco doce.', 'zh-CN': '梨放深碗中，蒸40分钟至梨软透明，趁热连汤汁一起吃。', 'zh-TW': '梨放深碗中，蒸40分鐘至梨軟透明，趁熱連湯汁一起吃。' }, tip: { en: 'In winter, add a slice of ginger inside the pear for extra warming effect.', fr: 'En hiver, ajoutez une tranche de gingembre dans la poire pour un effet réchauffant.', pt: 'No inverno, adicione uma fatia de gengibre dentro da pera para efeito extra de aquecimento.', 'zh-CN': '冬天在梨里加一片姜，更暖身。', 'zh-TW': '冬天在梨裡加一片薑，更暖身。' } },
+    ],
+    tags: { en: ['dessert', 'pear', 'steamed', 'winter', 'remedy'], fr: ['dessert', 'poire', 'vapeur', 'hiver', 'remède'], pt: ['sobremesa', 'pera', 'vapor', 'inverno', 'remédio'], 'zh-CN': ['甜品', '雪梨', '蒸', '冬天', '润肺'], 'zh-TW': ['甜品', '雪梨', '蒸', '冬天', '潤肺'] },
   },
 ];

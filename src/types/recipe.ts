@@ -27,6 +27,19 @@ export type CookingMethod =
   | 'pan-fry'
   | 'smoke';
 
+export type Region =
+  | 'sichuan'
+  | 'cantonese'
+  | 'northern'
+  | 'hunan'
+  | 'jiangsu-shanghai'
+  | 'fujian'
+  | 'shandong'
+  | 'northwestern'
+  | 'hakka'
+  | 'hubei'
+  | 'home-style';
+
 export type IngredientCategory =
   | 'protein'
   | 'vegetable'
@@ -79,6 +92,7 @@ export interface Recipe {
   ingredients: Ingredient[];
   steps: Step[];
   tags: LocalizedStringArray;
+  region?: Region;
 }
 
 export interface RecipeMatch {

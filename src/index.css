@@ -422,6 +422,69 @@ select {
   border: 1px solid #FEB2B2;
   color: #C53030;
 }
+.recipe-card .region-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FDBA74;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.recipe-card .region-badge:hover {
+  background: #FDBA74;
+  color: #7C2D12;
+}
+
+.region-info-badge {
+  background: #FFF7ED;
+  border: 1px solid #FDBA74;
+  color: #C2410C;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.region-info-badge:hover {
+  background: #FDBA74;
+  color: #7C2D12;
+}
+
+.region-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-4);
+  background: #FFF7ED;
+  border-radius: var(--radius-lg);
+  border: 1px solid #FDBA74;
+  font-size: var(--text-sm);
+  color: #C2410C;
+}
+
+.region-filter-bar .clear-filter-btn {
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  border: 1px solid #FDBA74;
+  background: white;
+  color: #C2410C;
+  font-size: var(--text-xs);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.region-filter-bar .clear-filter-btn:hover {
+  background: #FDBA74;
+  color: #7C2D12;
+}
+
 
 
 /* ------------------------------------------------------------

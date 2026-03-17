@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { recipes } from '../data/recipes';
 import RecipeImage from '../components/common/RecipeImage';
@@ -10,6 +10,7 @@ function RecipePage() {
   const { t } = useTranslation();
   const { language } = useLanguage();
   const { toggle, isFavorite } = useFavorites();
+  const navigate = useNavigate();
   const { id } = useParams<{ id: string }>();
   const recipe = recipes.find((r) => r.id === id);
 
@@ -64,6 +65,17 @@ function RecipePage() {
           <span className="info-badge spicy-info-badge">
             <span className="info-badge-icon">🌶️</span>
             <span className="info-badge-value">{t('recipe.spicy')}</span>
+          </span>
+        )}
+        {recipe.region && (
+          <span
+            className="info-badge region-info-badge"
+            onClick={() => navigate(`/?region=${recipe.region}`)}
+            role="button"
+            tabIndex={0}
+          >
+            <span className="info-badge-icon">📍</span>
+            <span className="info-badge-value">{t(`region.${recipe.region}`)}</span>
           </span>
         )}
       </div>

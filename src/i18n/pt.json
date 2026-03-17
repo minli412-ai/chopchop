@@ -88,5 +88,20 @@
     "details": "Detalhes",
     "commonVersion": "Versão comum",
     "upgrade": "Alternativa tradicional"
+  },
+  "region": {
+    "sichuan": "Sichuan",
+    "cantonese": "Cantonês",
+    "northern": "Norte",
+    "hunan": "Hunan",
+    "jiangsu-shanghai": "Jiangsu-Shanghai",
+    "fujian": "Fujian",
+    "shandong": "Shandong",
+    "northwestern": "Noroeste",
+    "hakka": "Hakka",
+    "hubei": "Hubei",
+    "home-style": "Caseiro",
+    "filterByRegion": "Mostrando receitas de {{region}}",
+    "clearFilter": "Mostrar tudo"
   }
 }

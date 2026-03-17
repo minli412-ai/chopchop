@@ -88,5 +88,20 @@
     "details": "详细说明",
     "commonVersion": "常见版本",
     "upgrade": "传统升级"
+  },
+  "region": {
+    "sichuan": "川菜",
+    "cantonese": "粤菜",
+    "northern": "北方菜",
+    "hunan": "湘菜",
+    "jiangsu-shanghai": "江浙沪菜",
+    "fujian": "闽菜",
+    "shandong": "鲁菜",
+    "northwestern": "西北菜",
+    "hakka": "客家菜",
+    "hubei": "湖北菜",
+    "home-style": "家常菜",
+    "filterByRegion": "正在显示{{region}}",
+    "clearFilter": "显示全部"
   }
 }

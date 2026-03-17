@@ -12,7 +12,8 @@ export type Category =
   | 'fish-seafood'
   | 'rice-noodles'
   | 'vegetables'
-  | 'desserts';
+  | 'desserts'
+  | 'asian-grocery';
 
 export type CookingMethod =
   | 'stir-fry'

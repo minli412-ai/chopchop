@@ -1,13 +1,92 @@
 {
-  "app": { "title": "Chopchop", "subtitle": "Cuisine Chinoise Maison" },
-  "nav": { "home": "Accueil", "favorites": "Favoris" },
-  "home": { "title": "Nos Recettes", "subtitle": "La cuisine chinoise authentique, simplement" },
-  "search": { "placeholder": "Rechercher recettes, ingr\u00e9dients...", "noResults": "Aucune recette trouv\u00e9e.", "clearSearch": "Effacer" },
-  "fridge": { "title": "Qu'est-ce qu'il y a dans mon frigo ?", "subtitle": "S\u00e9lectionnez les ingr\u00e9dients que vous avez", "matchLabel": "correspond.", "missingLabel": "Manquant :", "clearAll": "Tout effacer" },
-  "recipe": { "backToHome": "Retour \u00e0 l'accueil", "prep": "Pr\u00e9pa", "cook": "Cuisson", "serves": "Portions", "level": "Niveau", "method": "M\u00e9thode", "ingredients": "Ingr\u00e9dients", "steps": "\u00c9tapes", "tip": "Astuce", "asianGrocery": "\u00c9picerie asiatique", "substitution": "Substitution", "spicy": "\u00c9pic\u00e9" },
-  "favorites": { "title": "Mes Favoris", "emptyTitle": "Pas encore de favoris", "emptyText": "Appuyez sur l'\u00e9toile pour sauvegarder !", "browse": "Parcourir les recettes", "addFavorite": "Ajouter aux favoris", "removeFavorite": "Retirer des favoris" },
-  "difficulty": { "easy": "facile", "medium": "moyen", "hard": "difficile" },
-  "cookingMethod": { "stir-fry": "Saut\u00e9", "deep-fry": "Friture", "steam": "Vapeur", "braise": "Brais\u00e9", "boil": "Bouilli", "roast": "R\u00f4ti", "cold-mix": "Salade", "simmer": "Mijot\u00e9", "pan-fry": "Po\u00eal\u00e9", "smoke": "Fum\u00e9" },
-  "tabs": { "menu": "Menu", "fridge": "Qu'y a-t-il dans mon frigo ?" },
-  "language": { "en": "English", "fr": "Fran\u00e7ais", "pt": "Portugu\u00eas", "zh-CN": "\u7b80\u4f53\u4e2d\u6587", "zh-TW": "\u7e41\u9ad4\u4e2d\u6587" }
+  "app": {
+    "title": "Chopchop",
+    "subtitle": "Cuisine Chinoise Maison"
+  },
+  "nav": {
+    "home": "Accueil",
+    "favorites": "Favoris"
+  },
+  "home": {
+    "title": "Nos Recettes",
+    "subtitle": "La cuisine chinoise authentique, simplement"
+  },
+  "search": {
+    "placeholder": "Rechercher recettes, ingrédients...",
+    "noResults": "Aucune recette trouvée.",
+    "clearSearch": "Effacer"
+  },
+  "fridge": {
+    "title": "Qu'est-ce qu'il y a dans mon frigo ?",
+    "subtitle": "Sélectionnez les ingrédients que vous avez",
+    "matchLabel": "correspond.",
+    "missingLabel": "Manquant :",
+    "clearAll": "Tout effacer"
+  },
+  "recipe": {
+    "backToHome": "Retour à l'accueil",
+    "prep": "Prépa",
+    "cook": "Cuisson",
+    "serves": "Portions",
+    "level": "Niveau",
+    "method": "Méthode",
+    "ingredients": "Ingrédients",
+    "steps": "Étapes",
+    "tip": "Astuce",
+    "asianGrocery": "Épicerie asiatique",
+    "substitution": "Substitution",
+    "spicy": "Épicé"
+  },
+  "favorites": {
+    "title": "Mes Favoris",
+    "emptyTitle": "Pas encore de favoris",
+    "emptyText": "Appuyez sur l'étoile pour sauvegarder !",
+    "browse": "Parcourir les recettes",
+    "addFavorite": "Ajouter aux favoris",
+    "removeFavorite": "Retirer des favoris"
+  },
+  "difficulty": {
+    "easy": "facile",
+    "medium": "moyen",
+    "hard": "difficile"
+  },
+  "cookingMethod": {
+    "stir-fry": "Sauté",
+    "deep-fry": "Friture",
+    "steam": "Vapeur",
+    "braise": "Braisé",
+    "boil": "Bouilli",
+    "roast": "Rôti",
+    "cold-mix": "Salade",
+    "simmer": "Mijoté",
+    "pan-fry": "Poêlé",
+    "smoke": "Fumé"
+  },
+  "tabs": {
+    "menu": "Menu",
+    "fridge": "Qu'y a-t-il dans mon frigo ?"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "pt": "Português",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文"
+  },
+  "asianGrocery": {
+    "title": "Épicerie Asiatique",
+    "subtitle": "Ces ingrédients se trouvent dans les supermarchés asiatiques ou chinois",
+    "usedIn": "Utilisé dans :"
+  },
+  "alternatives": {
+    "title": "Ingrédients Alternatifs",
+    "subtitle": "Alternatives authentiques pour les ingrédients indisponibles ou interdits",
+    "bannedTitle": "Ingrédients interdits et leurs remplacements authentiques",
+    "upgradeTitle": "Meilleures alternatives (améliorations optionnelles)",
+    "whyBanned": "Pourquoi interdit",
+    "useInstead": "Utiliser à la place",
+    "details": "Détails",
+    "commonVersion": "Version courante",
+    "upgrade": "Alternative traditionnelle"
+  }
 }

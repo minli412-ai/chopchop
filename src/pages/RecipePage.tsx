@@ -18,14 +18,14 @@ function RecipePage() {
       <div className="recipe-not-found">
         <h2>Recipe Not Found</h2>
         <p>Sorry, we couldn't find that recipe.</p>
-        <Link to="/" className="recipe-back-link">&larr; {t('recipe.backToHome')}</Link>
+        <Link to="/" className="recipe-back-link">{t('recipe.backToHome')}</Link>
       </div>
     );
   }
 
   return (
     <div className="recipe-page">
-      <Link to="/" className="recipe-back-link">&larr; {t('recipe.backToHome')}</Link>
+      <Link to="/" className="recipe-back-link">{t('recipe.backToHome')}</Link>
 
       <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} />
 

@@ -9,6 +9,6 @@ export const categories: CategoryInfo[] = [
   { id: 'lamb', name: { en: 'Lamb', fr: 'Agneau', pt: 'Cordeiro', 'zh-CN': '\u7f8a\u8089', 'zh-TW': '\u7f8a\u8089' }, icon: '\ud83c\udf56' },
   { id: 'fish-seafood', name: { en: 'Fish & Seafood', fr: 'Poisson & Fruits de Mer', pt: 'Peixe & Marisco', 'zh-CN': '\u9c7c\u548c\u6d77\u9c9c', 'zh-TW': '\u9b5a\u548c\u6d77\u9bae' }, icon: '\ud83d\udc1f' },
   { id: 'rice-noodles', name: { en: 'Rice & Noodles', fr: 'Riz & Nouilles', pt: 'Arroz & Massas', 'zh-CN': '\u7c73\u996d\u548c\u9762\u6761', 'zh-TW': '\u7c73\u98ef\u548c\u9eb5\u689d' }, icon: '\ud83c\udf5a' },
-  { id: 'vegetables', name: { en: 'Vegetables & Tofu', fr: 'L\u00e9gumes & Tofu', pt: 'Legumes & Tofu', 'zh-CN': '\u84d4\u83dc\u548c\u8c46\u8150', 'zh-TW': '\u84d4\u83dc\u548c\u8c46\u8150' }, icon: '\ud83e\udd2c' },
+  { id: 'vegetables', name: { en: 'Vegetables & Tofu', fr: 'L\u00e9gumes & Tofu', pt: 'Legumes & Tofu', 'zh-CN': '\u84d4\u83dc\u548c\u8c46\u8150', 'zh-TW': '\u84d4\u83dc\u548c\u8c46\u8150' }, icon: '\ud83e\udd6c' },
   { id: 'desserts', name: { en: 'Desserts', fr: 'Desserts', pt: 'Sobremesas', 'zh-CN': '\u751c\u54c1', 'zh-TW': '\u751c\u54c1' }, icon: '\ud83c\udf6e' },
 ];

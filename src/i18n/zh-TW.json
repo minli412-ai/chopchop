@@ -1,13 +1,92 @@
 {
-  "app": { "title": "\u5207\u5207", "subtitle": "\u4e2d\u5f0f\u5bb6\u5e38\u83dc" },
-  "nav": { "home": "\u9996\u9801", "favorites": "\u6536\u85cf" },
-  "home": { "title": "\u98df\u8b5c\u5927\u5168", "subtitle": "\u6b63\u5b97\u4e2d\u5f0f\u5bb6\u5e38\u83dc\uff0c\u7c21\u55ae\u6613\u5b78" },
-  "search": { "placeholder": "\u641c\u5c0b\u98df\u8b5c\u3001\u98df\u6750...", "noResults": "\u6c92\u6709\u627e\u5230\u76f8\u95dc\u98df\u8b5c\u3002", "clearSearch": "\u6e05\u9664" },
-  "fridge": { "title": "\u51b0\u7bb1\u88e1\u6709\u4ec0\u9ebc\uff1f", "subtitle": "\u9078\u64c7\u4f60\u6709\u7684\u98df\u6750\uff0c\u627e\u5230\u5408\u9069\u7684\u98df\u8b5c", "matchLabel": "\u5339\u914d", "missingLabel": "\u7f3a\u5c11\uff1a", "clearAll": "\u6e05\u9664\u5168\u90e8" },
-  "recipe": { "backToHome": "\u8fd4\u56de\u9996\u9801", "prep": "\u6e96\u5099", "cook": "\u70f9\u98ea", "serves": "\u4efd\u91cf", "level": "\u96e3\u5ea6", "method": "\u505a\u6cd5", "ingredients": "\u98df\u6750", "steps": "\u6b65\u9a5f", "tip": "\u5c0f\u8cbc\u58eb", "asianGrocery": "\u4e9e\u6d32\u8d85\u5e02", "substitution": "\u66ff\u4ee3\u54c1", "spicy": "\u8fa3" },
-  "favorites": { "title": "\u6211\u7684\u6536\u85cf", "emptyTitle": "\u9084\u6c92\u6709\u6536\u85cf", "emptyText": "\u9ede\u64ca\u661f\u6a19\u6536\u85cf\u4f60\u559c\u6b61\u7684\u98df\u8b5c\uff01", "browse": "\u700f\u89bd\u98df\u8b5c", "addFavorite": "\u6536\u85cf", "removeFavorite": "\u53d6\u6d88\u6536\u85cf" },
-  "difficulty": { "easy": "\u7c21\u55ae", "medium": "\u4e2d\u7b49", "hard": "\u56f0\u96e3" },
-  "cookingMethod": { "stir-fry": "\u7092", "deep-fry": "\u70b8", "steam": "\u84b8", "braise": "\u71d2", "boil": "\u7162", "roast": "\u70e4", "cold-mix": "\u6dbc\u62cc", "simmer": "\u71c9", "pan-fry": "\u714e", "smoke": "\u71fb" },
-  "tabs": { "menu": "\u83dc\u55ae", "fridge": "\u51b0\u7bb1\u88e1\u6709\u4ec0\u9ebc\uff1f" },
-  "language": { "en": "English", "fr": "Fran\u00e7ais", "pt": "Portugu\u00eas", "zh-CN": "\u7b80\u4f53\u4e2d\u6587", "zh-TW": "\u7e41\u9ad4\u4e2d\u6587" }
+  "app": {
+    "title": "切切",
+    "subtitle": "中式家常菜"
+  },
+  "nav": {
+    "home": "首頁",
+    "favorites": "收藏"
+  },
+  "home": {
+    "title": "食譜大全",
+    "subtitle": "正宗中式家常菜，簡單易學"
+  },
+  "search": {
+    "placeholder": "搜尋食譜、食材...",
+    "noResults": "沒有找到相關食譜。",
+    "clearSearch": "清除"
+  },
+  "fridge": {
+    "title": "冰箱裡有什麼？",
+    "subtitle": "選擇你有的食材，找到合適的食譜",
+    "matchLabel": "匹配",
+    "missingLabel": "缺少：",
+    "clearAll": "清除全部"
+  },
+  "recipe": {
+    "backToHome": "返回首頁",
+    "prep": "準備",
+    "cook": "烹飪",
+    "serves": "份量",
+    "level": "難度",
+    "method": "做法",
+    "ingredients": "食材",
+    "steps": "步驟",
+    "tip": "小貼士",
+    "asianGrocery": "亞洲超市",
+    "substitution": "替代品",
+    "spicy": "辣"
+  },
+  "favorites": {
+    "title": "我的收藏",
+    "emptyTitle": "還沒有收藏",
+    "emptyText": "點擊星標收藏你喜歡的食譜！",
+    "browse": "瀏覽食譜",
+    "addFavorite": "收藏",
+    "removeFavorite": "取消收藏"
+  },
+  "difficulty": {
+    "easy": "簡單",
+    "medium": "中等",
+    "hard": "困難"
+  },
+  "cookingMethod": {
+    "stir-fry": "炒",
+    "deep-fry": "炸",
+    "steam": "蒸",
+    "braise": "燒",
+    "boil": "煢",
+    "roast": "烤",
+    "cold-mix": "涼拌",
+    "simmer": "燉",
+    "pan-fry": "煎",
+    "smoke": "燻"
+  },
+  "tabs": {
+    "menu": "菜單",
+    "fridge": "冰箱裡有什麼？"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "pt": "Português",
+    "zh-CN": "简体中文",
+    "zh-TW": "繁體中文"
+  },
+  "asianGrocery": {
+    "title": "亞洲超市食材",
+    "subtitle": "這些食材可以在亞洲或中國超市找到",
+    "usedIn": "用於："
+  },
+  "alternatives": {
+    "title": "替代食材指南",
+    "subtitle": "不可用或禁用食材的正宗替代方案",
+    "bannedTitle": "禁用食材及其正宗替代品",
+    "upgradeTitle": "更好的選擇（可選升級）",
+    "whyBanned": "禁用原因",
+    "useInstead": "替代方案",
+    "details": "詳細說明",
+    "commonVersion": "常見版本",
+    "upgrade": "傳統升級"
+  }
 }

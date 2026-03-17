@@ -11,6 +11,9 @@ import type { Recipe } from '../types/recipe';
 import useFavorites from '../hooks/useFavorites';
 import useLanguage from '../hooks/useLanguage';
 import FavoriteButton from '../components/common/FavoriteButton';
+import AsianGrocerySection from '../components/AsianGrocery/AsianGrocerySection';
+import AlternativesSection from '../components/Alternatives/AlternativesSection';
+import SwipeCarousel from '../components/common/SwipeCarousel';
 
 function HomePage() {
   const { t } = useTranslation();
@@ -38,7 +41,6 @@ function HomePage() {
   return (
     <div className="home-page">
       <div className="home-hero">
-        <h2 className="home-title">{t('home.title')}</h2>
         <p className="home-subtitle">{t('home.subtitle')}</p>
       </div>
 
@@ -75,7 +77,7 @@ function HomePage() {
                 <span className="category-icon">{category.icon}</span>
                 {category.name[language]}
               </h3>
-              <div className="recipe-list">
+              <SwipeCarousel cardsPerView={{ mobile: 1, tablet: 2, desktop: 3 }}>
                 {recipesByCategory[category.id].map((recipe) => (
                   <Link to={`/recipe/${recipe.id}`} key={recipe.id} className="recipe-card" data-category={recipe.category}>
                     <RecipeImage recipeId={recipe.id} recipeName={recipe.name[language]} />
@@ -102,9 +104,12 @@ function HomePage() {
                     <FavoriteButton recipeId={recipe.id} isFavorite={isFavorite(recipe.id)} onToggle={toggle} />
                   </Link>
                 ))}
-              </div>
+              </SwipeCarousel>
             </section>
           ))}
+
+          <AsianGrocerySection />
+          <AlternativesSection />
         </>
       )}
 
